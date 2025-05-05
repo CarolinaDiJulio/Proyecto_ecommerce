@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- View proyecto.tareas View List -->
+    <record id="view_proyecto_tareas_list" model="ir.ui.view">
+        <field name="name">view.proyecto.tareas.list</field>
+        <field name="model">proyecto.tareas</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="orden_fabricacion"/>
+                <field name="cantidad"/>
+                <field name="prioridad"/>
+                <field name="fecha_final"/>
+                <field name="inspeccion_visual"/>
+                <field name="pruebas"/>
+                <field name="lista"/>
+                <field name="observaciones"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- View proyecto.tareas form -->
+    <record id="view_proyecto_tareas_form" model="ir.ui.view">
+        <field name="name">view.proyecto.tareas.form</field>
+        <field name="model">proyecto.tareas</field>
+        <field name="arch" type="xml">
+            <form string="Proyecto Tareas">
+                <sheet>
+                    <div class="oe_title">
+                        <label for="orden_fabricacion"/>
+                        <h1>
+                            <field name="orden_fabricacion" placeholder="Orden fabricación..."/>
+                        </h1>
+                        <label for="proyecto_id"/>
+                        <p>
+                            <field name="proyecto_id" placeholder="Proyecto..."/>
+                        </p>
+                        <label for="etapa_id"/>
+                        <p>
+                            <field name="etapa_id" placeholder="Etapa..."/>
+                        </p>
+                        <label for="cantidad"/>
+                        <p>
+                            <field name="cantidad" placeholder="Cantidad..."/>
+                        </p>
+                        <label for="prioridad"/>
+                        <p>
+                            <field name="prioridad" placeholder="Prioridad..."/>
+                        </p>
+                        <label for="fecha_final"/>
+                        <p>
+                            <field name="fecha_final" placeholder="Fecha final..."/>
+                        </p>
+                        <label for="inspeccion_visual"/>
+                        <p>
+                            <field name="inspeccion_visual" placeholder="Inspección visual..."/>
+                        </p>
+                        <label for="pruebas"/>
+                        <p>
+                            <field name="pruebas" placeholder="Pruebas..."/>
+                        </p>
+                        <label for="lista"/>
+                        <p>
+                            <field name="lista" placeholder="Lista..."/>
+                        </p>
+                        <label for="observaciones"/>
+                        <p>
+                            <field name="observaciones" placeholder="Observaciones..."/>
+                        </p>
+                        
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record> 
+
+    <!-- View proyecto.tareas kanban -->
+    <record id="view_proyecto_tareas_kanban" model="ir.ui.view">
+        <field name="name">view.proyecto.tareas.kanban</field>
+        <field name="model">proyecto.tareas</field>
+        <field name="arch" type="xml">
+            <kanban class="o_kanban_example" default_group_by="etapa_id" group_create="false">
+                <field name="orden_fabricacion"/>
+                <field name="etapa_id"/>
+                <field name="prioridad"/>
+                <field name="fecha_final"/>
+                <field name="proyecto_id"/>
+                <templates>
+                    <t t-name="card">
+                        <div t-attf-class="oe_kanban_global_click o_kanban_record">
+                            <div class="o_primary">
+                                <strong><field name="orden_fabricacion"/></strong>
+                            </div>
+                            <div>
+                                <span>Prioridad: <field name="prioridad"/></span><br/>
+                                <span>Fecha final: <field name="fecha_final"/></span><br/>
+                                <span>Proyecto: <field name="proyecto_id"/></span>
+                            </div>
+                            <div> Inspección Visual: <field name="inspeccion_visual"/></div>
+                            <div> Pruebas: <field name="pruebas"/></div>
+                            <div> Observaciones: <field name="observaciones"/></div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban> 
+        </field>
+    </record>
+     
+
+</odoo>

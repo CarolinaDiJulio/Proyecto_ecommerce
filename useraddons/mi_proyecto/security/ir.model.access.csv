@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+mi_proyecto.access_mi_proyecto,access_mi_proyecto,mi_proyecto.model_mi_proyecto,base.group_user,1,0,0,0 
+access_mi_proyecto_manager,mi_proyecto_manager,model_mi_proyecto,,1,1,1,1
+access_mi_proyecto_user,mi_proyecto_user,model_mi_proyecto,,1,0,0,0
+
+

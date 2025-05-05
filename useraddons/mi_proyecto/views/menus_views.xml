@@ -1,0 +1,53 @@
+<odoo> 
+    <!-- Action mi.proyecto -->
+    <record id="action_mi_proyecto" model="ir.actions.act_window">
+        <field name="name">Mi Proyecto</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">mi.proyecto</field>
+        <field name="view_mode">list,form</field>
+        <field name="domain">[]</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                There is no examples click here to add new Mi Proyecto.
+            </p>
+        </field>
+    </record>
+    <!-- Action mi.proyecto.tareas -->
+    <record id="action_proyecto_tareas" model="ir.actions.act_window">
+        <field name="name">Tareas</field>
+        <field name="res_model">proyecto.tareas</field>
+        <field name="view_mode">kanban,list,form</field>
+    </record>
+
+    <!-- Action mi.proyecto.etapa -->
+    <record id="action_mi_proyecto_etapa" model="ir.actions.act_window">
+        <field name="name">Etapas</field>
+        <field name="res_model">proyecto.etapas</field>
+        <field name="view_mode">list,form,kanban</field>
+    </record>
+
+    <!-- Menú raíz -->
+    <menuitem id="menu_mi_proyecto_root"
+              name="Mi Proyecto"
+              sequence="10"/>
+
+    <!-- Submenú que llama a la acción -->
+    <menuitem id="menu_mi_proyecto"
+              name="Proyectos"
+              parent="menu_mi_proyecto_root"
+              action="action_mi_proyecto"
+              sequence="20"/>   
+
+    <!-- Submenú que llama a la acción -->
+    <menuitem id="menu_mi_proyecto_tarea" name="Tareas"
+                parent="menu_mi_proyecto_root"
+                action="action_proyecto_tareas"/>
+
+    <!-- Submenú que llama a la acción -->
+    <menuitem id="menu_mi_proyecto_etapa"
+            name="Etapas"
+            parent="menu_mi_proyecto_root"
+            action="action_mi_proyecto_etapa"/>
+
+</odoo>
