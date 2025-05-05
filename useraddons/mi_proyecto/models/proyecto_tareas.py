@@ -17,11 +17,9 @@ class MiProyectoTarea(models.Model):
     fecha_final = fields.Date(string='Fecha Final')
     inspeccion_visual = fields.Boolean(string='Inspección Visual')
     pruebas = fields.Boolean(string='Pruebas')
-    lista = fields.Char(string='Lista de Verificación')
-    observaciones = fields.Char(string='Observaciones')
+    lista = fields.Text(string='Lista de Verificación')
+    observaciones = fields.Text(string='Observaciones', default='Sin observaciones...')
 
     @api.model
     def _expand_etapas(self,domain, order):
-        return self.env['proyecto.etapas'].search([], order='sequence')
-    
-    
+        return self.env['proyecto.etapas'].search([], order='sequence') 

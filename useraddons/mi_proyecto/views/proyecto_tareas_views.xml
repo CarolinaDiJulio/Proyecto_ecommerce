@@ -85,19 +85,26 @@
                 <field name="prioridad"/>
                 <field name="fecha_final"/>
                 <field name="proyecto_id"/>
+                <field name="cantidad"/>
+                <field name="inspeccion_visual"/>
+                <field name="pruebas"/>
+                <field name="lista"/>
+                <field name="observaciones"/>
+
                 <templates>
                     <t t-name="card">
                         <div t-attf-class="oe_kanban_global_click o_kanban_record">
                             <div class="o_primary">
-                                <strong><field name="orden_fabricacion"/></strong>
+                                <strong>OF: <field name="orden_fabricacion"/></strong>
                             </div>
                             <div>
                                 <span>Prioridad: <field name="prioridad"/></span><br/>
+                                <span>Cantidad: <field name="cantidad"/></span><br/>
                                 <span>Fecha final: <field name="fecha_final"/></span><br/>
-                                <span>Proyecto: <field name="proyecto_id"/></span>
                             </div>
-                            <div> Inspección Visual: <field name="inspeccion_visual"/></div>
-                            <div> Pruebas: <field name="pruebas"/></div>
+                            <div invisible="not inspeccion_visual"> Inspección Visual: <field name="inspeccion_visual"/></div>
+                            <div invisible="not pruebas"> Pruebas: <field name="pruebas"  /></div>
+                            <div> Lista: <field name="lista"/></div>
                             <div> Observaciones: <field name="observaciones"/></div>
                         </div>
                     </t>
