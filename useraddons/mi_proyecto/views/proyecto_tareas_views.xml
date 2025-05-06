@@ -95,7 +95,7 @@
                     <t t-name="card"> 
                         <div t-attf-class="oe_kanban_global_click o_kanban_record ">
                             <div id="orden_fabricacion" class="o_primary ">
-                                <strong>OF: <field name="orden_fabricacion"/></strong>
+                                <strong>OF: <field name="orden_fabricacion"/></strong> - <field name="proyecto_id"/>
                             </div>
                             <div> 
                                 <span t-attf-class="prioridad_#{record.prioridad.raw_value}">
