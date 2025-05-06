@@ -28,7 +28,7 @@
                         </h1>
                         <label for="proyecto_id"/>
                         <h2>
-                            <field name="proyecto_id" placeholder="Proyecto..."/>
+                            <field name="proyecto_id" placeholder="Proyecto..." readonly="1"/>
                         </h2>
                         <label for="sequence"/>
                         <h2>

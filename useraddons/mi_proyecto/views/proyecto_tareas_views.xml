@@ -33,14 +33,14 @@
                         </h1>
                         <label for="proyecto_id"/>
                         <p>
-                            <field name="proyecto_id" placeholder="Proyecto..."/>
+                            <field name="proyecto_id" placeholder="Proyecto..." readonly="1" />
                         </p>
                         <label for="etapa_id"/>
                         <p>
-                            <field name="etapa_id" placeholder="Etapa..."/>
+                            <field name="etapa_id" placeholder="Etapa..."  domain="[('proyecto_id', '=', proyecto_id)]"/>
                         </p>
                         <label for="cantidad"/>
-                        <p>
+                        <p >
                             <field name="cantidad" placeholder="Cantidad..."/>
                         </p>
                         <label for="prioridad"/>
@@ -92,26 +92,47 @@
                 <field name="observaciones"/>
 
                 <templates>
-                    <t t-name="card">
-                        <div t-attf-class="oe_kanban_global_click o_kanban_record">
-                            <div class="o_primary">
+                    <t t-name="card"> 
+                        <div t-attf-class="oe_kanban_global_click o_kanban_record ">
+                            <div id="orden_fabricacion" class="o_primary ">
                                 <strong>OF: <field name="orden_fabricacion"/></strong>
                             </div>
-                            <div>
-                                <span>Prioridad: <field name="prioridad"/></span><br/>
-                                <span>Cantidad: <field name="cantidad"/></span><br/>
-                                <span>Fecha final: <field name="fecha_final"/></span><br/>
+                            <div> 
+                                <span t-attf-class="prioridad_#{record.prioridad.raw_value}">
+                                    Prioridad: <field name="prioridad"/>
+                                </span><br/>
+                                <span>
+                                    Cantidad: <field name="cantidad"/>
+                                </span><br/>
+                                <span>
+                                    Fecha final: <field name="fecha_final"/>
+                                </span><br/>
                             </div>
-                            <div invisible="not inspeccion_visual"> Inspección Visual: <field name="inspeccion_visual"/></div>
-                            <div invisible="not pruebas"> Pruebas: <field name="pruebas"  /></div>
-                            <div> Lista: <field name="lista"/></div>
-                            <div> Observaciones: <field name="observaciones"/></div>
-                        </div>
+                            <div invisible="not inspeccion_visual"> 
+                                Inspección Visual: <field name="inspeccion_visual"/>
+                            </div>
+                            <div invisible="not pruebas"> 
+                                Pruebas: <field name="pruebas"  />
+                            </div>
+                            <t t-if="record.lista.value">
+                                <div>Lista: <field name="lista" /></div>
+                            </t>
+                            <t t-if ="record.observaciones.value">
+                                <div> Observaciones: <field name="observaciones"/></div>
+                            </t>
+                            <div class="mt-2 d-flex justify-content-between">  
+                                <button type="object" name="action_mover_etapa_anterior" class="btn btn-sm btn-secondary">
+                                    Anterior
+                                </button>  
+                                <button  type="object" name="action_mover_etapa_siguiente" class="btn btn-sm btn-primary ">
+                                    Siguiente
+                                </button> 
+                            </div>
+                        </div> 
                     </t>
                 </templates>
             </kanban> 
         </field>
     </record>
-     
 
 </odoo>

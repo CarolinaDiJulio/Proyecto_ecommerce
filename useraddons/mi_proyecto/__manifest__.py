@@ -21,9 +21,11 @@
     'installable': True,     # Habilita la instalación del módulo
     'application': True,     # Especifica que el módulo es una aplicación
     'assets': {
-        #  'website.assets_frontend': [
-        #         'linea/static/src/css/style.css', 
-        #     ],
+        # Debe ir en 'web.assets_backend' porque la vista kanban se muestra en el backend de Odoo
+         'web.assets_backend': [
+                'mi_proyecto/static/src/css/style.css', 
+                'mi_proyecto/static/src/js/script.js',
+            ],
     },
     'license': 'LGPL-3',     # Licencia del módulo, ajusta según sea necesario
 }
