@@ -53,12 +53,11 @@
                                 <div><field name="descripcion"/></div> 
                             </div>
                             <br/>
-                            <footer>
-                                <button type="action" name="%(action_ver_etapas_de_proyecto)d" context="{}" class="btn btn-primary btn-sm  d-flex justify-content-center">
+                            <footer class="d-flex justify-content-center">  
+                                <button type="action" name="%(action_ver_etapas_de_proyecto)d" context="{}" class="btn btn-primary btn-sm me-2 ">
                                     Ver Etapas
                                 </button>
-                                <br/>
-                                <button type="action" name="%(action_ver_tareas_de_proyecto)d" context="{}" class="btn btn-primary btn-sm  d-flex justify-content-center">
+                                <button type="action" name="%(action_ver_tareas_de_proyecto)d" context="{}" class="btn btn-primary btn-sm">
                                     Ver Tareas
                                 </button>
                             </footer>
