@@ -5,6 +5,7 @@ class MiProyectoTarea(models.Model):
     _description = 'Tarea de Proyecto'
 
     orden_fabricacion = fields.Char(string='Nombre de la Tarea', required=True)
+    # orden_fabricacion = fields.Many2one('mrp.production', string='Orden de Fabricación', required=True)  
     cantidad = fields.Integer(string='Cantidad', required=True)
     proyecto_id = fields.Many2one('mi.proyecto', string='Proyecto')
     etapa_id = fields.Many2one('proyecto.etapas', string='Etapa', required=True, group_expand='_expandir_etapas')
@@ -14,7 +15,7 @@ class MiProyectoTarea(models.Model):
         ('2', 'Alta'),
         ('3', 'Urgente'),
     ], string='Prioridad', default='1')
-    fecha_final = fields.Date(string='Fecha Final')
+    fecha_final = fields.Date(string='Fecha Final', required=True, default=fields.Date.today())
     inspeccion_visual = fields.Boolean(string='Inspección Visual')
     pruebas = fields.Boolean(string='Pruebas')
     lista = fields.Text(string='Lista de Verificación')

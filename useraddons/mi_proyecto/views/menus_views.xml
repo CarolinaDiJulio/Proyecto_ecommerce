@@ -39,7 +39,7 @@
               action="action_mi_proyecto"
               sequence="20"/>   
 
-    <!-- Submenú que llama a la acción
+    <!-- Submenú que llama a la acción 
     <menuitem id="menu_mi_proyecto_tarea" name="Tareas"
                 parent="menu_mi_proyecto_root"
                 action="action_proyecto_tareas"/> -->
