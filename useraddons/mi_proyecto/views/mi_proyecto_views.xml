@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-
     <!-- View mi.proyecto View List -->
     <record id="view_mi_proyecto_list" model="ir.ui.view">
         <field name="name">view.mi.proyecto.list</field>
@@ -50,7 +49,10 @@
                         <div class="oe_kanban_card oe_kanban_global_click">
                             <div class="o_kanban_details">
                                 <strong><field name="name"/></strong>
-                                <div><field name="descripcion"/></div> 
+                                <div><field name="descripcion"/></div>
+                                <div>
+                                    <strong>Tareas:</strong> <span><field name="tarea_contador"/></span>
+                                </div> 
                             </div>
                             <br/>
                             <footer class="d-flex justify-content-center">  
@@ -67,7 +69,4 @@
             </kanban>
         </field>
     </record>
-
-   
-
 </odoo>
