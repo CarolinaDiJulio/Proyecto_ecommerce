@@ -5,6 +5,7 @@ class MiProyectoTarea(models.Model):
     _name = 'proyecto.tareas'
     _description = 'Tarea de Proyecto'
 
+    # Campos
     #orden_fabricacion = fields.Char(string='Nombre de la Tarea', required=True)
     orden_fabricacion = fields.Many2one(
         'mrp.production', 
@@ -33,24 +34,14 @@ class MiProyectoTarea(models.Model):
         store=False
     )
 
+    #sql_constraints para evitar duplicados
     _sql_constraints = [
         ('unique_orden_fabricacion_per_proyecto', 
          'UNIQUE(proyecto_id, orden_fabricacion)',
          'No puede haber dos tareas con el mismo "Orden de Fabricación" en el mismo proyecto.') 
     ] 
 
-    # @api.onchange('proyecto_id')
-    # def onchange_proyecto_id(self):
-    #     # Actualizar las etapas disponibles según el proyecto seleccionado
-    #     if self.proyecto_id:
-    #         return {
-    #             'domain': {'etapa_id': [('proyecto_id', '=', self.proyecto_id.id)]}
-    #         }
-    #     else:
-    #         return {
-    #             'domain': {'etapa_id': []}
-    #         }
-
+    # api.onchange
     @api.onchange('orden_fabricacion')
     def _onchange_orden_fabricacion(self):
         if self.orden_fabricacion:
@@ -79,6 +70,7 @@ class MiProyectoTarea(models.Model):
             else:
                 self.prioridad = '0'  # Baja
 
+    # api.depends
     @api.depends('proyecto_id')
     def _compute_ordenes_fabricacion(self):
         for tarea in self:
@@ -89,6 +81,7 @@ class MiProyectoTarea(models.Model):
             else:
                 tarea.ordenes_fabricacion_ids = False
     
+    # api.models
     @api.model
     def _get_default_proyecto(self):
         # Obtener el ID del proyecto desde el contexto activo (si está presente)
@@ -108,6 +101,7 @@ class MiProyectoTarea(models.Model):
             return self.env['proyecto.etapas'].search([], order='sequence')
         # return self.env['proyecto.etapas'].search([], order='sequence') 
     
+    # Funciones
     def action_mover_etapa_anterior(self):
         if self.etapa_id and self.proyecto_id:
             etapas_ordenadas = self.env['proyecto.etapas'].search(
