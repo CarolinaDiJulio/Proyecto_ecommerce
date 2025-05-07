@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_product_form_inherit_productos_heredados" model="ir.ui.view">
+        <field name="name">product.product.form.inherit.productos_heredados</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="arch" type="xml"> 
+            <!-- Insertamos después del campo default_code -->
+            <field name="default_code" position="after">
+                <field name="tipo" widget="radio"/>
+                <field name="subtipo" invisible="tipo != 'componente'" />
+                <field name="fabricante"/>
+                <field name="id_fabricante"/>
+                <field name="proveedor"/>
+            </field>
+
+        </field>
+    </record>
+</odoo>

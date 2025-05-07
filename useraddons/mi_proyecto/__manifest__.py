@@ -11,6 +11,7 @@
     'depends': [
         'base',   # Dependencia principal para usar el modelo base
         'web',    # Dependencia para la interfaz web de Odoo
+        'mrp',
     ],
     "data": [
         "views/menus_views.xml",

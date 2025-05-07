@@ -16,6 +16,7 @@
     ],
     "data": [
         "views/product_template_views.xml", 
+        "views/productos_fabricacion_views.xml",
     ],
     'installable': True,     # Habilita la instalación del módulo
     'application': True,     # Especifica que el módulo es una aplicación
