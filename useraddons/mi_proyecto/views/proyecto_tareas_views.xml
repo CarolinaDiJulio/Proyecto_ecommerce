@@ -92,7 +92,6 @@
                 <field name="orden_cancelada"/>
                 <field name="ultima_etapa"/>
                 <field name="primera_etapa"/>
-                
                 <templates>
                     <t t-name="card"> 
                         <div t-attf-class="oe_kanban_global_click o_kanban_record ">
