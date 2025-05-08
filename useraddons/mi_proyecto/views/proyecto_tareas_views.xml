@@ -125,11 +125,7 @@
                             </div>
                             <div  invisible="not orden_cancelada" class="alert alert-danger mt-2">
                                 ORDEN CANCELADA
-                                <button name="action_eliminar_tarea" 
-                                    string="Eliminar tarea"
-                                    type="object"
-                                    class="btn-primary"
-                                    />
+                                <button name="action_eliminar_tarea" string="Eliminar tarea" type="object" class="btn-primary" />
                             </div>
                             <div class="mt-2 d-flex justify-content-between" invisible="orden_cancelada">  
                                 <button type="object" name="action_mover_etapa_anterior" class="btn btn-sm btn-secondary" invisible ="primera_etapa">
@@ -138,11 +134,7 @@
                                 <button  type="object" name="action_mover_etapa_siguiente" class="btn btn-sm btn-primary" invisible ="ultima_etapa">
                                     Siguiente
                                 </button> 
-                                <button name="action_ultima_etapa" 
-                                    string="Finalizar tarea"
-                                    type="object"
-                                    class="btn-primary"
-                                    invisible ="not ultima_etapa"/>
+                                <button name="action_ultima_etapa" string="Finalizar tarea" type="object" class="btn-primary" invisible ="not ultima_etapa"/>
                             </div>
                         </div> 
                     </t>

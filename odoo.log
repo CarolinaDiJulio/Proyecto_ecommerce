@@ -17222,3 +17222,85 @@ View error context:
 2025-05-08 11:30:05,312 18372 INFO productos odoo.addons.base.models.ir_http: Generating routing map for key 1 
 2025-05-08 11:30:05,369 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:05] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 9 0.001 0.055
 2025-05-08 11:30:05,689 18372 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-05-08 11:30:08,039 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:08] "GET /odoo/manufacturing/41?debug=assets,tests HTTP/1.1" 200 - 105 0.037 2.338
+2025-05-08 11:30:08,516 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:08] "GET /web/assets/debug/web.assets_web.css HTTP/1.1" 304 - 21 0.001 0.460
+2025-05-08 11:30:08,563 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:08] "GET /web/assets/debug/web.assets_web.js HTTP/1.1" 304 - 21 0.021 0.487
+2025-05-08 11:30:08,858 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:08] "GET /web/assets/debug/web.assets_tests.js HTTP/1.1" 304 - 4 0.000 0.016
+2025-05-08 11:30:09,336 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:09] "GET /web/assets/debug/web.assets_web_print.css HTTP/1.1" 304 - 21 0.008 0.351
+2025-05-08 11:30:09,669 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:30:09] "GET /web/static/img/favicon.ico HTTP/1.1" 304 - 0 0.000 0.005
+2025-05-08 11:30:09,722 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:09] "POST /mail/data HTTP/1.1" 200 - 44 0.023 0.032
+2025-05-08 11:30:09,746 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:09] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.001 0.002
+2025-05-08 11:30:11,445 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:11] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.000
+2025-05-08 11:30:20,362 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:30:20] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.000
+2025-05-08 11:30:20,362 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:30:20] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.000
+2025-05-08 11:30:20,452 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:20] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.046 0.044
+2025-05-08 11:30:20,546 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:20] "POST /web/action/load HTTP/1.1" 200 - 13 0.015 0.169
+2025-05-08 11:30:20,546 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:20] "POST /mail/data HTTP/1.1" 200 - 35 0.162 0.022
+2025-05-08 11:30:20,760 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:20] "POST /web/dataset/call_kw/mrp.production/get_views HTTP/1.1" 200 - 100 0.058 0.090
+2025-05-08 11:30:20,938 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:20] "POST /web/dataset/call_kw/mrp.production/web_read HTTP/1.1" 200 - 59 0.038 0.038
+2025-05-08 11:30:21,134 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:21] "POST /mail/thread/data HTTP/1.1" 200 - 28 0.018 0.032
+2025-05-08 11:30:21,345 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:21] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 304 - 9 0.011 0.000
+2025-05-08 11:30:21,362 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:21] "POST /mail/thread/messages HTTP/1.1" 200 - 21 0.016 0.014
+2025-05-08 11:30:29,780 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:29] "POST /web/action/load HTTP/1.1" 200 - 11 0.000 0.001
+2025-05-08 11:30:30,222 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:30] "POST /web/dataset/call_kw/res.partner/get_views HTTP/1.1" 200 - 58 0.031 0.077
+2025-05-08 11:30:30,394 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:30:30] "POST /web/dataset/call_kw/res.partner/web_search_read HTTP/1.1" 200 - 20 0.000 0.032
+2025-05-08 11:31:05,150 18372 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-05-08 11:31:05,182 18372 INFO productos odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-05-08 11:31:05,279 18372 INFO productos odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-05-08 11:31:05,279 18372 INFO productos odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-05-08 11:31:05,279 18372 INFO productos odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-05-08 11:31:05,279 18372 INFO productos odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-05-08 11:31:05,295 18372 INFO productos odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-05-08 11:31:05,312 18372 INFO productos odoo.models.unlink: User #1 deleted bus.bus records with IDs: [2175, 2176] 
+2025-05-08 11:31:05,396 18372 INFO productos odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-05-08 11:31:05,521 18372 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.371s 
+2025-05-08 11:31:05,521 18372 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-05-08 11:31:05,521 18372 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-05-08 11:31:11,268 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:11] "POST /web/action/load HTTP/1.1" 200 - 9 0.001 0.007
+2025-05-08 11:31:11,616 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:11] "POST /web/dataset/call_kw/mi.proyecto/get_views HTTP/1.1" 200 - 18 0.009 0.009
+2025-05-08 11:31:11,847 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:11] "POST /web/dataset/call_kw/mi.proyecto/web_search_read HTTP/1.1" 200 - 5 0.000 0.000
+2025-05-08 11:31:13,680 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:13] "POST /web/action/load HTTP/1.1" 200 - 9 0.000 0.000
+2025-05-08 11:31:14,029 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:14] "POST /web/dataset/call_kw/proyecto.tareas/get_views HTTP/1.1" 200 - 21 0.000 0.016
+2025-05-08 11:31:14,273 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:14] "POST /web/dataset/call_kw/proyecto.tareas/web_read_group HTTP/1.1" 200 - 5 0.016 0.000
+2025-05-08 11:31:14,373 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:14] "POST /web/dataset/call_kw/proyecto.tareas/web_search_read HTTP/1.1" 200 - 9 0.016 0.000
+2025-05-08 11:31:14,580 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:14] "POST /web/dataset/call_kw/proyecto.tareas/web_search_read HTTP/1.1" 200 - 7 0.000 0.000
+2025-05-08 11:31:17,587 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:17] "POST /web/dataset/call_kw/mi.proyecto/web_search_read HTTP/1.1" 200 - 3 0.001 0.003
+2025-05-08 11:31:19,712 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:19] "POST /web/action/load HTTP/1.1" 200 - 9 0.016 0.018
+2025-05-08 11:31:19,942 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:19] "POST /web/dataset/call_kw/proyecto.tareas/web_read_group HTTP/1.1" 200 - 4 0.002 0.003
+2025-05-08 11:31:20,030 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:31:20] "GET /web/static/img/empty_folder.svg HTTP/1.1" 304 - 0 0.000 0.000
+2025-05-08 11:31:22,036 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:22] "POST /web/dataset/call_kw/mi.proyecto/web_search_read HTTP/1.1" 200 - 3 0.001 0.002
+2025-05-08 11:31:28,996 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:28] "POST /web/action/load HTTP/1.1" 200 - 11 0.000 0.000
+2025-05-08 11:31:29,362 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:29] "POST /web/dataset/call_kw/hr.employee/get_views HTTP/1.1" 200 - 83 0.027 0.086
+2025-05-08 11:31:29,413 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:29] "POST /web/dataset/call_kw/hr.employee/search_panel_select_range HTTP/1.1" 200 - 13 0.016 0.017
+2025-05-08 11:31:29,824 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:29] "POST /web/dataset/call_kw/hr.employee/web_search_read HTTP/1.1" 200 - 16 0.005 0.124
+2025-05-08 11:31:30,169 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:30] "GET /web/image/hr.employee/1/image_128?unique=1745999509000 HTTP/1.1" 200 - 11 0.002 0.003
+2025-05-08 11:31:30,897 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:30] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.015
+2025-05-08 11:31:31,250 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:31] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.006 0.009
+2025-05-08 11:31:31,264 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:31] "POST /web/dataset/call_kw/mrp.production/web_search_read HTTP/1.1" 200 - 15 0.014 0.018
+2025-05-08 11:31:38,413 18372 INFO productos odoo.models.unlink: User #2 deleted stock.move.line records with IDs: [36] 
+2025-05-08 11:31:38,430 18372 INFO productos odoo.models.unlink: User #2 deleted mail.message records with IDs: [184, 181, 180] 
+2025-05-08 11:31:38,462 18372 INFO productos odoo.models.unlink: User #2 deleted mrp.production records with IDs: [41] 
+2025-05-08 11:31:38,463 18372 INFO productos odoo.models.unlink: User #2 deleted mail.followers records with IDs: [76] 
+2025-05-08 11:31:38,463 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:38] "POST /web/dataset/call_kw/mrp.production/unlink HTTP/1.1" 200 - 80 0.031 0.051
+2025-05-08 11:31:38,796 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:38] "POST /web/dataset/call_kw/mrp.production/web_search_read HTTP/1.1" 200 - 11 0.000 0.016
+2025-05-08 11:31:41,906 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:41] "POST /web/dataset/call_kw/mrp.production/web_search_read HTTP/1.1" 200 - 11 0.002 0.012
+2025-05-08 11:31:51,946 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:31:51] "POST /web/dataset/call_kw/mi.proyecto/web_search_read HTTP/1.1" 200 - 3 0.000 0.000
+2025-05-08 11:32:03,214 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:32:03] "POST /web/dataset/call_kw/mi.proyecto/web_search_read HTTP/1.1" 200 - 3 0.002 0.004
+2025-05-08 11:32:38,630 18372 INFO productos werkzeug: 127.0.0.1 - - [08/May/2025 11:32:38] "GET /web/database/manager HTTP/1.1" 200 - 3 0.002 0.598
+2025-05-08 11:32:38,630 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:38] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 304 - 0 0.000 0.000
+2025-05-08 11:32:38,645 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:38] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 304 - 0 0.000 0.016
+2025-05-08 11:32:38,952 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:38] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-08 11:32:38,953 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:38] "GET /web/static/lib/bootstrap/js/dist/util/index.js HTTP/1.1" 304 - 0 0.000 0.005
+2025-05-08 11:32:38,954 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:38] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 304 - 0 0.000 0.005
+2025-05-08 11:32:38,954 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:38] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 304 - 0 0.000 0.005
+2025-05-08 11:32:38,955 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:38] "GET /web/static/lib/bootstrap/js/dist/util/config.js HTTP/1.1" 304 - 0 0.000 0.005
+2025-05-08 11:32:38,955 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:38] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 304 - 0 0.000 0.005
+2025-05-08 11:32:39,272 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:39] "GET /web/static/lib/bootstrap/js/dist/util/component-functions.js HTTP/1.1" 304 - 0 0.000 0.003
+2025-05-08 11:32:39,273 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:39] "GET /web/static/lib/bootstrap/js/dist/util/backdrop.js HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-08 11:32:39,276 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:39] "GET /web/static/lib/bootstrap/js/dist/util/scrollbar.js HTTP/1.1" 304 - 0 0.000 0.005
+2025-05-08 11:32:39,276 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:39] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 304 - 0 0.000 0.005
+2025-05-08 11:32:39,277 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:39] "GET /web/static/lib/bootstrap/js/dist/util/focustrap.js HTTP/1.1" 304 - 0 0.000 0.006
+2025-05-08 11:32:39,277 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:39] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-08 11:32:39,580 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:39] "GET /web/static/img/logo2.png HTTP/1.1" 304 - 0 0.000 0.000
+2025-05-08 11:32:39,580 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:39] "GET /web/static/src/public/database_manager.js HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-08 11:32:39,918 18372 INFO ? werkzeug: 127.0.0.1 - - [08/May/2025 11:32:39] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.005
