@@ -122,14 +122,18 @@
                                 </t>
                             </div>
                             <div class="mt-2 d-flex justify-content-between">  
-                                <button type="object" name="action_mover_etapa_anterior" class="btn btn-sm btn-secondary">
+                                <button type="object" name="action_mover_etapa_anterior" class="btn btn-sm btn-secondary" invisible ="primera_etapa">
                                     Anterior
                                 </button>  
-                                <button  type="object" name="action_mover_etapa_siguiente" class="btn btn-sm btn-primary ">
+                                <button  type="object" name="action_mover_etapa_siguiente" class="btn btn-sm btn-primary" invisible ="ultima_etapa">
                                     Siguiente
                                 </button> 
+                                <button name="action_ultima_etapa" 
+                                    string="Finalizar tarea"
+                                    type="object"
+                                    class="btn-primary"
+                                    invisible ="not ultima_etapa"/>
                             </div>
-                           
                         </div> 
                     </t>
                 </templates>

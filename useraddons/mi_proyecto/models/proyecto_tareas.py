@@ -32,6 +32,8 @@ class MiProyectoTarea(models.Model):
         compute='_compute_ordenes_fabricacion', 
         store=False
     )
+    ultima_etapa = fields.Boolean(string='¿Última Etapa?', compute='_compute_es_ultima_etapa')
+    primera_etapa = fields.Boolean(string='¿Primera Etapa?', compute='_compute_es_primera_etapa')
 
     #sql_constraints para evitar duplicados
     _sql_constraints = [
@@ -41,6 +43,24 @@ class MiProyectoTarea(models.Model):
     ] 
     
     # api.depends, campos computados
+    @api.depends('etapa_id', 'proyecto_id')
+    def _compute_es_ultima_etapa(self):
+        for record in self:
+            record.ultima_etapa = False
+            if record.etapa_id and record.proyecto_id:
+                etapas = self._obtener_etapas_ordenadas(record.proyecto_id.id)
+                if etapas and record.etapa_id.id == etapas[-1].id:
+                    record.ultima_etapa = True
+
+    @api.depends('etapa_id', 'proyecto_id')
+    def _compute_es_primera_etapa(self):
+        for record in self:
+            record.primera_etapa = False
+            if record.etapa_id and record.proyecto_id:
+                etapas = self._obtener_etapas_ordenadas(record.proyecto_id.id)
+                if etapas and record.etapa_id.id == etapas[0].id:
+                    record.primera_etapa = True
+                    
     @api.depends('orden_fabricacion.product_qty', 'orden_fabricacion.date_finished')
     def _compute_orden_data(self):
         for record in self:
@@ -109,3 +129,6 @@ class MiProyectoTarea(models.Model):
             return self.env['proyecto.etapas'].search([('proyecto_id', '=', proyecto_id)], order='sequence')
         return self.env['proyecto.etapas'].search([], order='sequence')
 
+    def action_ultima_etapa(self):
+        for record in self:
+            record.unlink()
