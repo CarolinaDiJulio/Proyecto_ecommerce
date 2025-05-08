@@ -48,7 +48,7 @@
                     <t t-name="card">
                         <div class="oe_kanban_card oe_kanban_global_click">
                             <div class="o_kanban_details">
-                                <strong><field name="name" /></strong>
+                                <strong class="proyecto"><field name="name" /></strong>
                                 <div><field name="descripcion"/></div>
                                 <div>
                                     <strong>Tareas:</strong> <span><field name="tarea_contador"/></span>

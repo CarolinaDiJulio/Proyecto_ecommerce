@@ -6,7 +6,6 @@ class MiProyectoTarea(models.Model):
     _description = 'Tarea de Proyecto'
 
     # Campos
-    #orden_fabricacion = fields.Char(string='Nombre de la Tarea', required=True)
     orden_fabricacion = fields.Many2one(
         'mrp.production', 
         string='Orden de Fabricación', 
@@ -41,7 +40,7 @@ class MiProyectoTarea(models.Model):
          'No puede haber dos tareas con el mismo "Orden de Fabricación" en el mismo proyecto.') 
     ] 
     
-    # api.depends
+    # api.depends, campos computados
     @api.depends('orden_fabricacion.product_qty', 'orden_fabricacion.date_finished')
     def _compute_orden_data(self):
         for record in self:
@@ -83,31 +82,30 @@ class MiProyectoTarea(models.Model):
         return False
     
     @api.model
-    def _expandir_etapas(self,domain, order):
+    def _expandir_etapas(self,domain=None, order='sequence'):
         proyecto_id = self.env.context.get('active_id')
-        if proyecto_id:
-            return self.env['proyecto.etapas'].search([('proyecto_id', '=', proyecto_id)], order='sequence')
-        else:
-            return self.env['proyecto.etapas'].search([], order='sequence')
+        if proyecto_id: 
+            return self._obtener_etapas_ordenadas(proyecto_id)
+        return self._obtener_etapas_ordenadas()
     
     # Funciones
     def action_mover_etapa_anterior(self):
         if self.etapa_id and self.proyecto_id:
-            etapas_ordenadas = self.env['proyecto.etapas'].search(
-                [('proyecto_id', '=', self.proyecto_id.id)],
-                order='sequence'
-            )
+            etapas_ordenadas = self._obtener_etapas_ordenadas(self.proyecto_id.id)
             etapa_anterior = etapas_ordenadas.filtered(lambda e: e.sequence < self.etapa_id.sequence)
             if etapa_anterior:
                 self.etapa_id = etapa_anterior[-1]
 
     def action_mover_etapa_siguiente(self):
         if self.etapa_id and self.proyecto_id:
-            etapas_ordenadas = self.env['proyecto.etapas'].search(
-                [('proyecto_id', '=', self.proyecto_id.id)],
-                order='sequence'
-            )
+            etapas_ordenadas = self._obtener_etapas_ordenadas(self.proyecto_id.id)
             siguiente_etapa = etapas_ordenadas.filtered(lambda e: e.sequence > self.etapa_id.sequence)
             if siguiente_etapa:
                 self.etapa_id = siguiente_etapa[0]
+
+    def _obtener_etapas_ordenadas(self, proyecto_id=None):
+        proyecto_id = proyecto_id or self.env.context.get('active_id')
+        if proyecto_id:
+            return self.env['proyecto.etapas'].search([('proyecto_id', '=', proyecto_id)], order='sequence')
+        return self.env['proyecto.etapas'].search([], order='sequence')
 
