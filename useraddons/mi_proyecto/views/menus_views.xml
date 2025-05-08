@@ -52,7 +52,7 @@
 
     <!-- Submenú que llama a la acción btn 'etapas'-->
     <record id="action_ver_etapas_de_proyecto" model="ir.actions.act_window">
-        <field name="name">Etapas del Proyecto </field>
+        <field name="name">Etapas</field>
         <field name="res_model">proyecto.etapas</field>
         <field name="view_mode">kanban,list,form</field>
         <field name="domain">[('proyecto_id', '=', context.get('active_id'))]</field>
@@ -61,7 +61,7 @@
     
     <!-- Submenú que llama a la acción btn 'tareas'-->
     <record id="action_ver_tareas_de_proyecto" model="ir.actions.act_window">
-        <field name="name">Tareas del Proyecto </field>
+        <field name="name">Tareas</field>
         <field name="res_model">proyecto.tareas</field>
         <field name="view_mode">kanban,list,form</field>
         <field name="domain">[('proyecto_id', '=', context.get('active_id'))]</field> 
