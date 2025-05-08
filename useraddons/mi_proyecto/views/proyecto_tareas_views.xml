@@ -125,7 +125,7 @@
                             </div>
                             <div  invisible="not orden_cancelada" class="alert alert-danger mt-2">
                                 ORDEN CANCELADA
-                                <button name="action_ultima_etapa" 
+                                <button name="action_eliminar_tarea" 
                                     string="Eliminar tarea"
                                     type="object"
                                     class="btn-primary"

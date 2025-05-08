@@ -144,6 +144,10 @@ class MiProyectoTarea(models.Model):
             return self.env['proyecto.etapas'].search([('proyecto_id', '=', proyecto_id)], order='sequence')
         return self.env['proyecto.etapas'].search([], order='sequence')
 
-    def action_ultima_etapa(self):
+    def action_ultima_etapa(self): #hace falta marcarla como completada
+        for record in self:
+            record.unlink() 
+
+    def action_eliminar_tarea(self):
         for record in self:
             record.unlink()
