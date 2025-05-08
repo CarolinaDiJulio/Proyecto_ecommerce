@@ -32,25 +32,25 @@
               name="Mi Proyecto"
               sequence="10"/>
 
-    <!-- Submenú que llama a la acción -->
+    <!-- Submenú que llama a la acción Proyectos -->
     <menuitem id="menu_mi_proyecto"
               name="Proyectos"
               parent="menu_mi_proyecto_root"
               action="action_mi_proyecto"
               sequence="20"/>   
 
-    <!-- Submenú que llama a la acción 
+    <!-- Submenú que llama a la acción Tareas
     <menuitem id="menu_mi_proyecto_tarea" name="Tareas"
                 parent="menu_mi_proyecto_root"
                 action="action_proyecto_tareas"/> -->
 
-    <!-- Submenú que llama a la acción
+    <!-- Submenú que llama a la acción Etapas
     <menuitem id="menu_mi_proyecto_etapa"
             name="Etapas"
             parent="menu_mi_proyecto_root"
             action="action_mi_proyecto_etapa"/> -->
 
-    <!-- Submenú que llama a la acción -->
+    <!-- Submenú que llama a la acción btn 'etapas'-->
     <record id="action_ver_etapas_de_proyecto" model="ir.actions.act_window">
         <field name="name">Etapas del Proyecto </field>
         <field name="res_model">proyecto.etapas</field>
@@ -59,6 +59,7 @@
         <field name="context">{'default_proyecto_id': active_id}</field>
     </record>   
     
+    <!-- Submenú que llama a la acción btn 'tareas'-->
     <record id="action_ver_tareas_de_proyecto" model="ir.actions.act_window">
         <field name="name">Tareas del Proyecto </field>
         <field name="res_model">proyecto.tareas</field>
