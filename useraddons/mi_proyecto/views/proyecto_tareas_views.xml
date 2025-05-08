@@ -28,7 +28,7 @@
                 <sheet>
                     <div class="oe_title">
                         <label for="orden_fabricacion"/>
-                        <h1>
+                        <h1 >
                             <field name="orden_fabricacion" placeholder="Orden fabricación..." domain="[('id', 'in', ordenes_fabricacion_ids)]"/>
                         </h1>
                         <label for="proyecto_id"/>
@@ -94,8 +94,8 @@
                 <templates>
                     <t t-name="card"> 
                         <div t-attf-class="oe_kanban_global_click o_kanban_record ">
-                            <div id="orden_fabricacion" class="o_primary ">
-                                <strong>OF: <field name="orden_fabricacion"/></strong> - <field name="proyecto_id"/>
+                            <div id="orden_fabricacion" class="o_primary">
+                                <strong class="of">OF: <field name="orden_fabricacion"/></strong> - <field name="proyecto_id"/>
                             </div>
                             <div> 
                                 <span t-attf-class="prioridad_#{record.prioridad.raw_value}">
