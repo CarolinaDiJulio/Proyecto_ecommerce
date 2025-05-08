@@ -97,7 +97,7 @@
                                 <div id="orden_fabricacion" class="o_primary">
                                     <strong class="of">OF: <field name="orden_fabricacion"/></strong> - <field name="proyecto_id"/>
                                 </div>
-                                <div > 
+                                <div> 
                                     <span>
                                         Prioridad: <field name="prioridad"/>
                                     </span><br/>
