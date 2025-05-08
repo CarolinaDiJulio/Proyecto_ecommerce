@@ -2,7 +2,7 @@
 {
     'name': 'Productos',
     'version': '1.0',
-    'summary': 'Muestra los productos',
+    'summary': 'Muestra las tareas de un proyecto',
     'description': " ",
     'author': 'D2PLUS',
     'website': 'https://www.d2plus.com',  # Opcional
