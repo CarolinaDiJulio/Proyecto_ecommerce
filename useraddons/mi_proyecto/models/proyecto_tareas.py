@@ -34,14 +34,15 @@ class MiProyectoTarea(models.Model):
     )
     ultima_etapa = fields.Boolean(string='¿Última Etapa?', compute='_compute_es_ultima_etapa')
     primera_etapa = fields.Boolean(string='¿Primera Etapa?', compute='_compute_es_primera_etapa')
+    orden_cancelada = fields.Boolean(string='Orden Cancelada', compute='_compute_orden_cancelada')
 
     #sql_constraints para evitar duplicados
     _sql_constraints = [
         ('unique_orden_fabricacion_per_proyecto', 
          'UNIQUE(proyecto_id, orden_fabricacion)',
          'No puede haber dos tareas con el mismo "Orden de Fabricación" en el mismo proyecto.') 
-    ] 
-    
+    ]  
+
     # api.depends, campos computados
     @api.depends('etapa_id', 'proyecto_id')
     def _compute_es_ultima_etapa(self):
@@ -92,6 +93,11 @@ class MiProyectoTarea(models.Model):
                 tarea.ordenes_fabricacion_ids = ordenes
             else:
                 tarea.ordenes_fabricacion_ids = False
+
+    @api.depends('orden_fabricacion.state')
+    def _compute_orden_cancelada(self):
+        for record in self:
+            record.orden_cancelada = record.orden_fabricacion.state == 'cancel' 
     
     # api.models
     @api.model
@@ -108,6 +114,15 @@ class MiProyectoTarea(models.Model):
             return self._obtener_etapas_ordenadas(proyecto_id)
         return self._obtener_etapas_ordenadas()
     
+    @api.model
+    def create(self, vals):
+        record = super(MiProyectoTarea, self).create(vals)
+        orden = record.orden_fabricacion
+        if orden and orden.state == 'confirmed':
+            orden.action_start()
+        return record
+    
+
     # Funciones
     def action_mover_etapa_anterior(self):
         if self.etapa_id and self.proyecto_id:

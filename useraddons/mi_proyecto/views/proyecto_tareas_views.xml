@@ -28,7 +28,7 @@
                     <div class="oe_title">
                         <label for="orden_fabricacion"/>
                         <h1 >
-                            <field name="orden_fabricacion" placeholder="Orden fabricación..." domain="[('id', 'in', ordenes_fabricacion_ids)]"/>
+                            <field name="orden_fabricacion" placeholder="Orden fabricación..." domain="[('id', 'in', ordenes_fabricacion_ids),('state', '=', 'confirmed')]"/>
                         </h1>
                         <label for="proyecto_id"/>
                         <p>
@@ -89,7 +89,10 @@
                 <field name="pruebas"/>
                 <field name="lista"/>
                 <field name="observaciones"/>
-
+                <field name="orden_cancelada"/>
+                <field name="ultima_etapa"/>
+                <field name="primera_etapa"/>
+                
                 <templates>
                     <t t-name="card"> 
                         <div t-attf-class="oe_kanban_global_click o_kanban_record ">
@@ -121,7 +124,15 @@
                                     <div> Observaciones: <field name="observaciones"/></div>
                                 </t>
                             </div>
-                            <div class="mt-2 d-flex justify-content-between">  
+                            <div  invisible="not orden_cancelada" class="alert alert-danger mt-2">
+                                ORDEN CANCELADA
+                                <button name="action_ultima_etapa" 
+                                    string="Eliminar tarea"
+                                    type="object"
+                                    class="btn-primary"
+                                    />
+                            </div>
+                            <div class="mt-2 d-flex justify-content-between" invisible="orden_cancelada">  
                                 <button type="object" name="action_mover_etapa_anterior" class="btn btn-sm btn-secondary" invisible ="primera_etapa">
                                     Anterior
                                 </button>  
