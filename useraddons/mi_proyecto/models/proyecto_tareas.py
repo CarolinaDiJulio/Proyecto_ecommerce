@@ -21,7 +21,7 @@ class MiProyectoTarea(models.Model):
         ('2', 'Alta'),
         ('3', 'Urgente'),
     ], string='Prioridad',compute='_compute_prioridad')
-    fecha_final = fields.Date(string='Fecha Final', required=True, default=fields.Date.today(), compute='_compute_orden_data')
+    fecha_final = fields.Date(string='Fecha Final', required=True, compute='_compute_orden_data')
     inspeccion_visual = fields.Boolean(string='Inspección Visual')
     pruebas = fields.Boolean(string='Pruebas')
     lista = fields.Text(string='Lista de Verificación')
