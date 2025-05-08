@@ -12,7 +12,7 @@ class MiProyectoTarea(models.Model):
         string='Orden de Fabricación', 
         required=True,
     )
-    cantidad = fields.Integer(string='Cantidad')
+    cantidad = fields.Integer(string='Cantidad', compute='_compute_orden_data')
     proyecto_id = fields.Many2one('mi.proyecto', string='Proyecto')
     etapa_id = fields.Many2one('proyecto.etapas', string='Etapa', required=True, group_expand='_expandir_etapas')
     prioridad = fields.Selection([
@@ -20,8 +20,8 @@ class MiProyectoTarea(models.Model):
         ('1', 'Media'),
         ('2', 'Alta'),
         ('3', 'Urgente'),
-    ], string='Prioridad')
-    fecha_final = fields.Date(string='Fecha Final', required=True, default=fields.Date.today())
+    ], string='Prioridad',compute='_compute_prioridad')
+    fecha_final = fields.Date(string='Fecha Final', required=True, default=fields.Date.today(), compute='_compute_orden_data')
     inspeccion_visual = fields.Boolean(string='Inspección Visual')
     pruebas = fields.Boolean(string='Pruebas')
     lista = fields.Text(string='Lista de Verificación')
@@ -42,35 +42,57 @@ class MiProyectoTarea(models.Model):
     ] 
 
     # api.onchange
-    @api.onchange('orden_fabricacion')
-    def _onchange_orden_fabricacion(self):
-        if self.orden_fabricacion:
-            self.cantidad = self.orden_fabricacion.product_qty
+    # @api.onchange('orden_fabricacion')
+    # def _onchange_orden_fabricacion(self):
+    #     if self.orden_fabricacion:
+    #         self.cantidad = self.orden_fabricacion.product_qty
 
-            # Asignar fecha final si está disponible
-            if self.orden_fabricacion.date_finished:
-                self.fecha_final = fields.Date.to_date(self.orden_fabricacion.date_finished)
-            else:
-                self.fecha_final = fields.Date.today()
-        else:
-            self.cantidad = 0
-            self.fecha_final = fields.Date.today()
+    #         # Asignar fecha final si está disponible
+    #         if self.orden_fabricacion.date_finished:
+    #             self.fecha_final = fields.Date.to_date(self.orden_fabricacion.date_finished)
+    #         else:
+    #             self.fecha_final = fields.Date.today()
+    #     else:
+    #         self.cantidad = 0
+    #         self.fecha_final = fields.Date.today()
 
     
-    @api.onchange('fecha_final')
-    def _onchange_fecha_final(self):
-        if self.fecha_final:
-            # Validar que la fecha final no sea anterior a la fecha actual
-            if self.fecha_final < fields.Date.today()+ timedelta(days=5):
-                self.prioridad = '3'  # Urgente
-            elif self.fecha_final < fields.Date.today() + timedelta(days=10):
-                self.prioridad = '2'  # Alta
-            elif self.fecha_final < fields.Date.today() + timedelta(days=15):
-                self.prioridad = '1'  # Media
-            else:
-                self.prioridad = '0'  # Baja
+    # @api.onchange('fecha_final')
+    # def _onchange_fecha_final(self):
+    #     if self.fecha_final:
+    #         # Validar que la fecha final no sea anterior a la fecha actual
+    #         if self.fecha_final < fields.Date.today()+ timedelta(days=5):
+    #             self.prioridad = '3'  # Urgente
+    #         elif self.fecha_final < fields.Date.today() + timedelta(days=10):
+    #             self.prioridad = '2'  # Alta
+    #         elif self.fecha_final < fields.Date.today() + timedelta(days=15):
+    #             self.prioridad = '1'  # Media
+    #         else:
+    #             self.prioridad = '0'  # Baja
 
     # api.depends
+    @api.depends('orden_fabricacion.product_qty', 'orden_fabricacion.date_finished')
+    def _compute_orden_data(self):
+        for record in self:
+            record.cantidad = record.orden_fabricacion.product_qty or 0
+            record.fecha_final = record.orden_fabricacion.date_finished or fields.Date.today()
+
+    @api.depends('fecha_final')
+    def _compute_prioridad(self):
+        for record in self:
+            if record.fecha_final:
+                hoy = fields.Date.today()
+                if record.fecha_final < hoy + timedelta(days=5):
+                    record.prioridad = '3'  # Urgente
+                elif record.fecha_final < hoy + timedelta(days=10):
+                    record.prioridad = '2'  # Alta
+                elif record.fecha_final < hoy + timedelta(days=15):
+                    record.prioridad = '1'  # Media
+                else:
+                    record.prioridad = '0'  # Baja
+            else:
+                record.prioridad = '0'
+                
     @api.depends('proyecto_id')
     def _compute_ordenes_fabricacion(self):
         for tarea in self:

@@ -94,32 +94,34 @@
                 <templates>
                     <t t-name="card"> 
                         <div t-attf-class="oe_kanban_global_click o_kanban_record ">
-                            <div id="orden_fabricacion" class="o_primary">
-                                <strong class="of">OF: <field name="orden_fabricacion"/></strong> - <field name="proyecto_id"/>
+                            <div  t-attf-class="prioridad_#{record.prioridad.raw_value}">
+                                <div id="orden_fabricacion" class="o_primary">
+                                    <strong class="of">OF: <field name="orden_fabricacion"/></strong> - <field name="proyecto_id"/>
+                                </div>
+                                <div > 
+                                    <span>
+                                        Prioridad: <field name="prioridad"/>
+                                    </span><br/>
+                                    <span>
+                                        Cantidad: <field name="cantidad"/>
+                                    </span><br/>
+                                    <span>
+                                        Fecha final: <field name="fecha_final"/>
+                                    </span><br/>
+                                </div>
+                                <div invisible="not inspeccion_visual"> 
+                                    Inspección Visual: <field name="inspeccion_visual"/>
+                                </div>
+                                <div invisible="not pruebas"> 
+                                    Pruebas: <field name="pruebas"  />
+                                </div>
+                                <t t-if="record.lista.value">
+                                    <div>Lista: <field name="lista" /></div>
+                                </t>
+                                <t t-if ="record.observaciones.value">
+                                    <div> Observaciones: <field name="observaciones"/></div>
+                                </t>
                             </div>
-                            <div> 
-                                <span t-attf-class="prioridad_#{record.prioridad.raw_value}">
-                                    Prioridad: <field name="prioridad"/>
-                                </span><br/>
-                                <span>
-                                    Cantidad: <field name="cantidad"/>
-                                </span><br/>
-                                <span>
-                                    Fecha final: <field name="fecha_final"/>
-                                </span><br/>
-                            </div>
-                            <div invisible="not inspeccion_visual"> 
-                                Inspección Visual: <field name="inspeccion_visual"/>
-                            </div>
-                            <div invisible="not pruebas"> 
-                                Pruebas: <field name="pruebas"  />
-                            </div>
-                            <t t-if="record.lista.value">
-                                <div>Lista: <field name="lista" /></div>
-                            </t>
-                            <t t-if ="record.observaciones.value">
-                                <div> Observaciones: <field name="observaciones"/></div>
-                            </t>
                             <div class="mt-2 d-flex justify-content-between">  
                                 <button type="object" name="action_mover_etapa_anterior" class="btn btn-sm btn-secondary">
                                     Anterior
@@ -128,6 +130,7 @@
                                     Siguiente
                                 </button> 
                             </div>
+                           
                         </div> 
                     </t>
                 </templates>
