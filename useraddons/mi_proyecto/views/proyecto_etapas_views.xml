@@ -56,12 +56,10 @@
                                         </strong>
                                     </div> 
                                     <div>
-                                        Proyecto:
-                                            <field name="proyecto_id"/>
+                                        Proyecto:<field name="proyecto_id"/>
                                     </div>
                                     <div>
-                                        Orden:
-                                            <field name="sequence"/>
+                                        Orden:<field name="sequence"/>
                                     </div> 
                                 </div>
                             </div>

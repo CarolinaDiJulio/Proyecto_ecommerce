@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-
     <!-- View proyecto.tareas View List -->
     <record id="view_proyecto_tareas_list" model="ir.ui.view">
         <field name="name">view.proyecto.tareas.list</field>
@@ -136,6 +135,5 @@
                 </templates>
             </kanban> 
         </field>
-    </record>
-
+    </record> 
 </odoo>
