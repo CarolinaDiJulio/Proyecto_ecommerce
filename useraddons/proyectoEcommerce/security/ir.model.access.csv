@@ -1,2 +1,3 @@
 id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
 access_productos_manager,productos_manager,model_productos,,1,1,1,1
+access_categorias_manager,categorias_manager,model_categorias,,1,1,1,1

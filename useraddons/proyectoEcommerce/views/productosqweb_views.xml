@@ -6,13 +6,27 @@
                 <div class="row">
                     <div class="col-12">
                         <h5>Filtrar por Precio</h5>
-                        <form action="#" method="GET">
+                        <form action="/mitienda/productos" method="GET">
                             <select name="precio" class="form-control" onchange="this.form.submit()">
                                 <option value="">Todos los precios</option>
                                 <option value="1">Menos de 20€</option>
                                 <option value="2">20€ - 50€</option>
                                 <option value="3">50€ - 100€</option>
                                 <option value="4">Más de 100€</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <h5>Filtrar por Categoría</h5>
+                        <form action="/mitienda/productos" method="GET">
+                            <select name="categoria" class="form-control" onchange="this.form.submit()">
+                                <option value="">Todas las categorías</option>
+                                <!-- Mostrar todas las categorías disponibles -->
+                                <t t-foreach="categorias" t-as="categoria">
+                                    <option t-att-value="categoria.id">
+                                        <t t-esc="categoria.name"/>
+                                    </option>
+                                </t>
                             </select>
                         </form>
                     </div>
@@ -26,7 +40,7 @@
                                 </t>
                                 <div class="card-body">
                                     <h5 class="card-title"><t t-esc="producto.name"/></h5>
-                                    <p class="card-text"><t t-esc="producto.precio"/> €</p>
+                                    <p class="card-text"><t t-esc="('{:.2f}'.format(producto.precio))"/> €</p>
                                     <a t-att-href="'/mitienda/producto/' + str(producto.id)" class="btn btn-primary">Ver Producto</a>
                                 </div>
                             </div>

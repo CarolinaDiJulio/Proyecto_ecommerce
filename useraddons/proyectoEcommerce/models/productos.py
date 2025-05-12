@@ -9,5 +9,5 @@ class Productos(models.Model):
     descripcion = fields.Text(string='Descripción')
     precio = fields.Float(string='Precio', required=True)
     stock = fields.Integer(string='Stock', required=True)
-    categoria = fields.Char(string='Categoría', required=True)
+    categoria = fields.Many2one('categorias',string='Categoría', required=True)
     imagen = fields.Binary(string='Imagen')

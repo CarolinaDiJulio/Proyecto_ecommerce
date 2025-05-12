@@ -19,7 +19,8 @@
         "views/menus_views.xml",
         "views/no_productos_template.xml",
         "views/producto_detalle_template.xml",
-        "views/productosqweb_views.xml"
+        "views/productosqweb_views.xml",
+        "views/categorias_views.xml",
     ],
     'installable': True,     # Habilita la instalación del módulo
     'application': True,     # Especifica que el módulo es una aplicación

@@ -26,7 +26,10 @@ class MiTienda(http.Controller):
         }) 
     
     @http.route('/mitienda/productos', auth='public', website=True)
-    def productos(self, precio=None):
+    def productos(self, precio=None, categoria=None):
+
+        categorias = request.env['categorias'].search([])
+        
         # Establecer los rangos de precio
         if precio in [None, ""]:
             # Sin filtro de precio, muestra todos los productos
@@ -40,9 +43,12 @@ class MiTienda(http.Controller):
         elif precio == '4':
             productos = request.env['productos'].sudo().search([('precio', '>', 100)])
         else:
-            productos = request.env['productos'].sudo().search([])  # Filtro desconocido o inválido
+            productos = request.env['productos'].sudo().search([])
 
+        if categoria:
+            productos = productos.filtered(lambda p: p.categoria.id == int(categoria))
         # Pasar los productos al template
         return request.render('proyectoEcommerce.productosqweb_views', {
             'productos': productos,
+            'categorias': categorias,
         })
