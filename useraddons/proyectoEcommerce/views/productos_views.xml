@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- View productos View List -->
+    <record id="view_productos_list" model="ir.ui.view">
+        <field name="name">view.productos.list</field>
+        <field name="model">productos</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="precio"/>
+                <field name="stock"/>
+                <field name="descripcion"/>
+                <field name="categoria"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- View productos form -->
+    <record id="view_productos_form" model="ir.ui.view">
+        <field name="name">view.productos.form</field>
+        <field name="model">productos</field>
+        <field name="arch" type="xml">
+            <form string="Productos">
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1>
+                            <field name="name" placeholder="Name..."/>
+                            <field name="precio" placeholder="Precio..."/>
+                            <field name="stock" placeholder="Stock..."/>
+                            <field name="imagen" widget="image" options="{'no_open': True}" placeholder="Imagen..."/>
+                            <field name="descripcion" placeholder="Descripcion..."/>
+                            <field name="categoria" placeholder="Categoria..."/>
+                        </h1>
+                    </div>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_productos_kanban" model="ir.ui.view">
+        <field name="name">view.productos.kanban</field>
+        <field name="model">productos</field>
+        <field name="arch" type="xml">
+            <kanban class="o_kanban_example">
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_card">
+                            <div class="o_kanban_image">
+                                <!-- <t t-if="record.imagen.raw_value">
+                                    <img t-att-src="'data:image/png;base64,%s' % record.imagen.raw_value" class="img img-fluid" alt="Imagen del producto"/>
+                                </t> -->
+                            </div>
+                            <div class="o_kanban_details">
+                                <strong><field name="name"/></strong><br/>
+                                <span>Precio: <field name="precio"/></span><br/>
+                                <span>Stock: <field name="stock"/></span>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+
+</odoo>

@@ -2,6 +2,8 @@ from datetime import date, datetime, timedelta
 from typing import Counter
 from odoo import fields, http
 from odoo.http import request
+import csv
+from io import StringIO
 
 class lineasController(http.Controller):
     @http.route('/linea/dashboard', type='http', auth='public', website=True)
@@ -14,7 +16,7 @@ class lineasController(http.Controller):
         dia_semana =  datetime.today().strftime('%A') # Lunes, martes,etc...
         dia_hoy = fields.Date.today() # Segun zona horaria de odoo 
         hora_actual = (datetime.now() + timedelta(hours=2)).strftime('%H:%M') 
-
+        
         # Días, horas y puestos fijos
         dias_orden = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes']
         horas = ['07:00', '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00'] 

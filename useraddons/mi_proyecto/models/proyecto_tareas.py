@@ -74,13 +74,13 @@ class MiProyectoTarea(models.Model):
             if record.fecha_final:
                 hoy = fields.Date.today()
                 if record.fecha_final < hoy + timedelta(days=5):
-                    record.prioridad = '3'  # Urgente
+                    record.prioridad = '3'
                 elif record.fecha_final < hoy + timedelta(days=10):
-                    record.prioridad = '2'  # Alta
+                    record.prioridad = '2'  
                 elif record.fecha_final < hoy + timedelta(days=15):
-                    record.prioridad = '1'  # Media
+                    record.prioridad = '1' 
                 else:
-                    record.prioridad = '0'  # Baja
+                    record.prioridad = '0'  
             else:
                 record.prioridad = '0'
 
@@ -151,3 +151,4 @@ class MiProyectoTarea(models.Model):
     def action_eliminar_tarea(self):
         for record in self:
             record.unlink()
+

@@ -1,19 +1,16 @@
 .prioridad_0{
-    border:1px solid #004085
+    background-color: #bed4eb
 }
 
 .prioridad_1{
     background-color: #d4edda; 
-    border: 1px solid #155724
 }
 .prioridad_2{
     background-color: #fff3cd; 
-    border: 1px solid #856404
 }
 
 .prioridad_3{
     background-color: #f8d7da; 
-    border: 1px solid #721c24;
 }
 .of{
     font-size: 20px;
@@ -25,5 +22,9 @@
     border-radius: 0.375rem;
 }
 .padding{
-    padding: 0.375rem 0.75rem;
+    padding: 0.25rem 0.25rem;
 }
+/* Aplica un color de fondo a la primera columna */
+/* .o_kanban_view .o_kanban_group:first-child {
+    background-color: #4592d4; /* Cambia el color a lo que prefieras 
+}    */

@@ -77,7 +77,7 @@
         <field name="name">view.proyecto.tareas.kanban</field>
         <field name="model">proyecto.tareas</field>
         <field name="arch" type="xml">
-            <kanban class="o_kanban_example" default_group_by="etapa_id" group_create="false">
+            <kanban class="o_kanban_example" default_group_by="etapa_id">
                 <field name="orden_fabricacion"/>
                 <field name="etapa_id"/>
                 <field name="prioridad"/>
@@ -91,15 +91,16 @@
                 <field name="orden_cancelada"/>
                 <field name="ultima_etapa"/>
                 <field name="primera_etapa"/>
+
                 <templates>
-                    <t t-name="card"> 
-                        <div t-attf-class="oe_kanban_global_click o_kanban_record ">
-                            <div  t-attf-class="prioridad_#{record.prioridad.raw_value} borde-redondeado padding">
+                    <t t-name="card">  
+                        <div t-attf-class="oe_kanban_global_click o_kanban_record">
+                            <div  >
                                 <div id="orden_fabricacion" class="o_primary">
                                     <strong class="of">OF: <field name="orden_fabricacion"/></strong> - <field name="proyecto_id"/>
                                 </div>
                                 <div> 
-                                    <span>
+                                    <span t-attf-class="prioridad_#{record.prioridad.raw_value} padding">
                                         Prioridad: <field name="prioridad"/>
                                     </span><br/>
                                     <span>
@@ -136,7 +137,7 @@
                                 <button name="action_ultima_etapa" string="Finalizar tarea" type="object" class="btn-primary" invisible ="not ultima_etapa"/>
                             </div>
                         </div> 
-                    </t>
+                    </t> 
                 </templates>
             </kanban> 
         </field>

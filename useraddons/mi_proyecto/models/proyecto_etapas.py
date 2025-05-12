@@ -7,7 +7,7 @@ class MiProyectoEtapas(models.Model):
     name = fields.Char(string='Nombre de la Etapa', required=True)
     proyecto_id = fields.Many2one('mi.proyecto', string='Proyecto')
     sequence = fields.Integer(string='Orden',default=0)
-    fold = fields.Boolean(string='Colapsar en Kanban', default=False)
+    fold = fields.Boolean(string='Colapsar en Kanban', default=False)  
 
     _sql_constraints = [
         ('unico_orden_por_proyecto',  
@@ -21,3 +21,5 @@ class MiProyectoEtapas(models.Model):
         if proyecto_id:
             return proyecto_id
         return False
+   
+    

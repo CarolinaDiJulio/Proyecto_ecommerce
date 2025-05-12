@@ -1,0 +1,25 @@
+<odoo>
+    <template id="productosqweb_views" name="Productos Personalizados">
+        <t t-call="website.layout">
+            <div class="container my-5">
+                <h1 class="text-center">Productos de Mi Tienda</h1>
+                <div class="row">
+                    <t t-foreach="productos" t-as="producto">
+                        <div class="col-12 col-md-4 mb-4">
+                            <div class="card h-100">
+                                <t t-if="producto.imagen">
+                                    <img t-att-src="'/web/image/productos/' + str(producto.id) + '/imagen'" class="card-img-top"/>
+                                </t>
+                                <div class="card-body">
+                                    <h5 class="card-title"><t t-esc="producto.name"/></h5>
+                                    <p class="card-text"><t t-esc="producto.precio"/> €</p>
+                                    <a t-att-href="'/mitienda/producto/' + str(producto.id)" class="btn btn-primary">Ver Producto</a>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

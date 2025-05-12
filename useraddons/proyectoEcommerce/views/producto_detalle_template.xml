@@ -1,0 +1,33 @@
+<odoo>
+  <template id="producto_detalle_template" name="Detalle de Producto Personalizado">
+    <t t-call="website.layout">
+      <div class="container my-5" >
+        <div class="row">
+          <div class="col-lg-6">
+            <t t-if="producto.imagen">
+              <img t-att-src="'/web/image/productos/' + str(producto.id) + '/imagen'"
+                   class="img-fluid rounded" alt="Imagen de producto" itemprop="image"/>
+            </t>
+          </div>
+          <div class="col-lg-6">
+            <h1 itemprop="name"><t t-esc="producto.name"/></h1>
+            <p class="lead" itemprop="description"><t t-esc="producto.descripcion"/></p>
+            <p class="h4 text-primary"><t t-esc="producto.precio"/> €</p>
+            <p><strong>Stock:</strong> <t t-esc="producto.stock"/></p>
+            <p><strong>Categoría:</strong> <t t-esc="producto.categoria"/></p>
+
+            <t t-if="producto.stock > 0">
+              <a href="#" class="btn btn-success mt-3">Añadir a la cesta</a>
+            </t>
+            <t t-else="">
+              <p class="text-danger mt-3"><strong>No hay stock disponible</strong></p>
+            </t>
+
+
+            <a href="/mitienda/productos" class="btn btn-outline-secondary mt-3">Volver a productos</a>
+          </div>
+        </div>
+      </div>
+    </t>
+  </template>
+</odoo>

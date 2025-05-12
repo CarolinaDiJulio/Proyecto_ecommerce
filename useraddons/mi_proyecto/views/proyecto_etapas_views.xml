@@ -46,7 +46,7 @@
         <field name="model">proyecto.etapas</field>
         <field name="arch" type="xml">
             <kanban>
-                    <templates>
+                    <templates> 
                         <t t-name="card">
                             <div class="oe_kanban_card">
                                 <div class="oe_kanban_content">
