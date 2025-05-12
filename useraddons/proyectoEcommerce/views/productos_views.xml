@@ -39,6 +39,7 @@
         </field>
     </record>
 
+    <!-- View productos kanban -->
     <record id="view_productos_kanban" model="ir.ui.view">
         <field name="name">view.productos.kanban</field>
         <field name="model">productos</field>
