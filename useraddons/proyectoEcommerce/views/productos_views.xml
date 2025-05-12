@@ -45,25 +45,27 @@
         <field name="model">productos</field>
         <field name="arch" type="xml">
             <kanban class="o_kanban_example">
+                <field name="name"/>
+                <field name="imagen"/>
+                <field name="precio"/>
+                <field name="stock"/>
                 <templates>
                     <t t-name="kanban-box">
                         <div class="oe_kanban_card">
                             <div class="o_kanban_image">
-                                <!-- <t t-if="record.imagen.raw_value">
+                                <t t-if="record.imagen.raw_value">
                                     <img t-att-src="'data:image/png;base64,%s' % record.imagen.raw_value" class="img img-fluid" alt="Imagen del producto"/>
-                                </t> -->
+                                </t>
                             </div>
                             <div class="o_kanban_details">
-                                <strong><field name="name"/></strong><br/>
-                                <span>Precio: <field name="precio"/></span><br/>
-                                <span>Stock: <field name="stock"/></span>
+                                <strong><t t-esc="record.name.raw_value"/></strong><br/>
+                                <span>Precio: <t t-esc="record.precio.raw_value"/></span><br/>
+                                <span>Stock: <t t-esc="record.stock.raw_value"/></span>
                             </div>
                         </div>
                     </t>
                 </templates>
             </kanban>
         </field>
-    </record>
-
-
+    </record> 
 </odoo>
