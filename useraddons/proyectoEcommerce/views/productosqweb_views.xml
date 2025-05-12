@@ -4,6 +4,20 @@
             <div class="container my-5">
                 <h1 class="text-center">Productos de Mi Tienda</h1>
                 <div class="row">
+                    <div class="col-12">
+                        <h5>Filtrar por Precio</h5>
+                        <form action="#" method="GET">
+                            <select name="precio" class="form-control" onchange="this.form.submit()">
+                                <option value="">Todos los precios</option>
+                                <option value="1">Menos de 20€</option>
+                                <option value="2">20€ - 50€</option>
+                                <option value="3">50€ - 100€</option>
+                                <option value="4">Más de 100€</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
                     <t t-foreach="productos" t-as="producto">
                         <div class="col-12 col-md-4 mb-4">
                             <div class="card h-100">

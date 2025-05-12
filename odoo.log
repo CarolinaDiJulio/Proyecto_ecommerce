@@ -20116,3 +20116,1544 @@ AttributeError: 'super' object has no attribute 'headers'
 2025-05-12 10:34:06,350 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:34:06] "POST /mail/data HTTP/1.1" 200 - 31 0.020 0.015
 2025-05-12 10:34:06,372 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:34:06] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.005 0.031
 2025-05-12 10:34:06,382 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:34:06] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.000 0.004
+2025-05-12 10:36:06,021 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:36:06] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.023
+2025-05-12 10:36:06,032 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:06] "GET /web?db=productos HTTP/1.1" 303 - 4 0.001 0.006
+2025-05-12 10:36:06,077 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:06] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.006 0.036
+2025-05-12 10:36:07,691 2820 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 10:36:07,696 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:07] "POST /web/login HTTP/1.1" 303 - 22 0.013 0.612
+2025-05-12 10:36:07,713 2820 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (69dYXW9GBgZov8FC82cuB-93aJiuh9ugrqgSbSCdYW) 
+2025-05-12 10:36:07,731 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:07] "GET /web?db=productos HTTP/1.1" 200 - 21 0.006 0.020
+2025-05-12 10:36:07,961 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:07] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.011
+2025-05-12 10:36:08,072 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:36:08] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.029
+2025-05-12 10:36:08,081 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:08] "GET /web?db=productos HTTP/1.1" 303 - 4 0.001 0.005
+2025-05-12 10:36:08,121 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:08] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.005 0.032
+2025-05-12 10:36:09,419 2820 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 10:36:09,423 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:09] "POST /web/login HTTP/1.1" 303 - 22 0.011 0.593
+2025-05-12 10:36:09,441 2820 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (zrVMhzP6CY5bzXk_iCFLR49ERaail8u0cwfqyxGGbD) 
+2025-05-12 10:36:09,459 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:09] "GET /web?db=productos HTTP/1.1" 200 - 21 0.005 0.022
+2025-05-12 10:36:09,579 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:09] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.009 0.008
+2025-05-12 10:36:09,595 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:09] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.006 0.038
+2025-05-12 10:36:09,657 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:09] "POST /mail/data HTTP/1.1" 200 - 31 0.012 0.017
+2025-05-12 10:36:09,992 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:09] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.001 0.005
+2025-05-12 10:36:09,992 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:09] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.003 0.003
+2025-05-12 10:36:50,632 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:50] "POST /web/dataset/call_kw/productos/web_read HTTP/1.1" 200 - 5 0.003 0.009
+2025-05-12 10:36:52,168 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:36:52] "POST /web/dataset/call_kw/productos/web_search_read HTTP/1.1" 200 - 2 0.001 0.003
+2025-05-12 10:38:13,845 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:38:13] "POST /web/dataset/call_kw/productos/web_read HTTP/1.1" 200 - 4 0.001 0.003
+2025-05-12 10:38:18,527 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:38:18] "POST /web/dataset/call_kw/productos/web_search_read HTTP/1.1" 200 - 2 0.001 0.002
+2025-05-12 10:43:19,465 13892 INFO ? odoo: Odoo version 18.0-20250330 
+2025-05-12 10:43:19,465 13892 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-05-12 10:43:19,465 13892 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-05-12 10:43:19,465 13892 INFO ? odoo: database: openpg@localhost:5432 
+2025-05-12 10:43:19,613 13892 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-05-12 10:43:19,622 13892 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-05-12 10:43:19,817 13892 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-05-12 10:43:19,850 13892 INFO productos odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:43:19,855 13892 INFO productos odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-05-12 10:43:19,873 13892 INFO productos odoo.modules.loading: updating modules list 
+2025-05-12 10:43:19,877 13892 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-05-12 10:43:20,871 13892 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 10:43:20,871 13892 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 10:43:21,423 13892 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-05-12 10:43:21,765 13892 INFO productos odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:43:21,882 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:21] "GET /odoo/action-705 HTTP/1.1" 200 - 40 0.015 0.076
+2025-05-12 10:43:22,410 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:22] "GET /web/assets/debug/web.assets_web.css HTTP/1.1" 304 - 21 0.004 0.490
+2025-05-12 10:43:22,610 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:22] "GET /web/assets/debug/web.assets_web.js HTTP/1.1" 304 - 21 0.005 0.544
+2025-05-12 10:43:22,745 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:22] "GET /web/assets/debug/web.assets_tests.js HTTP/1.1" 304 - 4 0.002 0.023
+2025-05-12 10:43:22,787 13892 INFO productos odoo.modules.loading: Loading module proyectoEcommerce (72/117) 
+2025-05-12 10:43:23,180 13892 INFO productos odoo.modules.registry: module proyectoEcommerce: creating or updating database tables 
+2025-05-12 10:43:23,254 13892 INFO productos odoo.modules.loading: loading proyectoEcommerce/security/ir.model.access.csv 
+2025-05-12 10:43:23,264 13892 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/menus_views.xml 
+2025-05-12 10:43:23,277 13892 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/no_productos_template.xml 
+2025-05-12 10:43:23,287 13892 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/producto_detalle_template.xml 
+2025-05-12 10:43:23,294 13892 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/productosqweb_views.xml 
+2025-05-12 10:43:23,317 13892 INFO productos odoo.addons.base.models.ir_module: module proyectoEcommerce: no translation for language es_ES 
+2025-05-12 10:43:23,351 13892 INFO productos odoo.modules.loading: Module proyectoEcommerce loaded in 0.56s, 103 queries (+103 other) 
+2025-05-12 10:43:23,419 13892 WARNING productos py.warnings: C:\OdooPrograma\server\odoo\api.py:482: DeprecationWarning: The model odoo.addons.mi_proyecto.models.proyecto_tareas is not overriding the create method in batch
+  File "C:\OdooPrograma\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\OdooPrograma\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1417, in start
+    rc = server.run(preload, stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 583, in run
+    rc = preload_registries(preload)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1321, in preload_registries
+    registry = Registry.new(dbname, update_module=update_module)
+  File "C:\OdooPrograma\server\.venv\Lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\OdooPrograma\server\odoo\tools\func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\OdooPrograma\server\odoo\modules\registry.py", line 127, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 477, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 186, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\OdooPrograma\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "c:\odooprograma\server\useraddons\mi_proyecto\__init__.py", line 3, in <module>
+    from . import models
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\__init__.py", line 3, in <module>
+    from . import proyecto_tareas
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 4, in <module>
+    class MiProyectoTarea(models.Model):
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 117, in MiProyectoTarea
+    @api.model
+  File "C:\OdooPrograma\server\odoo\api.py", line 429, in model
+    return model_create_single(method)
+  File "C:\OdooPrograma\server\odoo\api.py", line 482, in model_create_single
+    warnings.warn(
+ 
+2025-05-12 10:43:23,468 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:23] "GET /web/assets/debug/web.assets_web_print.css HTTP/1.1" 304 - 21 0.001 0.444
+2025-05-12 10:43:23,580 13892 INFO productos odoo.modules.loading: 117 modules loaded in 1.81s, 103 queries (+103 extra) 
+2025-05-12 10:43:23,794 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:43:23] "GET /web/static/img/favicon.ico HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:43:23,815 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:23] "POST /mail/data HTTP/1.1" 200 - 31 0.013 0.010
+2025-05-12 10:43:24,064 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:24] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.002 0.005
+2025-05-12 10:43:24,410 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:24] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.008 0.024
+2025-05-12 10:43:24,724 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:43:24] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:43:24,737 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:24] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.004 0.011
+2025-05-12 10:43:24,818 13892 INFO productos odoo.modules.loading: Modules loaded. 
+2025-05-12 10:43:24,822 13892 INFO productos odoo.modules.registry: Registry changed, signaling through the database 
+2025-05-12 10:43:24,823 13892 INFO productos odoo.modules.registry: Registry loaded in 5.005s 
+2025-05-12 10:43:24,898 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:43:24] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:43:24,987 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:43:24] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:43:25,034 2820 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-05-12 10:43:25,037 2820 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:43:25,043 2820 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-05-12 10:43:25,052 2820 INFO ? odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:43:25,111 2820 INFO ? odoo.modules.loading: 117 modules loaded in 0.06s, 0 queries (+0 extra) 
+2025-05-12 10:43:25,276 2820 INFO ? odoo.modules.loading: Modules loaded. 
+2025-05-12 10:43:25,279 2820 INFO ? odoo.modules.registry: Registry loaded in 0.245s 
+2025-05-12 10:43:25,280 2820 INFO productos odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-05-12 10:43:25,281 2820 INFO productos odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-05-12 10:43:25,425 2820 INFO productos odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-05-12 10:43:25,520 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:25] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 10 0.029 0.380
+2025-05-12 10:43:25,520 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:25] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 12 0.052 0.342
+2025-05-12 10:43:25,523 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:25] "GET /web/service-worker.js HTTP/1.1" 200 - 8 0.079 0.190
+2025-05-12 10:43:25,541 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:25] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 36 0.033 0.475
+2025-05-12 10:43:25,562 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:25] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 12 0.055 0.457
+2025-05-12 10:43:26,039 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:26] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 22 0.022 0.138
+2025-05-12 10:43:26,243 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:26] "GET /web/bundle/website.assets_all_wysiwyg?lang=es_ES&debug=assets,tests&website_id=1 HTTP/1.1" 200 - 17 0.004 0.085
+2025-05-12 10:43:26,580 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:26] "GET /web/assets/1/debug/website.assets_all_wysiwyg.css HTTP/1.1" 304 - 8 0.006 0.022
+2025-05-12 10:43:26,583 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:26] "GET /web/assets/1/debug/website.assets_all_wysiwyg.js HTTP/1.1" 304 - 4 0.005 0.024
+2025-05-12 10:43:28,381 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:28] "GET /mitienda/productos HTTP/1.1" 200 - 183 0.072 0.450
+2025-05-12 10:43:28,412 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:43:28] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:43:28,723 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:28] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.003 0.004
+2025-05-12 10:43:28,732 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:28] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.000 0.016
+2025-05-12 10:43:29,029 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:43:29] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:43:29,061 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:43:29] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:43:29,069 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:29] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.002 0.006
+2025-05-12 10:43:29,069 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:29] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.002 0.005
+2025-05-12 10:43:29,081 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:29] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.004 0.017
+2025-05-12 10:43:29,408 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:43:29] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.007
+2025-05-12 10:43:29,437 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:29] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.003 0.031
+2025-05-12 10:43:33,020 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:33] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 16 0.007 0.031
+2025-05-12 10:43:33,317 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:33] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.006 0.014
+2025-05-12 10:43:33,349 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:43:33] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:43:33,628 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:43:33] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.005
+2025-05-12 10:43:33,631 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:43:33] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:43:33,683 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:33] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.003 0.007
+2025-05-12 10:43:33,685 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:33] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.001 0.012
+2025-05-12 10:43:33,686 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:33] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.005 0.005
+2025-05-12 10:43:33,697 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:33] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.003 0.022
+2025-05-12 10:43:34,025 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:43:34] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:43:34,046 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:34] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.005 0.031
+2025-05-12 10:43:36,992 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:36] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.012 0.018
+2025-05-12 10:43:37,284 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:43:37] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.003
+2025-05-12 10:43:37,284 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:43:37] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.003
+2025-05-12 10:43:37,299 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:37] "POST /web/action/load HTTP/1.1" 200 - 10 0.010 0.007
+2025-05-12 10:43:37,343 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:37] "POST /mail/data HTTP/1.1" 200 - 47 0.039 0.021
+2025-05-12 10:43:37,662 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:37] "POST /web/dataset/call_kw/productos/get_views HTTP/1.1" 200 - 20 0.008 0.045
+2025-05-12 10:43:37,980 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:37] "POST /web/dataset/call_kw/productos/web_search_read HTTP/1.1" 200 - 3 0.001 0.002
+2025-05-12 10:43:38,696 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:38] "POST /web/dataset/call_kw/productos/web_search_read HTTP/1.1" 200 - 2 0.002 0.001
+2025-05-12 10:43:39,897 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:43:39] "POST /web/dataset/call_kw/productos/onchange HTTP/1.1" 200 - 2 0.003 0.008
+2025-05-12 10:44:07,536 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:07] "POST /web/dataset/call_kw/productos/web_save HTTP/1.1" 200 - 10 0.003 0.012
+2025-05-12 10:44:11,267 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:11] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 16 0.010 0.131
+2025-05-12 10:44:11,275 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:44:11] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:44:11,400 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:11] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.003 0.011
+2025-05-12 10:44:11,576 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:44:11] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:44:11,580 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:11] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.003 0.002
+2025-05-12 10:44:11,720 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:11] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.002 0.003
+2025-05-12 10:44:11,907 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:11] "POST /web/dataset/call_kw/productos/web_search_read HTTP/1.1" 200 - 2 0.005 0.014
+2025-05-12 10:44:11,913 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:11] "GET /web/image/productos/10/imagen HTTP/1.1" 200 - 5 0.006 0.017
+2025-05-12 10:44:12,036 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:12] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.003 0.006
+2025-05-12 10:44:12,146 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:12] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.000 0.011
+2025-05-12 10:44:12,482 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:44:12] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.006
+2025-05-12 10:44:12,483 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:44:12] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.005
+2025-05-12 10:44:12,763 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:12] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.003 0.035
+2025-05-12 10:44:25,143 13892 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-05-12 10:44:25,180 13892 INFO productos odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-05-12 10:44:25,190 13892 INFO productos odoo.models.unlink: User #1 deleted ir.cron.progress records with IDs: [243, 244, 245, 246] 
+2025-05-12 10:44:25,271 13892 INFO productos odoo.addons.base.models.res_users: GC'd 20 user log entries 
+2025-05-12 10:44:25,279 13892 INFO productos odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-05-12 10:44:25,283 13892 INFO productos odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-05-12 10:44:25,284 13892 INFO productos odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-05-12 10:44:25,295 13892 INFO productos odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-05-12 10:44:25,302 13892 INFO productos odoo.models.unlink: User #1 deleted bus.bus records with IDs: [2535, 2536, 2537, 2538, 2539, 2540, 2541, 2542, 2543, 2544, 2545, 2546, 2547, 2548] 
+2025-05-12 10:44:25,397 13892 INFO productos odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-05-12 10:44:25,591 13892 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.447s 
+2025-05-12 10:44:25,592 13892 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-05-12 10:44:25,594 13892 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-05-12 10:44:25,845 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:25] "GET /mitienda/productos?precio=3 HTTP/1.1" 200 - 16 0.009 0.029
+2025-05-12 10:44:26,157 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:44:26] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:44:26,166 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:26] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.006 0.036
+2025-05-12 10:44:26,470 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:44:26] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:44:26,474 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:44:26] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:44:26,506 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:26] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.003 0.007
+2025-05-12 10:44:26,506 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:26] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.003 0.006
+2025-05-12 10:44:26,508 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:26] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.003 0.010
+2025-05-12 10:44:26,520 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:26] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.001 0.024
+2025-05-12 10:44:26,778 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:26] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.000 0.004
+2025-05-12 10:44:26,846 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:44:26] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.008
+2025-05-12 10:44:26,876 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:44:26] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.005 0.031
+2025-05-12 10:45:45,039 13892 INFO productos odoo.service.server: Initiating shutdown 
+2025-05-12 10:45:45,039 13892 INFO productos odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-05-12 10:45:45,324 13892 INFO productos odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2025-05-12 10:45:46,814 11004 INFO ? odoo: Odoo version 18.0-20250330 
+2025-05-12 10:45:46,814 11004 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-05-12 10:45:46,814 11004 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-05-12 10:45:46,815 11004 INFO ? odoo: database: openpg@localhost:5432 
+2025-05-12 10:45:46,964 11004 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-05-12 10:45:46,972 11004 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-05-12 10:45:47,158 11004 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-05-12 10:45:47,190 11004 INFO productos odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:45:47,195 11004 INFO productos odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-05-12 10:45:47,213 11004 INFO productos odoo.modules.loading: updating modules list 
+2025-05-12 10:45:47,217 11004 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-05-12 10:45:48,209 11004 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 10:45:48,209 11004 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 10:45:48,751 11004 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-05-12 10:45:49,088 11004 INFO productos odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:45:49,370 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:45:49] "GET /mitienda/productos?precio=3 HTTP/1.1" 200 - 16 0.006 0.030
+2025-05-12 10:45:49,378 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:45:49] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:45:49,616 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:45:49] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.002 0.014
+2025-05-12 10:45:49,697 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:45:49] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:45:49,934 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:45:49] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:45:49,975 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:45:49] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.004 0.006
+2025-05-12 10:45:49,975 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:45:49] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.002 0.007
+2025-05-12 10:45:49,980 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:45:49] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.003 0.012
+2025-05-12 10:45:49,988 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:45:49] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.000 0.023
+2025-05-12 10:45:50,006 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:45:50] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.000 0.007
+2025-05-12 10:45:50,052 11004 INFO productos odoo.modules.loading: Loading module proyectoEcommerce (72/117) 
+2025-05-12 10:45:50,313 2820 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:45:50] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:45:50,337 2820 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:45:50] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.002 0.023
+2025-05-12 10:45:50,413 11004 INFO productos odoo.modules.registry: module proyectoEcommerce: creating or updating database tables 
+2025-05-12 10:45:50,483 11004 INFO productos odoo.modules.loading: loading proyectoEcommerce/security/ir.model.access.csv 
+2025-05-12 10:45:50,493 11004 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/menus_views.xml 
+2025-05-12 10:45:50,504 11004 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/no_productos_template.xml 
+2025-05-12 10:45:50,513 11004 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/producto_detalle_template.xml 
+2025-05-12 10:45:50,519 11004 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/productosqweb_views.xml 
+2025-05-12 10:45:50,528 11004 INFO productos odoo.addons.base.models.ir_module: module proyectoEcommerce: no translation for language es_ES 
+2025-05-12 10:45:50,558 11004 INFO productos odoo.modules.loading: Module proyectoEcommerce loaded in 0.51s, 102 queries (+102 other) 
+2025-05-12 10:45:50,619 11004 WARNING productos py.warnings: C:\OdooPrograma\server\odoo\api.py:482: DeprecationWarning: The model odoo.addons.mi_proyecto.models.proyecto_tareas is not overriding the create method in batch
+  File "C:\OdooPrograma\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\OdooPrograma\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1417, in start
+    rc = server.run(preload, stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 583, in run
+    rc = preload_registries(preload)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1321, in preload_registries
+    registry = Registry.new(dbname, update_module=update_module)
+  File "C:\OdooPrograma\server\.venv\Lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\OdooPrograma\server\odoo\tools\func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\OdooPrograma\server\odoo\modules\registry.py", line 127, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 477, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 186, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\OdooPrograma\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "c:\odooprograma\server\useraddons\mi_proyecto\__init__.py", line 3, in <module>
+    from . import models
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\__init__.py", line 3, in <module>
+    from . import proyecto_tareas
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 4, in <module>
+    class MiProyectoTarea(models.Model):
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 117, in MiProyectoTarea
+    @api.model
+  File "C:\OdooPrograma\server\odoo\api.py", line 429, in model
+    return model_create_single(method)
+  File "C:\OdooPrograma\server\odoo\api.py", line 482, in model_create_single
+    warnings.warn(
+ 
+2025-05-12 10:45:50,780 11004 INFO productos odoo.modules.loading: 117 modules loaded in 1.69s, 102 queries (+102 extra) 
+2025-05-12 10:45:51,975 11004 INFO productos odoo.modules.loading: Modules loaded. 
+2025-05-12 10:45:51,980 11004 INFO productos odoo.modules.registry: Registry changed, signaling through the database 
+2025-05-12 10:45:51,980 11004 INFO productos odoo.modules.registry: Registry loaded in 4.822s 
+2025-05-12 10:46:31,578 11004 INFO productos odoo.service.server: Initiating shutdown 
+2025-05-12 10:46:31,578 11004 INFO productos odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-05-12 10:46:31,590 11004 INFO productos odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-05-12 10:46:33,527 13148 INFO ? odoo: Odoo version 18.0-20250330 
+2025-05-12 10:46:33,527 13148 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-05-12 10:46:33,527 13148 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-05-12 10:46:33,527 13148 INFO ? odoo: database: openpg@localhost:5432 
+2025-05-12 10:46:33,669 13148 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-05-12 10:46:33,676 13148 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-05-12 10:46:33,867 13148 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-05-12 10:46:33,900 13148 INFO productos odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:46:33,905 13148 INFO productos odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-05-12 10:46:33,923 13148 INFO productos odoo.modules.loading: updating modules list 
+2025-05-12 10:46:33,927 13148 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-05-12 10:46:34,875 13148 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 10:46:34,875 13148 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 10:46:35,413 13148 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-05-12 10:46:35,741 13148 INFO productos odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:46:36,662 13148 INFO productos odoo.modules.loading: Loading module proyectoEcommerce (72/117) 
+2025-05-12 10:46:37,022 13148 INFO productos odoo.modules.registry: module proyectoEcommerce: creating or updating database tables 
+2025-05-12 10:46:37,095 13148 INFO productos odoo.modules.loading: loading proyectoEcommerce/security/ir.model.access.csv 
+2025-05-12 10:46:37,105 13148 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/menus_views.xml 
+2025-05-12 10:46:37,116 13148 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/no_productos_template.xml 
+2025-05-12 10:46:37,127 13148 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/producto_detalle_template.xml 
+2025-05-12 10:46:37,133 13148 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/productosqweb_views.xml 
+2025-05-12 10:46:37,142 13148 INFO productos odoo.addons.base.models.ir_module: module proyectoEcommerce: no translation for language es_ES 
+2025-05-12 10:46:37,171 13148 INFO productos odoo.modules.loading: Module proyectoEcommerce loaded in 0.51s, 101 queries (+101 other) 
+2025-05-12 10:46:37,232 13148 WARNING productos py.warnings: C:\OdooPrograma\server\odoo\api.py:482: DeprecationWarning: The model odoo.addons.mi_proyecto.models.proyecto_tareas is not overriding the create method in batch
+  File "C:\OdooPrograma\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\OdooPrograma\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1417, in start
+    rc = server.run(preload, stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 583, in run
+    rc = preload_registries(preload)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1321, in preload_registries
+    registry = Registry.new(dbname, update_module=update_module)
+  File "C:\OdooPrograma\server\.venv\Lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\OdooPrograma\server\odoo\tools\func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\OdooPrograma\server\odoo\modules\registry.py", line 127, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 477, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 186, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\OdooPrograma\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "c:\odooprograma\server\useraddons\mi_proyecto\__init__.py", line 3, in <module>
+    from . import models
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\__init__.py", line 3, in <module>
+    from . import proyecto_tareas
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 4, in <module>
+    class MiProyectoTarea(models.Model):
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 117, in MiProyectoTarea
+    @api.model
+  File "C:\OdooPrograma\server\odoo\api.py", line 429, in model
+    return model_create_single(method)
+  File "C:\OdooPrograma\server\odoo\api.py", line 482, in model_create_single
+    warnings.warn(
+ 
+2025-05-12 10:46:37,380 13148 INFO productos odoo.modules.loading: 117 modules loaded in 1.64s, 101 queries (+101 extra) 
+2025-05-12 10:46:38,113 2820 INFO ? odoo.service.server: Initiating shutdown 
+2025-05-12 10:46:38,113 2820 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-05-12 10:46:38,338 2820 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 7 connections  
+2025-05-12 10:46:38,600 13148 INFO productos odoo.modules.loading: Modules loaded. 
+2025-05-12 10:46:38,605 13148 INFO productos odoo.modules.registry: Registry changed, signaling through the database 
+2025-05-12 10:46:38,605 13148 INFO productos odoo.modules.registry: Registry loaded in 4.738s 
+2025-05-12 10:46:40,106 13148 INFO productos odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-05-12 10:46:40,149 13148 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:46:40] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 9 0.003 0.043
+2025-05-12 10:46:40,471 12540 INFO ? odoo: Odoo version 18.0-20250330 
+2025-05-12 10:46:40,471 12540 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-05-12 10:46:40,471 12540 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-05-12 10:46:40,471 12540 INFO ? odoo: database: openpg@localhost:5432 
+2025-05-12 10:46:40,480 13148 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-05-12 10:46:40,609 12540 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-05-12 10:46:40,618 12540 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-05-12 10:46:40,875 12540 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-05-12 10:46:41,026 13148 WARNING productos odoo.addons.website.models.ir_ui_view: Could not find view object with xml_id 'mi_tienda.productosqweb_views' 
+2025-05-12 10:46:41,068 13148 ERROR productos odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\tools\cache.py", line 103, in lookup
+    r = d[key]
+        ~^^^^^
+  File "C:\OdooPrograma\server\.venv\Lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\tools\func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\tools\lru.py", line 33, in __getitem__
+    a = self.d[obj]
+        ~~~~~~^^^^^
+KeyError: ('ir.ui.view', <function View._get_view_id at 0x0000024146515BC0>, 2, False, 'mi_tienda.productosqweb_views', 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1899, in _serve_db
+    return self._transactioning(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1962, in _transactioning
+    return service_model.retrying(func, env=self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\service\model.py", line 156, in retrying
+    result = func()
+             ^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1929, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 2090, in dispatch
+    return self.request.registry['ir.http']._dispatch(endpoint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_http.py", line 335, in _dispatch
+    result.flatten()
+  File "C:\OdooPrograma\server\odoo\http.py", line 1389, in flatten
+    self.response.append(self.render())
+                         ^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\http.py", line 1381, in render
+    return request.env["ir.ui.view"]._render_template(self.template, self.qcontext)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\website\models\ir_ui_view.py", line 447, in _render_template
+    view = self._get(template).sudo()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\base\models\ir_ui_view.py", line 2093, in _get
+    return self.browse(self._get_view_id(view_ref))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\.venv\Lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\tools\cache.py", line 110, in lookup
+    value = d[key] = self.method(*args, **kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\OdooPrograma\server\odoo\addons\website\models\ir_ui_view.py", line 400, in _get_view_id
+    raise ValueError('View %r in website %r not found' % (xml_id, self._context['website_id']))
+ValueError: View 'mi_tienda.productosqweb_views' in website 1 not found
+2025-05-12 10:46:41,069 13148 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /mitienda/productos?precio=3 HTTP/1.1" 500 - 18 0.011 0.045
+2025-05-12 10:46:41,175 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 304 - 0 0.000 0.097
+2025-05-12 10:46:41,335 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 304 - 0 0.000 0.056
+2025-05-12 10:46:41,388 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /web/static/lib/bootstrap/js/dist/util/index.js HTTP/1.1" 304 - 0 0.000 0.003
+2025-05-12 10:46:41,388 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 304 - 0 0.000 0.003
+2025-05-12 10:46:41,389 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:46:41,390 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:46:41,482 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:46:41,647 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /web/static/lib/bootstrap/js/dist/util/config.js HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:46:41,699 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:46:41,701 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /web/static/lib/bootstrap/js/dist/util/component-functions.js HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:46:41,702 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /web/static/lib/bootstrap/js/dist/util/backdrop.js HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:46:41,702 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /web/static/lib/bootstrap/js/dist/util/focustrap.js HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:46:41,788 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /web/static/lib/bootstrap/js/dist/util/scrollbar.js HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:46:41,963 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:41] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 304 - 0 0.000 0.003
+2025-05-12 10:46:42,057 13148 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:46:42] "GET /web/static/lib/bootstrap/js/dist/collapse.js HTTP/1.1" 304 - 0 0.000 0.052
+2025-05-12 10:47:07,459 13148 INFO productos odoo.service.server: Initiating shutdown 
+2025-05-12 10:47:07,459 13148 INFO productos odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-05-12 10:47:07,555 13148 INFO productos odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 4 connections  
+2025-05-12 10:47:09,687 7868 INFO ? odoo: Odoo version 18.0-20250330 
+2025-05-12 10:47:09,687 7868 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-05-12 10:47:09,687 7868 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-05-12 10:47:09,688 7868 INFO ? odoo: database: openpg@localhost:5432 
+2025-05-12 10:47:09,827 7868 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-05-12 10:47:09,835 7868 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-05-12 10:47:09,887 12540 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:47:09,893 12540 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-05-12 10:47:09,969 12540 INFO ? odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:47:10,040 7868 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-05-12 10:47:10,075 7868 INFO productos odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:47:10,081 7868 INFO productos odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-05-12 10:47:10,100 7868 INFO productos odoo.modules.loading: updating modules list 
+2025-05-12 10:47:10,103 7868 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-05-12 10:47:11,037 7868 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 10:47:11,037 7868 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 10:47:11,054 12540 WARNING ? py.warnings: C:\OdooPrograma\server\odoo\api.py:482: DeprecationWarning: The model odoo.addons.mi_proyecto.models.proyecto_tareas is not overriding the create method in batch
+  File "C:\OdooPrograma\python\Lib\threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "C:\OdooPrograma\python\Lib\threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "C:\OdooPrograma\python\Lib\threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\OdooPrograma\python\Lib\socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "C:\OdooPrograma\python\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "C:\OdooPrograma\python\Lib\socketserver.py", line 761, in __init__
+    self.handle()
+  File "C:\OdooPrograma\python\Lib\site-packages\werkzeug\serving.py", line 390, in handle
+    super().handle()
+  File "C:\OdooPrograma\python\Lib\http\server.py", line 436, in handle
+    self.handle_one_request()
+  File "C:\OdooPrograma\python\Lib\http\server.py", line 424, in handle_one_request
+    method()
+  File "C:\OdooPrograma\python\Lib\site-packages\werkzeug\serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "C:\OdooPrograma\python\Lib\site-packages\werkzeug\serving.py", line 323, in execute
+    application_iter = app(environ, start_response)
+  File "C:\OdooPrograma\server\odoo\http.py", line 2372, in __call__
+    response = request._serve_db()
+  File "C:\OdooPrograma\server\odoo\http.py", line 1876, in _serve_db
+    self.registry, cr_readwrite = self._open_registry()
+  File "C:\OdooPrograma\server\odoo\http.py", line 1486, in _open_registry
+    registry = Registry(self.db)
+  File "C:\OdooPrograma\server\odoo\modules\registry.py", line 106, in __new__
+    return cls.new(db_name)
+  File "C:\OdooPrograma\python\Lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\OdooPrograma\server\odoo\tools\func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\OdooPrograma\server\odoo\modules\registry.py", line 127, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 477, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 186, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\OdooPrograma\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "c:\odooprograma\server\useraddons\mi_proyecto\__init__.py", line 3, in <module>
+    from . import models
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\__init__.py", line 3, in <module>
+    from . import proyecto_tareas
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 4, in <module>
+    class MiProyectoTarea(models.Model):
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 117, in MiProyectoTarea
+    @api.model
+  File "C:\OdooPrograma\server\odoo\api.py", line 429, in model
+    return model_create_single(method)
+  File "C:\OdooPrograma\server\odoo\api.py", line 482, in model_create_single
+    warnings.warn(
+ 
+2025-05-12 10:47:11,220 12540 INFO ? odoo.modules.loading: 117 modules loaded in 1.25s, 0 queries (+0 extra) 
+2025-05-12 10:47:11,414 12540 INFO ? odoo.modules.loading: Modules loaded. 
+2025-05-12 10:47:11,420 12540 INFO ? odoo.modules.registry: Registry loaded in 1.562s 
+2025-05-12 10:47:11,422 12540 INFO productos odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-05-12 10:47:11,527 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:47:11] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 23 0.022 1.648
+2025-05-12 10:47:11,591 7868 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-05-12 10:47:11,865 12540 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-05-12 10:47:11,939 7868 INFO productos odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:47:12,846 7868 INFO productos odoo.modules.loading: Loading module proyectoEcommerce (72/117) 
+2025-05-12 10:47:13,194 7868 INFO productos odoo.modules.registry: module proyectoEcommerce: creating or updating database tables 
+2025-05-12 10:47:13,263 7868 INFO productos odoo.modules.loading: loading proyectoEcommerce/security/ir.model.access.csv 
+2025-05-12 10:47:13,272 7868 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/menus_views.xml 
+2025-05-12 10:47:13,284 7868 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/no_productos_template.xml 
+2025-05-12 10:47:13,294 7868 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/producto_detalle_template.xml 
+2025-05-12 10:47:13,300 7868 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/productosqweb_views.xml 
+2025-05-12 10:47:13,309 7868 INFO productos odoo.addons.base.models.ir_module: module proyectoEcommerce: no translation for language es_ES 
+2025-05-12 10:47:13,339 7868 INFO productos odoo.modules.loading: Module proyectoEcommerce loaded in 0.49s, 101 queries (+101 other) 
+2025-05-12 10:47:13,402 7868 WARNING productos py.warnings: C:\OdooPrograma\server\odoo\api.py:482: DeprecationWarning: The model odoo.addons.mi_proyecto.models.proyecto_tareas is not overriding the create method in batch
+  File "C:\OdooPrograma\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\OdooPrograma\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1417, in start
+    rc = server.run(preload, stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 583, in run
+    rc = preload_registries(preload)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1321, in preload_registries
+    registry = Registry.new(dbname, update_module=update_module)
+  File "C:\OdooPrograma\server\.venv\Lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\OdooPrograma\server\odoo\tools\func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\OdooPrograma\server\odoo\modules\registry.py", line 127, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 477, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 186, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\OdooPrograma\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "c:\odooprograma\server\useraddons\mi_proyecto\__init__.py", line 3, in <module>
+    from . import models
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\__init__.py", line 3, in <module>
+    from . import proyecto_tareas
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 4, in <module>
+    class MiProyectoTarea(models.Model):
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 117, in MiProyectoTarea
+    @api.model
+  File "C:\OdooPrograma\server\odoo\api.py", line 429, in model
+    return model_create_single(method)
+  File "C:\OdooPrograma\server\odoo\api.py", line 482, in model_create_single
+    warnings.warn(
+ 
+2025-05-12 10:47:13,550 7868 INFO productos odoo.modules.loading: 117 modules loaded in 1.61s, 101 queries (+101 extra) 
+2025-05-12 10:47:14,852 7868 INFO productos odoo.modules.loading: Modules loaded. 
+2025-05-12 10:47:14,857 7868 INFO productos odoo.modules.registry: Registry changed, signaling through the database 
+2025-05-12 10:47:14,858 7868 INFO productos odoo.modules.registry: Registry loaded in 4.818s 
+2025-05-12 10:47:16,632 7868 INFO productos odoo.service.server: Initiating shutdown 
+2025-05-12 10:47:16,632 7868 INFO productos odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-05-12 10:47:16,672 7868 INFO productos odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-05-12 10:47:18,142 15756 INFO ? odoo: Odoo version 18.0-20250330 
+2025-05-12 10:47:18,142 15756 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-05-12 10:47:18,142 15756 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-05-12 10:47:18,143 15756 INFO ? odoo: database: openpg@localhost:5432 
+2025-05-12 10:47:18,286 15756 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-05-12 10:47:18,294 15756 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-05-12 10:47:18,483 15756 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-05-12 10:47:18,517 15756 INFO productos odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:47:18,522 15756 INFO productos odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-05-12 10:47:18,540 15756 INFO productos odoo.modules.loading: updating modules list 
+2025-05-12 10:47:18,544 15756 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-05-12 10:47:19,506 15756 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 10:47:19,506 15756 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 10:47:20,050 15756 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-05-12 10:47:20,392 15756 INFO productos odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:47:20,710 12540 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-05-12 10:47:20,840 12540 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:47:20,847 12540 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-05-12 10:47:20,856 12540 INFO ? odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:47:20,924 12540 INFO ? odoo.modules.loading: 117 modules loaded in 0.07s, 0 queries (+0 extra) 
+2025-05-12 10:47:21,099 12540 INFO ? odoo.modules.loading: Modules loaded. 
+2025-05-12 10:47:21,105 12540 INFO ? odoo.modules.registry: Registry loaded in 0.395s 
+2025-05-12 10:47:21,106 12540 INFO productos odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-05-12 10:47:21,341 15756 INFO productos odoo.modules.loading: Loading module proyectoEcommerce (72/117) 
+2025-05-12 10:47:21,684 15756 INFO productos odoo.modules.registry: module proyectoEcommerce: creating or updating database tables 
+2025-05-12 10:47:21,752 15756 INFO productos odoo.modules.loading: loading proyectoEcommerce/security/ir.model.access.csv 
+2025-05-12 10:47:21,761 15756 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/menus_views.xml 
+2025-05-12 10:47:21,773 15756 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/no_productos_template.xml 
+2025-05-12 10:47:21,784 15756 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/producto_detalle_template.xml 
+2025-05-12 10:47:21,790 15756 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/productosqweb_views.xml 
+2025-05-12 10:47:21,799 15756 INFO productos odoo.addons.base.models.ir_module: module proyectoEcommerce: no translation for language es_ES 
+2025-05-12 10:47:21,831 15756 INFO productos odoo.modules.loading: Module proyectoEcommerce loaded in 0.49s, 101 queries (+101 other) 
+2025-05-12 10:47:21,892 15756 WARNING productos py.warnings: C:\OdooPrograma\server\odoo\api.py:482: DeprecationWarning: The model odoo.addons.mi_proyecto.models.proyecto_tareas is not overriding the create method in batch
+  File "C:\OdooPrograma\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\OdooPrograma\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1417, in start
+    rc = server.run(preload, stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 583, in run
+    rc = preload_registries(preload)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1321, in preload_registries
+    registry = Registry.new(dbname, update_module=update_module)
+  File "C:\OdooPrograma\server\.venv\Lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\OdooPrograma\server\odoo\tools\func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\OdooPrograma\server\odoo\modules\registry.py", line 127, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 477, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 186, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\OdooPrograma\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "c:\odooprograma\server\useraddons\mi_proyecto\__init__.py", line 3, in <module>
+    from . import models
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\__init__.py", line 3, in <module>
+    from . import proyecto_tareas
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 4, in <module>
+    class MiProyectoTarea(models.Model):
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 117, in MiProyectoTarea
+    @api.model
+  File "C:\OdooPrograma\server\odoo\api.py", line 429, in model
+    return model_create_single(method)
+  File "C:\OdooPrograma\server\odoo\api.py", line 482, in model_create_single
+    warnings.warn(
+ 
+2025-05-12 10:47:22,047 15756 INFO productos odoo.modules.loading: 117 modules loaded in 1.65s, 101 queries (+101 extra) 
+2025-05-12 10:47:22,458 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:47:22] "GET /mitienda/productos?precio=3 HTTP/1.1" 200 - 230 0.125 1.625
+2025-05-12 10:47:23,008 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:47:23] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.545
+2025-05-12 10:47:23,022 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:47:23] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.003 0.555
+2025-05-12 10:47:23,300 15756 INFO productos odoo.modules.loading: Modules loaded. 
+2025-05-12 10:47:23,305 15756 INFO productos odoo.modules.registry: Registry changed, signaling through the database 
+2025-05-12 10:47:23,306 15756 INFO productos odoo.modules.registry: Registry loaded in 4.821s 
+2025-05-12 10:47:23,317 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:47:23] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:47:23,333 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:47:23] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:47:23,349 12540 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-05-12 10:47:23,349 12540 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-05-12 10:47:23,370 12540 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-05-12 10:47:23,396 12540 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:47:23,402 12540 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-05-12 10:47:23,411 12540 INFO ? odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:47:23,468 12540 INFO ? odoo.modules.loading: 117 modules loaded in 0.06s, 0 queries (+0 extra) 
+2025-05-12 10:47:23,636 12540 INFO ? odoo.modules.loading: Modules loaded. 
+2025-05-12 10:47:23,641 12540 INFO ? odoo.modules.registry: Registry loaded in 0.292s 
+2025-05-12 10:47:23,642 12540 INFO productos odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-05-12 10:47:23,645 12540 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:47:23,650 12540 INFO ? odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-05-12 10:47:23,658 12540 INFO ? odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:47:23,715 12540 INFO ? odoo.modules.loading: 117 modules loaded in 0.06s, 0 queries (+0 extra) 
+2025-05-12 10:47:23,974 12540 INFO ? odoo.modules.loading: Modules loaded. 
+2025-05-12 10:47:23,978 12540 INFO ? odoo.modules.registry: Registry loaded in 0.336s 
+2025-05-12 10:47:23,980 12540 INFO productos odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-05-12 10:47:23,981 12540 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:47:23,986 12540 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-05-12 10:47:23,994 12540 INFO ? odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:47:24,052 12540 INFO ? odoo.modules.loading: 117 modules loaded in 0.06s, 0 queries (+0 extra) 
+2025-05-12 10:47:24,217 12540 INFO ? odoo.modules.loading: Modules loaded. 
+2025-05-12 10:47:24,220 12540 INFO ? odoo.modules.registry: Registry loaded in 0.242s 
+2025-05-12 10:47:24,285 12540 INFO productos odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-05-12 10:47:24,453 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:47:24] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 25 0.096 1.009
+2025-05-12 10:47:24,456 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:47:24] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 39 0.169 0.941
+2025-05-12 10:47:24,481 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:47:24] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 32 0.201 0.933
+2025-05-12 10:47:24,822 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:47:24] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.011
+2025-05-12 10:47:24,951 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:47:24] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 22 0.021 0.134
+2025-05-12 10:47:26,179 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:47:26] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 183 0.069 0.435
+2025-05-12 10:47:26,187 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:47:26] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:47:26,533 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:47:26] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.009 0.019
+2025-05-12 10:47:26,550 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:47:26] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.011 0.037
+2025-05-12 10:47:26,846 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:47:26] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:47:26,874 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:47:26] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.003
+2025-05-12 10:47:26,884 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:47:26] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.004 0.007
+2025-05-12 10:47:26,885 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:47:26] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.003 0.008
+2025-05-12 10:47:26,895 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:47:26] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.003 0.020
+2025-05-12 10:47:27,229 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:47:27] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:47:27,238 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:47:27] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.002 0.023
+2025-05-12 10:47:40,994 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-05-12 10:47:41,030 12540 INFO productos odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-05-12 10:47:41,037 12540 INFO productos odoo.models.unlink: User #1 deleted ir.cron.progress records with IDs: [247, 248] 
+2025-05-12 10:47:41,122 12540 INFO productos odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-05-12 10:47:41,129 12540 INFO productos odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-05-12 10:47:41,133 12540 INFO productos odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-05-12 10:47:41,134 12540 INFO productos odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-05-12 10:47:41,146 12540 INFO productos odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-05-12 10:47:41,252 12540 INFO productos odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-05-12 10:47:41,465 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.470s 
+2025-05-12 10:47:41,467 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-05-12 10:47:41,469 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-05-12 10:48:06,908 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:06] "GET /mitienda/productos?precio=4 HTTP/1.1" 200 - 13 0.008 0.026
+2025-05-12 10:48:07,219 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:07] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.005 0.022
+2025-05-12 10:48:07,222 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:07] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:48:07,536 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:07] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:48:07,539 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:07] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:48:07,554 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:07] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.002 0.005
+2025-05-12 10:48:07,563 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:07] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.001 0.014
+2025-05-12 10:48:07,891 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:07] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:48:07,911 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:07] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.003 0.033
+2025-05-12 10:48:11,565 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:11] "GET /mitienda/productos?precio=3 HTTP/1.1" 200 - 16 0.007 0.026
+2025-05-12 10:48:11,849 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:11] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.004 0.009
+2025-05-12 10:48:11,889 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:11] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:48:12,172 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:12] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.007
+2025-05-12 10:48:12,174 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:12] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.007
+2025-05-12 10:48:12,249 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:12] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.008 0.024
+2025-05-12 10:48:12,253 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:12] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.010 0.031
+2025-05-12 10:48:12,265 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:12] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.006 0.046
+2025-05-12 10:48:12,591 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:12] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.006
+2025-05-12 10:48:12,616 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:12] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.006 0.028
+2025-05-12 10:48:13,997 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:13] "GET /mitienda/productos?precio=2 HTTP/1.1" 200 - 13 0.008 0.026
+2025-05-12 10:48:14,287 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:14] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.002 0.014
+2025-05-12 10:48:14,319 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:14] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:48:14,607 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:14] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.008
+2025-05-12 10:48:14,610 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:14] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.007
+2025-05-12 10:48:14,636 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:14] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.003 0.003
+2025-05-12 10:48:14,645 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:14] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.001 0.013
+2025-05-12 10:48:14,975 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:14] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:48:14,995 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:14] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.003 0.034
+2025-05-12 10:48:15,988 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:15] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 16 0.009 0.024
+2025-05-12 10:48:16,290 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:16] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.007 0.018
+2025-05-12 10:48:16,301 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:16] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:48:16,616 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:16] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.007
+2025-05-12 10:48:16,618 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:16] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.007
+2025-05-12 10:48:16,636 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:16] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.001 0.011
+2025-05-12 10:48:16,637 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:16] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.002 0.014
+2025-05-12 10:48:16,638 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:16] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.006 0.009
+2025-05-12 10:48:16,650 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:16] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.004 0.025
+2025-05-12 10:48:16,986 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:16] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:48:17,006 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:17] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.004 0.035
+2025-05-12 10:48:23,405 15756 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-05-12 10:48:23,442 15756 INFO productos odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-05-12 10:48:23,530 15756 INFO productos odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-05-12 10:48:23,537 15756 INFO productos odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-05-12 10:48:23,541 15756 INFO productos odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-05-12 10:48:23,542 15756 INFO productos odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-05-12 10:48:23,555 15756 INFO productos odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-05-12 10:48:23,564 15756 INFO productos odoo.models.unlink: User #1 deleted bus.bus records with IDs: [2549] 
+2025-05-12 10:48:23,657 15756 INFO productos odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-05-12 10:48:23,848 15756 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.443s 
+2025-05-12 10:48:23,850 15756 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-05-12 10:48:23,852 15756 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-05-12 10:48:51,019 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:51] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 16 0.009 0.026
+2025-05-12 10:48:51,311 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:51] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.002 0.014
+2025-05-12 10:48:51,343 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:51] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:48:51,626 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:51] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:48:51,629 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:51] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.003
+2025-05-12 10:48:51,720 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:51] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.009 0.039
+2025-05-12 10:48:51,721 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:51] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.009 0.037
+2025-05-12 10:48:51,726 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:51] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.010 0.046
+2025-05-12 10:48:51,742 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:51] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.007 0.064
+2025-05-12 10:48:52,077 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:48:52] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:48:52,104 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:48:52] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.003 0.045
+2025-05-12 10:51:41,538 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-05-12 10:51:41,550 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.012s 
+2025-05-12 10:51:41,557 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-05-12 10:51:41,567 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-05-12 10:51:41,587 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-05-12 10:51:41,598 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.011s 
+2025-05-12 10:51:41,604 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-05-12 10:51:41,612 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-05-12 10:51:41,621 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-05-12 10:51:41,627 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.006s 
+2025-05-12 10:51:41,629 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-05-12 10:51:41,633 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-05-12 10:51:41,636 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-05-12 10:51:41,641 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.005s 
+2025-05-12 10:51:41,642 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-05-12 10:51:41,644 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-05-12 10:51:41,649 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-05-12 10:51:41,650 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.001s 
+2025-05-12 10:51:41,652 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-05-12 10:51:41,654 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-05-12 10:52:14,984 15756 INFO productos odoo.service.server: Initiating shutdown 
+2025-05-12 10:52:14,984 15756 INFO productos odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-05-12 10:52:15,027 15756 INFO productos odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2025-05-12 10:52:17,323 2784 INFO ? odoo: Odoo version 18.0-20250330 
+2025-05-12 10:52:17,323 2784 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-05-12 10:52:17,323 2784 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-05-12 10:52:17,324 2784 INFO ? odoo: database: openpg@localhost:5432 
+2025-05-12 10:52:17,474 2784 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-05-12 10:52:17,481 2784 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-05-12 10:52:17,666 2784 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-05-12 10:52:17,698 2784 INFO productos odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:52:17,703 2784 INFO productos odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-05-12 10:52:17,721 2784 INFO productos odoo.modules.loading: updating modules list 
+2025-05-12 10:52:17,724 2784 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-05-12 10:52:18,647 2784 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 10:52:18,647 2784 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 10:52:19,226 2784 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-05-12 10:52:19,552 2784 INFO productos odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:52:20,537 2784 INFO productos odoo.modules.loading: Loading module proyectoEcommerce (72/117) 
+2025-05-12 10:52:20,895 2784 INFO productos odoo.modules.registry: module proyectoEcommerce: creating or updating database tables 
+2025-05-12 10:52:20,965 2784 INFO productos odoo.modules.loading: loading proyectoEcommerce/security/ir.model.access.csv 
+2025-05-12 10:52:20,973 2784 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/menus_views.xml 
+2025-05-12 10:52:20,985 2784 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/no_productos_template.xml 
+2025-05-12 10:52:20,994 2784 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/producto_detalle_template.xml 
+2025-05-12 10:52:21,001 2784 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/productosqweb_views.xml 
+2025-05-12 10:52:21,010 2784 INFO productos odoo.addons.base.models.ir_module: module proyectoEcommerce: no translation for language es_ES 
+2025-05-12 10:52:21,040 2784 INFO productos odoo.modules.loading: Module proyectoEcommerce loaded in 0.50s, 101 queries (+101 other) 
+2025-05-12 10:52:21,102 2784 WARNING productos py.warnings: C:\OdooPrograma\server\odoo\api.py:482: DeprecationWarning: The model odoo.addons.mi_proyecto.models.proyecto_tareas is not overriding the create method in batch
+  File "C:\OdooPrograma\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\OdooPrograma\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1417, in start
+    rc = server.run(preload, stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 583, in run
+    rc = preload_registries(preload)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1321, in preload_registries
+    registry = Registry.new(dbname, update_module=update_module)
+  File "C:\OdooPrograma\server\.venv\Lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\OdooPrograma\server\odoo\tools\func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\OdooPrograma\server\odoo\modules\registry.py", line 127, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 477, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 186, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\OdooPrograma\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "c:\odooprograma\server\useraddons\mi_proyecto\__init__.py", line 3, in <module>
+    from . import models
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\__init__.py", line 3, in <module>
+    from . import proyecto_tareas
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 4, in <module>
+    class MiProyectoTarea(models.Model):
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 117, in MiProyectoTarea
+    @api.model
+  File "C:\OdooPrograma\server\odoo\api.py", line 429, in model
+    return model_create_single(method)
+  File "C:\OdooPrograma\server\odoo\api.py", line 482, in model_create_single
+    warnings.warn(
+ 
+2025-05-12 10:52:21,256 2784 INFO productos odoo.modules.loading: 117 modules loaded in 1.70s, 101 queries (+101 extra) 
+2025-05-12 10:52:22,525 2784 INFO productos odoo.modules.loading: Modules loaded. 
+2025-05-12 10:52:22,530 2784 INFO productos odoo.modules.registry: Registry changed, signaling through the database 
+2025-05-12 10:52:22,530 2784 INFO productos odoo.modules.registry: Registry loaded in 4.864s 
+2025-05-12 10:52:24,592 12540 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-05-12 10:52:24,608 12540 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:52:24,630 12540 INFO ? odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2025-05-12 10:52:24,640 12540 INFO ? odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:52:24,698 12540 INFO ? odoo.modules.loading: 117 modules loaded in 0.06s, 0 queries (+0 extra) 
+2025-05-12 10:52:24,867 12540 INFO ? odoo.modules.loading: Modules loaded. 
+2025-05-12 10:52:24,871 12540 INFO ? odoo.modules.registry: Registry loaded in 0.279s 
+2025-05-12 10:52:24,872 12540 INFO productos odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-05-12 10:52:25,534 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:25] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 230 0.106 0.841
+2025-05-12 10:52:25,542 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:25] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:52:25,556 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:25] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.005 0.011
+2025-05-12 10:52:25,851 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:25] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.005
+2025-05-12 10:52:25,862 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:25] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:52:25,884 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:25] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.001 0.007
+2025-05-12 10:52:25,893 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:25] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 6 0.003 0.004
+2025-05-12 10:52:25,893 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:25] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 6 0.000 0.007
+2025-05-12 10:52:25,900 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:25] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.002 0.021
+2025-05-12 10:52:26,234 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:26] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:52:26,243 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:26] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.002 0.025
+2025-05-12 10:52:29,657 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:29] "GET /mitienda/productos?precio=2 HTTP/1.1" 200 - 13 0.009 0.024
+2025-05-12 10:52:29,956 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:29] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.003 0.012
+2025-05-12 10:52:29,971 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:29] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:52:30,273 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:30] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:52:30,276 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:30] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:52:30,292 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:30] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.003 0.005
+2025-05-12 10:52:30,303 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:30] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.003 0.016
+2025-05-12 10:52:30,636 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:30] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.006
+2025-05-12 10:52:30,664 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:30] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.004 0.032
+2025-05-12 10:52:31,841 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:31] "GET /mitienda/productos?precio=3 HTTP/1.1" 200 - 16 0.008 0.026
+2025-05-12 10:52:32,144 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:32] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.006 0.019
+2025-05-12 10:52:32,155 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:32] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:52:32,460 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:32] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:52:32,461 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:32] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:52:32,475 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:32] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.002 0.007
+2025-05-12 10:52:32,479 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:32] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.001 0.004
+2025-05-12 10:52:32,487 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:32] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.002 0.018
+2025-05-12 10:52:32,816 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:32] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:52:32,837 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:32] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.003 0.034
+2025-05-12 10:52:47,997 2784 INFO productos odoo.service.server: Initiating shutdown 
+2025-05-12 10:52:47,997 2784 INFO productos odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-05-12 10:52:48,291 2784 INFO productos odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-05-12 10:52:50,001 1776 INFO ? odoo: Odoo version 18.0-20250330 
+2025-05-12 10:52:50,001 1776 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-05-12 10:52:50,001 1776 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-05-12 10:52:50,001 1776 INFO ? odoo: database: openpg@localhost:5432 
+2025-05-12 10:52:50,146 1776 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-05-12 10:52:50,154 1776 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-05-12 10:52:50,349 1776 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-05-12 10:52:50,382 1776 INFO productos odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:52:50,387 1776 INFO productos odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-05-12 10:52:50,406 1776 INFO productos odoo.modules.loading: updating modules list 
+2025-05-12 10:52:50,409 1776 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-05-12 10:52:51,333 1776 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 10:52:51,333 1776 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 10:52:51,891 1776 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-05-12 10:52:52,227 1776 INFO productos odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:52:52,677 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:52] "GET /mitienda/productos?precio=3 HTTP/1.1" 200 - 16 0.006 0.029
+2025-05-12 10:52:52,969 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:52] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.003 0.014
+2025-05-12 10:52:52,998 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:52] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:52:53,211 1776 INFO productos odoo.modules.loading: Loading module proyectoEcommerce (72/117) 
+2025-05-12 10:52:53,283 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:53] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:52:53,284 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:53] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:52:53,338 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:53] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.001 0.007
+2025-05-12 10:52:53,339 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:53] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.004 0.006
+2025-05-12 10:52:53,348 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:53] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.002 0.017
+2025-05-12 10:52:53,570 1776 INFO productos odoo.modules.registry: module proyectoEcommerce: creating or updating database tables 
+2025-05-12 10:52:53,639 1776 INFO productos odoo.modules.loading: loading proyectoEcommerce/security/ir.model.access.csv 
+2025-05-12 10:52:53,647 1776 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/menus_views.xml 
+2025-05-12 10:52:53,659 1776 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/no_productos_template.xml 
+2025-05-12 10:52:53,669 1776 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/producto_detalle_template.xml 
+2025-05-12 10:52:53,675 1776 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/productosqweb_views.xml 
+2025-05-12 10:52:53,677 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:53] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:52:53,686 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:53] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.002 0.025
+2025-05-12 10:52:53,686 1776 INFO productos odoo.addons.base.models.ir_module: module proyectoEcommerce: no translation for language es_ES 
+2025-05-12 10:52:53,718 1776 INFO productos odoo.modules.loading: Module proyectoEcommerce loaded in 0.51s, 101 queries (+101 other) 
+2025-05-12 10:52:53,783 1776 WARNING productos py.warnings: C:\OdooPrograma\server\odoo\api.py:482: DeprecationWarning: The model odoo.addons.mi_proyecto.models.proyecto_tareas is not overriding the create method in batch
+  File "C:\OdooPrograma\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\OdooPrograma\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1417, in start
+    rc = server.run(preload, stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 583, in run
+    rc = preload_registries(preload)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1321, in preload_registries
+    registry = Registry.new(dbname, update_module=update_module)
+  File "C:\OdooPrograma\server\.venv\Lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\OdooPrograma\server\odoo\tools\func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\OdooPrograma\server\odoo\modules\registry.py", line 127, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 477, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 186, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\OdooPrograma\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "c:\odooprograma\server\useraddons\mi_proyecto\__init__.py", line 3, in <module>
+    from . import models
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\__init__.py", line 3, in <module>
+    from . import proyecto_tareas
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 4, in <module>
+    class MiProyectoTarea(models.Model):
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 117, in MiProyectoTarea
+    @api.model
+  File "C:\OdooPrograma\server\odoo\api.py", line 429, in model
+    return model_create_single(method)
+  File "C:\OdooPrograma\server\odoo\api.py", line 482, in model_create_single
+    warnings.warn(
+ 
+2025-05-12 10:52:53,929 1776 INFO productos odoo.modules.loading: 117 modules loaded in 1.70s, 101 queries (+101 extra) 
+2025-05-12 10:52:55,137 1776 INFO productos odoo.modules.loading: Modules loaded. 
+2025-05-12 10:52:55,141 1776 INFO productos odoo.modules.registry: Registry changed, signaling through the database 
+2025-05-12 10:52:55,142 1776 INFO productos odoo.modules.registry: Registry loaded in 4.792s 
+2025-05-12 10:52:55,185 12540 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-05-12 10:52:55,188 12540 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-05-12 10:52:55,194 12540 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-05-12 10:52:55,204 12540 INFO ? odoo.modules.loading: loading 117 modules... 
+2025-05-12 10:52:55,264 12540 INFO ? odoo.modules.loading: 117 modules loaded in 0.06s, 0 queries (+0 extra) 
+2025-05-12 10:52:55,582 12540 INFO ? odoo.modules.loading: Modules loaded. 
+2025-05-12 10:52:55,586 12540 INFO ? odoo.modules.registry: Registry loaded in 0.400s 
+2025-05-12 10:52:55,587 12540 INFO productos odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-05-12 10:52:56,259 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:56] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 230 0.075 1.000
+2025-05-12 10:52:56,268 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:56] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:52:56,608 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:56] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.008 0.023
+2025-05-12 10:52:56,623 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:56] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.011 0.039
+2025-05-12 10:52:56,932 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:56] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:52:56,960 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:56] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.003
+2025-05-12 10:52:56,970 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:56] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 6 0.003 0.009
+2025-05-12 10:52:56,972 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:56] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 6 0.007 0.007
+2025-05-12 10:52:56,980 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:56] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.001 0.022
+2025-05-12 10:52:57,308 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:52:57] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.007
+2025-05-12 10:52:57,339 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:52:57] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.003 0.033
+2025-05-12 10:53:00,856 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:53:00] "GET /mitienda/productos?precio= HTTP/1.1" 200 - 16 0.010 0.030
+2025-05-12 10:53:01,148 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:53:01] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.003 0.015
+2025-05-12 10:53:01,177 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:53:01] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 10:53:01,463 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:53:01] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.004
+2025-05-12 10:53:01,466 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:53:01] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:53:01,496 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:53:01] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.001 0.007
+2025-05-12 10:53:01,506 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:53:01] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.002 0.006
+2025-05-12 10:53:01,506 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:53:01] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.002 0.006
+2025-05-12 10:53:01,513 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:53:01] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.001 0.023
+2025-05-12 10:53:01,787 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:53:01] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.006 0.013
+2025-05-12 10:53:01,830 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:53:01] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 10:53:01,854 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:53:01] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.002 0.022
+2025-05-12 10:53:41,756 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-05-12 10:53:41,788 12540 INFO productos odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-05-12 10:53:41,794 12540 INFO productos odoo.models.unlink: User #1 deleted ir.cron.progress records with IDs: [249, 250, 251, 252, 253] 
+2025-05-12 10:53:41,875 12540 INFO productos odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-05-12 10:53:41,880 12540 INFO productos odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-05-12 10:53:41,883 12540 INFO productos odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-05-12 10:53:41,884 12540 INFO productos odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-05-12 10:53:41,894 12540 INFO productos odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-05-12 10:53:41,986 12540 INFO productos odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-05-12 10:53:42,170 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.413s 
+2025-05-12 10:53:42,172 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-05-12 10:53:42,175 12540 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-05-12 10:53:55,252 1776 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-05-12 10:53:55,289 1776 INFO productos odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-05-12 10:53:55,377 1776 INFO productos odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-05-12 10:53:55,384 1776 INFO productos odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-05-12 10:53:55,388 1776 INFO productos odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-05-12 10:53:55,390 1776 INFO productos odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-05-12 10:53:55,402 1776 INFO productos odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-05-12 10:53:55,502 1776 INFO productos odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-05-12 10:53:55,702 1776 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.450s 
+2025-05-12 10:53:55,704 1776 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-05-12 10:53:55,706 1776 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-05-12 10:55:22,337 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:55:22] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.140
+2025-05-12 10:55:22,347 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:22] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.007
+2025-05-12 10:55:22,718 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:22] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 118 0.056 0.312
+2025-05-12 10:55:24,284 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 10:55:24,292 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:24] "POST /web/login HTTP/1.1" 303 - 38 0.031 0.598
+2025-05-12 10:55:24,310 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (wI5IwLsRmqyzuzH2ns-Jwleg8OOXbrZij8VXpW1AkO) 
+2025-05-12 10:55:26,495 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:26] "GET /web?db=productos HTTP/1.1" 200 - 98 0.044 2.151
+2025-05-12 10:55:26,759 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:26] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.001 0.012
+2025-05-12 10:55:26,885 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:55:26] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.023
+2025-05-12 10:55:26,896 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:26] "GET /web?db=productos HTTP/1.1" 303 - 4 0.001 0.005
+2025-05-12 10:55:26,940 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:26] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.003 0.038
+2025-05-12 10:55:28,706 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 10:55:28,712 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:28] "POST /web/login HTTP/1.1" 303 - 22 0.009 0.591
+2025-05-12 10:55:28,729 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (nMPsre1Q9zQt5pIyrlHYXZOzynjJsvq4z_lqy8BsjS) 
+2025-05-12 10:55:28,746 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:28] "GET /web?db=productos HTTP/1.1" 200 - 21 0.007 0.019
+2025-05-12 10:55:28,861 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:28] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.005
+2025-05-12 10:55:28,892 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:28] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.007 0.041
+2025-05-12 10:55:28,930 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:28] "POST /web/action/load HTTP/1.1" 200 - 7 0.005 0.009
+2025-05-12 10:55:28,932 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:28] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.009 0.005
+2025-05-12 10:55:28,996 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:28] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.002 0.005
+2025-05-12 10:55:29,002 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:29] "POST /mail/data HTTP/1.1" 200 - 44 0.033 0.028
+2025-05-12 10:55:29,010 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:29] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.001 0.004
+2025-05-12 10:55:29,020 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:29] "GET /web/image/productos/10/imagen HTTP/1.1" 200 - 5 0.002 0.003
+2025-05-12 10:55:51,960 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:55:51] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.022
+2025-05-12 10:55:51,970 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:51] "GET /web?db=productos HTTP/1.1" 303 - 4 0.001 0.006
+2025-05-12 10:55:52,010 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:52] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.003 0.034
+2025-05-12 10:55:53,635 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 10:55:53,641 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:53] "POST /web/login HTTP/1.1" 303 - 22 0.011 0.594
+2025-05-12 10:55:53,658 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (BZZ0TgMXva4NOXeHayjoXamDfXK2ZXyN_smMLPUnSt) 
+2025-05-12 10:55:53,675 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:53] "GET /web?db=productos HTTP/1.1" 200 - 21 0.003 0.023
+2025-05-12 10:55:53,905 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:53] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.010
+2025-05-12 10:55:54,004 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:55:54] "GET /web?db=productos HTTP/1.1" 302 - 1 0.003 0.021
+2025-05-12 10:55:54,013 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:54] "GET /web?db=productos HTTP/1.1" 303 - 4 0.003 0.003
+2025-05-12 10:55:54,054 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:54] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.006 0.032
+2025-05-12 10:55:55,396 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 10:55:55,403 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:55] "POST /web/login HTTP/1.1" 303 - 22 0.010 0.590
+2025-05-12 10:55:55,422 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (fv3riGHviy79g8VuSP8bvSb88mEgng8dxETN0Lth3t) 
+2025-05-12 10:55:55,438 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:55] "GET /web?db=productos HTTP/1.1" 200 - 21 0.005 0.021
+2025-05-12 10:55:55,557 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:55] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.002 0.017
+2025-05-12 10:55:55,569 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:55] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.011 0.035
+2025-05-12 10:55:55,610 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:55] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.006
+2025-05-12 10:55:55,628 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:55] "POST /mail/data HTTP/1.1" 200 - 31 0.013 0.019
+2025-05-12 10:55:55,655 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:55] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.001 0.007
+2025-05-12 10:55:55,666 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:55] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.001 0.003
+2025-05-12 10:55:55,679 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:55:55] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.003 0.001
+2025-05-12 10:56:16,079 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:56:16] "GET /web?db=productos HTTP/1.1" 302 - 1 0.003 0.021
+2025-05-12 10:56:16,090 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:16] "GET /web?db=productos HTTP/1.1" 303 - 4 0.004 0.003
+2025-05-12 10:56:16,128 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:16] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.004 0.033
+2025-05-12 10:56:17,538 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 10:56:17,544 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:17] "POST /web/login HTTP/1.1" 303 - 22 0.010 0.600
+2025-05-12 10:56:17,563 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (DUNEA8cFGEzqZ7j2foJdBEXFsfRJZu9z-RrzWVz1r1) 
+2025-05-12 10:56:17,581 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:17] "GET /web?db=productos HTTP/1.1" 200 - 21 0.013 0.016
+2025-05-12 10:56:17,903 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:17] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.028
+2025-05-12 10:56:18,237 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:56:18] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.160
+2025-05-12 10:56:18,246 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:18] "GET /web?db=productos HTTP/1.1" 303 - 4 0.001 0.005
+2025-05-12 10:56:18,289 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:18] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.005 0.035
+2025-05-12 10:56:19,967 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 10:56:19,973 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:19] "POST /web/login HTTP/1.1" 303 - 22 0.009 0.591
+2025-05-12 10:56:19,992 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (NTfT2PR1kfm0TNtxyagrppKo9Ua5XxWVX_rxfrlh7f) 
+2025-05-12 10:56:20,009 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:20] "GET /web?db=productos HTTP/1.1" 200 - 21 0.009 0.019
+2025-05-12 10:56:20,129 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:20] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.002 0.015
+2025-05-12 10:56:20,141 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:20] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.009 0.034
+2025-05-12 10:56:20,197 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:20] "POST /web/action/load HTTP/1.1" 200 - 6 0.009 0.008
+2025-05-12 10:56:20,202 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:20] "POST /mail/data HTTP/1.1" 200 - 31 0.015 0.019
+2025-05-12 10:56:20,342 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:56:20] "GET /mitienda/productos HTTP/1.1" 404 - 1 0.002 0.023
+2025-05-12 10:56:26,913 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:56:26] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.023
+2025-05-12 10:56:26,925 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:26] "GET /web?db=productos HTTP/1.1" 303 - 4 0.002 0.005
+2025-05-12 10:56:26,965 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:26] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.004 0.034
+2025-05-12 10:56:28,397 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 10:56:28,404 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:28] "POST /web/login HTTP/1.1" 303 - 22 0.015 0.592
+2025-05-12 10:56:28,420 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (mrhMkbAQdPZZdyiSjqUsHsDyo7HoXFI6B3QeIcea5_) 
+2025-05-12 10:56:28,437 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:28] "GET /web?db=productos HTTP/1.1" 200 - 21 0.003 0.023
+2025-05-12 10:56:28,692 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:28] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.011
+2025-05-12 10:56:28,808 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:56:28] "GET /web?db=productos HTTP/1.1" 302 - 1 0.003 0.027
+2025-05-12 10:56:28,817 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:28] "GET /web?db=productos HTTP/1.1" 303 - 4 0.001 0.005
+2025-05-12 10:56:28,861 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:28] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.008 0.032
+2025-05-12 10:56:30,194 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 10:56:30,199 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:30] "POST /web/login HTTP/1.1" 303 - 22 0.012 0.597
+2025-05-12 10:56:30,219 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (LeIU-lquZKi5-gdwNqxuZHENQhgzJgLmrQh4SEv5RZ) 
+2025-05-12 10:56:30,237 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:30] "GET /web?db=productos HTTP/1.1" 200 - 21 0.002 0.025
+2025-05-12 10:56:30,352 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:30] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.002 0.015
+2025-05-12 10:56:30,365 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:30] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.011 0.032
+2025-05-12 10:56:30,425 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:30] "POST /web/action/load HTTP/1.1" 200 - 6 0.009 0.010
+2025-05-12 10:56:30,432 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:30] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.006
+2025-05-12 10:56:30,434 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:30] "POST /mail/data HTTP/1.1" 200 - 31 0.023 0.020
+2025-05-12 10:56:30,446 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:30] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.025 0.015
+2025-05-12 10:56:30,462 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:30] "GET /web/image/productos/9/imagen HTTP/1.1" 200 - 5 0.003 0.004
+2025-05-12 10:56:30,462 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:30] "GET /web/image/productos/8/imagen HTTP/1.1" 200 - 5 0.000 0.007
+2025-05-12 10:56:30,474 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:30] "GET /web/image/productos/10/imagen HTTP/1.1" 200 - 5 0.000 0.004
+2025-05-12 10:56:49,457 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:56:49] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.053
+2025-05-12 10:56:49,469 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:49] "GET /web?db=productos HTTP/1.1" 303 - 4 0.003 0.004
+2025-05-12 10:56:49,656 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:49] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.004 0.180
+2025-05-12 10:56:51,082 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 10:56:51,088 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:51] "POST /web/login HTTP/1.1" 303 - 22 0.010 0.593
+2025-05-12 10:56:51,105 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (OQ2qQudxdUax4zvU8OrmQaMm7U-Hg_3HXZsK8dm8YH) 
+2025-05-12 10:56:51,122 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:51] "GET /web?db=productos HTTP/1.1" 200 - 21 0.004 0.022
+2025-05-12 10:56:51,352 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:51] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.011
+2025-05-12 10:56:51,464 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:56:51] "GET /web?db=productos HTTP/1.1" 302 - 1 0.003 0.020
+2025-05-12 10:56:51,473 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:51] "GET /web?db=productos HTTP/1.1" 303 - 4 0.001 0.005
+2025-05-12 10:56:51,515 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:51] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.002 0.036
+2025-05-12 10:56:53,168 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 10:56:53,174 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:53] "POST /web/login HTTP/1.1" 303 - 22 0.013 0.597
+2025-05-12 10:56:53,194 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (KKdyjX1PTicuU7V-wHpGjNfieYlMLTdJOnktbw44I_) 
+2025-05-12 10:56:53,212 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:53] "GET /web?db=productos HTTP/1.1" 200 - 21 0.012 0.018
+2025-05-12 10:56:53,328 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:53] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.003 0.014
+2025-05-12 10:56:53,340 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:53] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.005 0.038
+2025-05-12 10:56:53,394 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:53] "POST /mail/data HTTP/1.1" 200 - 31 0.014 0.016
+2025-05-12 10:56:53,530 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 10:56:53] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.021
+2025-05-12 10:56:53,541 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:53] "GET /web?db=productos HTTP/1.1" 303 - 4 0.003 0.003
+2025-05-12 10:56:53,722 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:53] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.005 0.172
+2025-05-12 10:56:55,109 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 10:56:55,115 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:55] "POST /web/login HTTP/1.1" 303 - 22 0.011 0.592
+2025-05-12 10:56:55,133 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (Til_Y87Zo-yGnDt_27ZKLr44LVn_RrVfopdgfl42Jc) 
+2025-05-12 10:56:55,150 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:55] "GET /web?db=productos HTTP/1.1" 200 - 21 0.006 0.019
+2025-05-12 10:56:55,267 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:55] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.003 0.014
+2025-05-12 10:56:55,280 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:55] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.006 0.038
+2025-05-12 10:56:55,334 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:55] "POST /web/action/load HTTP/1.1" 200 - 6 0.006 0.012
+2025-05-12 10:56:55,336 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:55] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.002 0.016
+2025-05-12 10:56:55,345 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:55] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.009 0.019
+2025-05-12 10:56:55,354 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:55] "POST /mail/data HTTP/1.1" 200 - 31 0.028 0.017
+2025-05-12 10:56:55,380 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:55] "GET /web/image/productos/8/imagen HTTP/1.1" 200 - 5 0.000 0.007
+2025-05-12 10:56:55,391 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:55] "GET /web/image/productos/9/imagen HTTP/1.1" 200 - 5 0.001 0.005
+2025-05-12 10:56:55,408 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:55] "GET /web/image/productos/10/imagen HTTP/1.1" 200 - 5 0.000 0.007
+2025-05-12 10:56:55,594 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:55] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 16 0.007 0.024
+2025-05-12 10:56:55,645 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:55] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.001 0.004
+2025-05-12 10:56:55,656 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 10:56:55] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.002 0.004
+2025-05-12 11:00:12,841 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:00:12] "GET /web?db=productos HTTP/1.1" 302 - 1 0.003 0.022
+2025-05-12 11:00:12,852 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:12] "GET /web?db=productos HTTP/1.1" 303 - 4 0.001 0.005
+2025-05-12 11:00:12,906 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:12] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.006 0.046
+2025-05-12 11:00:14,487 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:00:14,494 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:14] "POST /web/login HTTP/1.1" 303 - 22 0.009 0.741
+2025-05-12 11:00:14,514 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (lcWTSMBexatCwfihiM7nn-3s_zbt4c7trYS71r_gpg) 
+2025-05-12 11:00:14,533 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:14] "GET /web?db=productos HTTP/1.1" 200 - 21 0.006 0.024
+2025-05-12 11:00:14,910 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:14] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.016
+2025-05-12 11:00:15,180 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:00:15] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.022
+2025-05-12 11:00:15,190 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:15] "GET /web?db=productos HTTP/1.1" 303 - 4 0.001 0.005
+2025-05-12 11:00:15,230 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:15] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.005 0.033
+2025-05-12 11:00:16,594 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:00:16,600 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:16] "POST /web/login HTTP/1.1" 303 - 22 0.011 0.605
+2025-05-12 11:00:16,619 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (vk4lCYy0M8UDEUoda0geqSvaH-d42DjlHd9akP-nFj) 
+2025-05-12 11:00:16,639 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:16] "GET /web?db=productos HTTP/1.1" 200 - 21 0.006 0.023
+2025-05-12 11:00:16,755 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:16] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.012
+2025-05-12 11:00:16,772 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:16] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.004 0.038
+2025-05-12 11:00:16,823 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:16] "POST /mail/data HTTP/1.1" 200 - 31 0.010 0.016
+2025-05-12 11:00:16,844 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:16] "POST /web/action/load HTTP/1.1" 200 - 6 0.001 0.007
+2025-05-12 11:00:16,984 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:00:16] "GET /web?db=productos HTTP/1.1" 302 - 1 0.003 0.021
+2025-05-12 11:00:16,995 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:16] "GET /web?db=productos HTTP/1.1" 303 - 4 0.001 0.007
+2025-05-12 11:00:17,035 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:17] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.006 0.032
+2025-05-12 11:00:18,445 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:00:18,450 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:18] "POST /web/login HTTP/1.1" 303 - 22 0.009 0.593
+2025-05-12 11:00:18,467 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (s-VRkzzBRDq0N9mXb8dUdN3qtZ8pKgcyV474LIv-p7) 
+2025-05-12 11:00:18,485 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:18] "GET /web?db=productos HTTP/1.1" 200 - 21 0.002 0.025
+2025-05-12 11:00:18,598 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:18] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.003 0.014
+2025-05-12 11:00:18,610 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:18] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.008 0.035
+2025-05-12 11:00:18,668 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:18] "POST /mail/data HTTP/1.1" 200 - 31 0.012 0.022
+2025-05-12 11:00:18,714 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:18] "GET /web/image/productos/8/imagen HTTP/1.1" 200 - 5 0.004 0.006
+2025-05-12 11:00:18,714 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:18] "GET /web/image/productos/10/imagen HTTP/1.1" 200 - 5 0.001 0.008
+2025-05-12 11:00:18,714 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:18] "GET /web/image/productos/9/imagen HTTP/1.1" 200 - 5 0.003 0.006
+2025-05-12 11:00:18,949 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:18] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 16 0.004 0.028
+2025-05-12 11:00:19,009 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:19] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.003 0.005
+2025-05-12 11:00:19,009 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:00:19] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.002 0.005
+2025-05-12 11:01:24,210 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:01:24] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.002 0.003
+2025-05-12 11:02:09,925 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:02:09] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.033
+2025-05-12 11:02:09,937 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:09] "GET /web?db=productos HTTP/1.1" 303 - 4 0.003 0.005
+2025-05-12 11:02:10,013 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:10] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.009 0.062
+2025-05-12 11:02:11,447 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:02:11,453 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:11] "POST /web/login HTTP/1.1" 303 - 22 0.013 0.601
+2025-05-12 11:02:11,472 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (9f3uxEXBAiMKUVFOqZpYiz_A8xYXiHF-YY_TxVIpDV) 
+2025-05-12 11:02:11,491 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:11] "GET /web?db=productos HTTP/1.1" 200 - 21 0.006 0.022
+2025-05-12 11:02:11,730 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:11] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.011
+2025-05-12 11:02:11,837 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:02:11] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.022
+2025-05-12 11:02:11,847 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:11] "GET /web?db=productos HTTP/1.1" 303 - 4 0.003 0.003
+2025-05-12 11:02:11,896 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:11] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.005 0.041
+2025-05-12 11:02:13,226 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:02:13,231 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:13] "POST /web/login HTTP/1.1" 303 - 22 0.013 0.596
+2025-05-12 11:02:13,250 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (he-ZGdh7-cNsMDoEbkwuvI6vhi8IAZTIIpItQy6YfY) 
+2025-05-12 11:02:13,267 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:13] "GET /web?db=productos HTTP/1.1" 200 - 21 0.011 0.016
+2025-05-12 11:02:13,384 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:13] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.004 0.013
+2025-05-12 11:02:13,396 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:13] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.007 0.036
+2025-05-12 11:02:13,434 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:13] "POST /web/action/load HTTP/1.1" 200 - 6 0.004 0.008
+2025-05-12 11:02:13,438 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:13] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.005 0.011
+2025-05-12 11:02:13,442 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:13] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.006
+2025-05-12 11:02:13,475 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:13] "POST /mail/data HTTP/1.1" 200 - 31 0.006 0.019
+2025-05-12 11:02:13,533 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:13] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.002 0.005
+2025-05-12 11:02:13,534 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:13] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.001 0.005
+2025-05-12 11:02:13,551 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:13] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.001 0.008
+2025-05-12 11:02:13,647 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:02:13] "GET /web?db=productos HTTP/1.1" 302 - 1 0.003 0.026
+2025-05-12 11:02:13,657 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:13] "GET /web?db=productos HTTP/1.1" 303 - 4 0.001 0.005
+2025-05-12 11:02:13,701 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:13] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.004 0.037
+2025-05-12 11:02:15,048 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:02:15,054 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:15] "POST /web/login HTTP/1.1" 303 - 22 0.013 0.590
+2025-05-12 11:02:15,073 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (iGxK0SRJs_nBIvWT9P54mR-VTpoAWweuwAw9yHQyHv) 
+2025-05-12 11:02:15,091 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:15] "GET /web?db=productos HTTP/1.1" 200 - 21 0.005 0.023
+2025-05-12 11:02:15,209 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:15] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.003 0.014
+2025-05-12 11:02:15,221 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:15] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.007 0.035
+2025-05-12 11:02:15,273 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:15] "POST /web/action/load HTTP/1.1" 200 - 6 0.007 0.008
+2025-05-12 11:02:15,283 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:15] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.010 0.014
+2025-05-12 11:02:15,288 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:15] "POST /mail/data HTTP/1.1" 200 - 31 0.023 0.016
+2025-05-12 11:02:15,317 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:15] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.003 0.004
+2025-05-12 11:02:15,318 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:15] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.002 0.005
+2025-05-12 11:02:15,330 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:15] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.002 0.004
+2025-05-12 11:02:15,547 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:15] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 16 0.007 0.025
+2025-05-12 11:02:15,603 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:15] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.003 0.004
+2025-05-12 11:02:15,603 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:15] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.001 0.005
+2025-05-12 11:02:52,137 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:02:52] "GET /web?db=productos HTTP/1.1" 302 - 1 0.003 0.020
+2025-05-12 11:02:52,148 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:52] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.007
+2025-05-12 11:02:52,189 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:52] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.005 0.034
+2025-05-12 11:02:53,677 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:02:53,683 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:53] "POST /web/login HTTP/1.1" 303 - 22 0.010 0.641
+2025-05-12 11:02:53,700 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (Zr155aFAS0o0Kq2uhXSm8JA89eLG42PXWWNrbOyB3z) 
+2025-05-12 11:02:53,720 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:53] "GET /web?db=productos HTTP/1.1" 200 - 21 0.008 0.021
+2025-05-12 11:02:54,051 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:54] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.002 0.028
+2025-05-12 11:02:54,334 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:02:54] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.027
+2025-05-12 11:02:54,344 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:54] "GET /web?db=productos HTTP/1.1" 303 - 4 0.002 0.005
+2025-05-12 11:02:54,387 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:54] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.004 0.036
+2025-05-12 11:02:56,067 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:02:56,073 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:56] "POST /web/login HTTP/1.1" 303 - 22 0.009 0.590
+2025-05-12 11:02:56,090 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (tyymGuneJhQSjdClEDK9qJP_oc-jb14B6t7h0bS7fL) 
+2025-05-12 11:02:56,108 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:56] "GET /web?db=productos HTTP/1.1" 200 - 21 0.008 0.018
+2025-05-12 11:02:56,230 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:56] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.002 0.009
+2025-05-12 11:02:56,236 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:56] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.002 0.043
+2025-05-12 11:02:56,298 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:56] "POST /web/action/load HTTP/1.1" 200 - 6 0.010 0.010
+2025-05-12 11:02:56,300 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:56] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.003 0.015
+2025-05-12 11:02:56,307 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:56] "POST /mail/data HTTP/1.1" 200 - 31 0.022 0.018
+2025-05-12 11:02:56,422 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:02:56] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.022
+2025-05-12 11:02:56,433 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:56] "GET /web?db=productos HTTP/1.1" 303 - 4 0.002 0.004
+2025-05-12 11:02:56,474 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:56] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.006 0.032
+2025-05-12 11:02:57,933 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:02:57,939 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:57] "POST /web/login HTTP/1.1" 303 - 22 0.013 0.593
+2025-05-12 11:02:57,958 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (sTL81vSGAU94XprUbLU1tlA2DJ01CoFVaYUYUAoRuR) 
+2025-05-12 11:02:57,979 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:57] "GET /web?db=productos HTTP/1.1" 200 - 21 0.006 0.025
+2025-05-12 11:02:58,103 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:58] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.003 0.016
+2025-05-12 11:02:58,117 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:58] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.010 0.039
+2025-05-12 11:02:58,182 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:58] "POST /web/action/load HTTP/1.1" 200 - 6 0.009 0.012
+2025-05-12 11:02:58,189 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:58] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.011 0.015
+2025-05-12 11:02:58,194 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:58] "POST /mail/data HTTP/1.1" 200 - 31 0.030 0.018
+2025-05-12 11:02:58,235 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:58] "GET /web/image/productos/10/imagen HTTP/1.1" 200 - 5 0.003 0.008
+2025-05-12 11:02:58,235 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:58] "GET /web/image/productos/8/imagen HTTP/1.1" 200 - 5 0.005 0.007
+2025-05-12 11:02:58,236 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:58] "GET /web/image/productos/9/imagen HTTP/1.1" 200 - 5 0.001 0.010
+2025-05-12 11:02:58,436 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:58] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 16 0.003 0.028
+2025-05-12 11:02:58,500 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:58] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.002 0.007
+2025-05-12 11:02:58,501 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:58] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.002 0.005
+2025-05-12 11:02:58,567 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:02:58] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.000 0.005
+2025-05-12 11:03:01,983 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:03:01] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 - 30 0.023 0.142
+2025-05-12 11:04:54,770 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:04:54] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.024
+2025-05-12 11:04:54,782 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:04:54] "GET /web?db=productos HTTP/1.1" 303 - 4 0.001 0.006
+2025-05-12 11:04:54,825 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:04:54] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.007 0.033
+2025-05-12 11:05:00,063 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:05:00,072 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:00] "POST /web/login HTTP/1.1" 303 - 22 0.014 0.601
+2025-05-12 11:05:00,093 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (dnPq1rdh4g5N4yEIa5bl8T6WR5tdacQL-yGub2vihV) 
+2025-05-12 11:05:00,114 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:00] "GET /web?db=productos HTTP/1.1" 200 - 21 0.011 0.019
+2025-05-12 11:05:00,860 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:05:00] "GET /web?db=productos HTTP/1.1" 302 - 1 0.003 0.025
+2025-05-12 11:05:00,872 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:00] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.006
+2025-05-12 11:05:00,919 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:00] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.006 0.038
+2025-05-12 11:05:02,473 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:05:02,487 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:02] "POST /web/login HTTP/1.1" 303 - 22 0.018 0.616
+2025-05-12 11:05:02,558 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (MXZ-kuLDRuN-ZXQV0PAlP_O2loMIGteHmFOkGMEVOZ) 
+2025-05-12 11:05:02,606 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:02] "GET /web?db=productos HTTP/1.1" 200 - 21 0.016 0.065
+2025-05-12 11:05:03,308 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:03] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.006 0.042
+2025-05-12 11:05:03,320 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:03] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.002 0.007
+2025-05-12 11:05:03,423 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:03] "POST /web/action/load HTTP/1.1" 200 - 6 0.006 0.008
+2025-05-12 11:05:03,440 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:03] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.012 0.018
+2025-05-12 11:05:03,467 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:03] "POST /mail/data HTTP/1.1" 200 - 31 0.015 0.026
+2025-05-12 11:05:03,620 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:03] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.003 0.008
+2025-05-12 11:05:03,621 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:03] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.006 0.006
+2025-05-12 11:05:03,621 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:03] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.005 0.007
+2025-05-12 11:05:03,912 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:05:03] "GET /web?db=productos HTTP/1.1" 302 - 1 0.003 0.034
+2025-05-12 11:05:03,923 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:03] "GET /web?db=productos HTTP/1.1" 303 - 4 0.004 0.003
+2025-05-12 11:05:03,971 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:03] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.006 0.039
+2025-05-12 11:05:05,615 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:05:05,621 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:05] "POST /web/login HTTP/1.1" 303 - 22 0.009 0.603
+2025-05-12 11:05:05,640 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (OdFJnb96Nhxo0sS_EJ5XQQ7mTKzTD-2mauXoK28CZk) 
+2025-05-12 11:05:05,659 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:05] "GET /web?db=productos HTTP/1.1" 200 - 21 0.007 0.021
+2025-05-12 11:05:06,195 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:06] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.007 0.042
+2025-05-12 11:05:06,202 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:06] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.005 0.008
+2025-05-12 11:05:06,309 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:06] "POST /web/action/load HTTP/1.1" 200 - 6 0.009 0.011
+2025-05-12 11:05:06,317 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:06] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.010 0.017
+2025-05-12 11:05:06,356 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:06] "POST /mail/data HTTP/1.1" 200 - 31 0.021 0.032
+2025-05-12 11:05:06,445 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:06] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.003 0.007
+2025-05-12 11:05:06,446 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:06] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.004 0.007
+2025-05-12 11:05:06,447 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:06] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.004 0.007
+2025-05-12 11:05:06,854 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:06] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 16 0.009 0.028
+2025-05-12 11:05:07,004 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:07] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.002 0.008
+2025-05-12 11:05:07,004 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:07] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.002 0.006
+2025-05-12 11:05:38,137 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:05:38] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.158
+2025-05-12 11:05:38,148 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:38] "GET /web?db=productos HTTP/1.1" 303 - 4 0.002 0.005
+2025-05-12 11:05:38,191 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:38] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.003 0.037
+2025-05-12 11:05:39,850 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:05:39,856 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:39] "POST /web/login HTTP/1.1" 303 - 22 0.014 0.605
+2025-05-12 11:05:39,875 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (rsSiPBcNXuSoVU-MNSm3McwjOFAtsvsfFpEpGLpQRA) 
+2025-05-12 11:05:39,894 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:39] "GET /web?db=productos HTTP/1.1" 200 - 21 0.007 0.021
+2025-05-12 11:05:40,942 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:05:40] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.023
+2025-05-12 11:05:40,953 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:40] "GET /web?db=productos HTTP/1.1" 303 - 4 0.002 0.005
+2025-05-12 11:05:40,997 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:40] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.004 0.038
+2025-05-12 11:05:42,541 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:05:42,548 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:42] "POST /web/login HTTP/1.1" 303 - 22 0.013 0.597
+2025-05-12 11:05:42,567 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (5lo4kx6Y8ap2-s2ZHFuCJce15nEfylXgus1YaBo9Ee) 
+2025-05-12 11:05:42,585 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:42] "GET /web?db=productos HTTP/1.1" 200 - 21 0.003 0.026
+2025-05-12 11:05:43,123 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:43] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.016 0.047
+2025-05-12 11:05:43,125 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:43] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.006 0.005
+2025-05-12 11:05:43,223 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:43] "POST /web/action/load HTTP/1.1" 200 - 6 0.009 0.009
+2025-05-12 11:05:43,234 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:43] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.013 0.015
+2025-05-12 11:05:43,268 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:43] "POST /mail/data HTTP/1.1" 200 - 31 0.018 0.033
+2025-05-12 11:05:43,425 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:43] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.005 0.006
+2025-05-12 11:05:43,425 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:43] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.000 0.009
+2025-05-12 11:05:43,426 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:43] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.003 0.006
+2025-05-12 11:05:43,681 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:05:43] "GET /web?db=productos HTTP/1.1" 302 - 1 0.003 0.022
+2025-05-12 11:05:43,691 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:43] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.006
+2025-05-12 11:05:43,734 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:43] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.004 0.036
+2025-05-12 11:05:45,255 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:05:45,261 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:45] "POST /web/login HTTP/1.1" 303 - 22 0.009 0.604
+2025-05-12 11:05:45,282 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (DxoS0WZF8d-nr8lJ2gdmGW-PaoJ8fi9wyaY5bgO5df) 
+2025-05-12 11:05:45,299 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:45] "GET /web?db=productos HTTP/1.1" 200 - 21 0.004 0.025
+2025-05-12 11:05:45,833 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:45] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.010 0.044
+2025-05-12 11:05:45,851 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:45] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.003
+2025-05-12 11:05:45,968 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:45] "POST /web/action/load HTTP/1.1" 200 - 6 0.011 0.013
+2025-05-12 11:05:45,976 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:45] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.014 0.018
+2025-05-12 11:05:46,034 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:46] "POST /mail/data HTTP/1.1" 200 - 31 0.056 0.027
+2025-05-12 11:05:46,108 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:46] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.003 0.007
+2025-05-12 11:05:46,125 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:46] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.002 0.005
+2025-05-12 11:05:46,148 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:46] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.002 0.009
+2025-05-12 11:05:46,594 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:46] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 16 0.016 0.040
+2025-05-12 11:05:46,745 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:46] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.002 0.005
+2025-05-12 11:05:46,746 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:05:46] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.002 0.006
+2025-05-12 11:06:54,284 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:06:54] "GET /__/fonts/FiraCode-VF.woff2 HTTP/1.1" 404 - 16 0.017 0.045
+2025-05-12 11:06:57,173 1776 INFO productos odoo.service.server: Initiating shutdown 
+2025-05-12 11:06:57,174 1776 INFO productos odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-05-12 11:06:57,502 1776 INFO productos odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections  
+2025-05-12 11:06:59,709 14136 INFO ? odoo: Odoo version 18.0-20250330 
+2025-05-12 11:06:59,709 14136 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-05-12 11:06:59,710 14136 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-05-12 11:06:59,710 14136 INFO ? odoo: database: openpg@localhost:5432 
+2025-05-12 11:06:59,856 14136 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-05-12 11:06:59,865 14136 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-05-12 11:07:00,078 14136 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-05-12 11:07:00,119 14136 INFO productos odoo.modules.loading: loading 1 modules... 
+2025-05-12 11:07:00,124 14136 INFO productos odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2025-05-12 11:07:00,145 14136 INFO productos odoo.modules.loading: updating modules list 
+2025-05-12 11:07:00,150 14136 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2025-05-12 11:07:01,106 14136 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 11:07:01,106 14136 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Proyecto Ecommerce'] to user __system__ #1 via n/a 
+2025-05-12 11:07:01,631 14136 INFO productos odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2025-05-12 11:07:01,961 14136 INFO productos odoo.modules.loading: loading 117 modules... 
+2025-05-12 11:07:03,155 14136 INFO productos odoo.modules.loading: Loading module proyectoEcommerce (72/117) 
+2025-05-12 11:07:03,538 14136 INFO productos odoo.modules.registry: module proyectoEcommerce: creating or updating database tables 
+2025-05-12 11:07:03,604 14136 INFO productos odoo.modules.loading: loading proyectoEcommerce/security/ir.model.access.csv 
+2025-05-12 11:07:03,613 14136 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/menus_views.xml 
+2025-05-12 11:07:03,624 14136 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/no_productos_template.xml 
+2025-05-12 11:07:03,633 14136 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/producto_detalle_template.xml 
+2025-05-12 11:07:03,639 14136 INFO productos odoo.modules.loading: loading proyectoEcommerce/views/productosqweb_views.xml 
+2025-05-12 11:07:03,648 14136 INFO productos odoo.addons.base.models.ir_module: module proyectoEcommerce: no translation for language es_ES 
+2025-05-12 11:07:03,685 14136 INFO productos odoo.modules.loading: Module proyectoEcommerce loaded in 0.53s, 101 queries (+101 other) 
+2025-05-12 11:07:03,758 14136 WARNING productos py.warnings: C:\OdooPrograma\server\odoo\api.py:482: DeprecationWarning: The model odoo.addons.mi_proyecto.models.proyecto_tareas is not overriding the create method in batch
+  File "C:\OdooPrograma\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\OdooPrograma\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\OdooPrograma\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1417, in start
+    rc = server.run(preload, stop)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 583, in run
+    rc = preload_registries(preload)
+  File "C:\OdooPrograma\server\odoo\service\server.py", line 1321, in preload_registries
+    registry = Registry.new(dbname, update_module=update_module)
+  File "C:\OdooPrograma\server\.venv\Lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\OdooPrograma\server\odoo\tools\func.py", line 97, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\OdooPrograma\server\odoo\modules\registry.py", line 127, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 477, in load_modules
+    processed_modules += load_marked_modules(env, graph,
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\OdooPrograma\server\odoo\modules\loading.py", line 186, in load_module_graph
+    load_openerp_module(package.name)
+  File "C:\OdooPrograma\server\odoo\modules\module.py", line 384, in load_openerp_module
+    __import__(qualname)
+  File "c:\odooprograma\server\useraddons\mi_proyecto\__init__.py", line 3, in <module>
+    from . import models
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\__init__.py", line 3, in <module>
+    from . import proyecto_tareas
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 4, in <module>
+    class MiProyectoTarea(models.Model):
+  File "c:\odooprograma\server\useraddons\mi_proyecto\models\proyecto_tareas.py", line 117, in MiProyectoTarea
+    @api.model
+  File "C:\OdooPrograma\server\odoo\api.py", line 429, in model
+    return model_create_single(method)
+  File "C:\OdooPrograma\server\odoo\api.py", line 482, in model_create_single
+    warnings.warn(
+ 
+2025-05-12 11:07:04,173 14136 INFO productos odoo.modules.loading: 117 modules loaded in 2.21s, 101 queries (+101 extra) 
+2025-05-12 11:07:05,391 14136 INFO productos odoo.modules.loading: Modules loaded. 
+2025-05-12 11:07:05,396 14136 INFO productos odoo.modules.registry: Registry changed, signaling through the database 
+2025-05-12 11:07:05,396 14136 INFO productos odoo.modules.registry: Registry loaded in 5.317s 
+2025-05-12 11:07:13,861 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:07:13] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.024
+2025-05-12 11:07:13,871 12540 INFO ? odoo.modules.registry: Reloading the model registry after database signaling. 
+2025-05-12 11:07:13,874 12540 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-05-12 11:07:13,880 12540 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-05-12 11:07:13,891 12540 INFO ? odoo.modules.loading: loading 117 modules... 
+2025-05-12 11:07:13,957 12540 INFO ? odoo.modules.loading: 117 modules loaded in 0.07s, 0 queries (+0 extra) 
+2025-05-12 11:07:14,132 12540 INFO ? odoo.modules.loading: Modules loaded. 
+2025-05-12 11:07:14,137 12540 INFO ? odoo.modules.registry: Registry loaded in 0.267s 
+2025-05-12 11:07:14,139 12540 INFO productos odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-05-12 11:07:14,296 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:14] "GET /web?db=productos HTTP/1.1" 303 - 24 0.011 0.416
+2025-05-12 11:07:14,963 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:14] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 168 0.065 0.597
+2025-05-12 11:07:16,803 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:07:16,811 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:16] "POST /web/login HTTP/1.1" 303 - 41 0.020 0.768
+2025-05-12 11:07:16,835 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (oqeF38lSIpDVaoNQfgnldPLy2g-NigwVlLXnZMr8ie) 
+2025-05-12 11:07:17,787 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:17] "GET /web?db=productos HTTP/1.1" 200 - 104 0.038 0.924
+2025-05-12 11:07:19,506 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:07:19] "GET /web?db=productos HTTP/1.1" 302 - 1 0.003 0.028
+2025-05-12 11:07:19,518 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:19] "GET /web?db=productos HTTP/1.1" 303 - 4 0.002 0.006
+2025-05-12 11:07:19,576 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:19] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.008 0.047
+2025-05-12 11:07:21,248 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:07:21,256 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:21] "POST /web/login HTTP/1.1" 303 - 22 0.014 0.639
+2025-05-12 11:07:21,294 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (HOeeJTuX8xxwgiccO_D5-tanZee2PkaIiYc1BVoCbN) 
+2025-05-12 11:07:21,317 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:21] "GET /web?db=productos HTTP/1.1" 200 - 21 0.010 0.033
+2025-05-12 11:07:21,885 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:21] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.002 0.006
+2025-05-12 11:07:22,031 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:22] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.026
+2025-05-12 11:07:22,071 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:22] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.018 0.050
+2025-05-12 11:07:22,099 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:22] "POST /web/action/load HTTP/1.1" 200 - 7 0.004 0.008
+2025-05-12 11:07:22,166 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:22] "POST /mail/data HTTP/1.1" 200 - 44 0.035 0.022
+2025-05-12 11:07:22,260 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:22] "POST /mail/data HTTP/1.1" 200 - 35 0.056 0.025
+2025-05-12 11:07:22,345 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:22] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.017 0.006
+2025-05-12 11:07:22,404 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:22] "GET /mitienda/productos HTTP/1.1" 200 - 251 0.128 0.455
+2025-05-12 11:07:22,533 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:22] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 6 0.001 0.010
+2025-05-12 11:07:22,533 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:22] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.002 0.008
+2025-05-12 11:07:22,535 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:22] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 6 0.004 0.008
+2025-05-12 11:07:22,798 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:07:22] "GET /web?db=productos HTTP/1.1" 302 - 1 0.002 0.022
+2025-05-12 11:07:22,809 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:22] "GET /web?db=productos HTTP/1.1" 303 - 4 0.001 0.005
+2025-05-12 11:07:22,861 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:22] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.008 0.041
+2025-05-12 11:07:24,397 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:07:24,404 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:24] "POST /web/login HTTP/1.1" 303 - 22 0.014 0.602
+2025-05-12 11:07:24,423 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (wkB6YPAyv8aboRezypG6rJBKomjXQ45kQY5-meUCqc) 
+2025-05-12 11:07:24,443 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:24] "GET /web?db=productos HTTP/1.1" 200 - 21 0.006 0.024
+2025-05-12 11:07:24,965 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:24] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.010 0.043
+2025-05-12 11:07:24,969 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:24] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.006 0.007
+2025-05-12 11:07:25,074 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:25] "POST /web/action/load HTTP/1.1" 200 - 6 0.009 0.009
+2025-05-12 11:07:25,082 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:25] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.010 0.015
+2025-05-12 11:07:25,111 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:25] "POST /mail/data HTTP/1.1" 200 - 31 0.019 0.028
+2025-05-12 11:07:25,271 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:25] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.003 0.008
+2025-05-12 11:07:25,271 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:25] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.003 0.009
+2025-05-12 11:07:25,273 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:25] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.004 0.008
+2025-05-12 11:07:25,599 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:25] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 16 0.009 0.027
+2025-05-12 11:07:25,709 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:25] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.003 0.004
+2025-05-12 11:07:25,709 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:25] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.000 0.006
+2025-05-12 11:07:36,100 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:07:36] "GET /web?db=productos HTTP/1.1" 302 - 1 0.005 0.026
+2025-05-12 11:07:36,117 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:36] "GET /web?db=productos HTTP/1.1" 303 - 4 0.003 0.004
+2025-05-12 11:07:36,168 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:36] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.004 0.044
+2025-05-12 11:07:38,128 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:07:38,139 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:38] "POST /web/login HTTP/1.1" 303 - 22 0.016 0.890
+2025-05-12 11:07:38,191 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (rLrKkpWyswaqRDje6QHdlsN_hCjzJ0EYjw7NcRlPzF) 
+2025-05-12 11:07:38,217 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:38] "GET /web?db=productos HTTP/1.1" 200 - 21 0.007 0.045
+2025-05-12 11:07:39,363 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:07:39] "GET /web?db=productos HTTP/1.1" 302 - 1 0.004 0.033
+2025-05-12 11:07:39,385 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:39] "GET /web?db=productos HTTP/1.1" 303 - 4 0.003 0.010
+2025-05-12 11:07:39,465 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:39] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.012 0.063
+2025-05-12 11:07:41,040 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:07:41,046 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:41] "POST /web/login HTTP/1.1" 303 - 22 0.011 0.604
+2025-05-12 11:07:41,067 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (zAlcqwT02LhTivsmwOmlEFJMjitqpqfU5G8wKsDlvy) 
+2025-05-12 11:07:41,087 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:41] "GET /web?db=productos HTTP/1.1" 200 - 21 0.008 0.022
+2025-05-12 11:07:41,626 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:41] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.002 0.012
+2025-05-12 11:07:41,626 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:41] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.011 0.045
+2025-05-12 11:07:41,740 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:41] "POST /web/action/load HTTP/1.1" 200 - 6 0.005 0.010
+2025-05-12 11:07:41,745 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:41] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.007 0.012
+2025-05-12 11:07:41,791 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:41] "POST /mail/data HTTP/1.1" 200 - 31 0.008 0.022
+2025-05-12 11:07:41,929 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:41] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.001 0.006
+2025-05-12 11:07:41,929 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:41] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.002 0.004
+2025-05-12 11:07:41,952 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:41] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.002 0.007
+2025-05-12 11:07:42,292 12540 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 11:07:42] "GET /web?db=productos HTTP/1.1" 302 - 1 0.009 0.056
+2025-05-12 11:07:42,331 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:42] "GET /web?db=productos HTTP/1.1" 303 - 4 0.002 0.008
+2025-05-12 11:07:42,458 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:42] "GET /web/login?redirect=/web?db%3Dproductos HTTP/1.1" 200 - 8 0.016 0.099
+2025-05-12 11:07:44,270 12540 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 11:07:44,276 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:44] "POST /web/login HTTP/1.1" 303 - 22 0.012 0.626
+2025-05-12 11:07:44,297 12540 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (nHPxRs3zd6JHLNuVUAOJMksoRaRYKnM9wEaOPmDv5v) 
+2025-05-12 11:07:44,319 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:44] "GET /web?db=productos HTTP/1.1" 200 - 21 0.006 0.027
+2025-05-12 11:07:44,895 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:44] "GET /mitienda/productos HTTP/1.1" 200 - 16 0.013 0.059
+2025-05-12 11:07:44,896 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:44] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.006 0.007
+2025-05-12 11:07:45,021 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:45] "POST /web/action/load HTTP/1.1" 200 - 6 0.009 0.013
+2025-05-12 11:07:45,025 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:45] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.011 0.017
+2025-05-12 11:07:45,069 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:45] "POST /mail/data HTTP/1.1" 200 - 31 0.022 0.039
+2025-05-12 11:07:45,165 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:45] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.004 0.007
+2025-05-12 11:07:45,165 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:45] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.003 0.007
+2025-05-12 11:07:45,165 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:45] "GET /web/image/productos/10/imagen HTTP/1.1" 304 - 5 0.002 0.007
+2025-05-12 11:07:45,490 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:45] "GET /mitienda/productos?precio=1 HTTP/1.1" 200 - 16 0.007 0.027
+2025-05-12 11:07:45,598 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:45] "GET /web/image/productos/8/imagen HTTP/1.1" 304 - 5 0.002 0.005
+2025-05-12 11:07:45,598 12540 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 11:07:45] "GET /web/image/productos/9/imagen HTTP/1.1" 304 - 5 0.002 0.004
