@@ -29570,3 +29570,285 @@ psycopg2.InterfaceError: connection already closed
 2025-05-12 12:06:05,308 8456 INFO productos odoo.modules.registry: Registry changed, signaling through the database 
 2025-05-12 12:06:05,308 8456 INFO productos odoo.modules.registry: Registry loaded in 4.835s 
 2025-05-12 12:06:05,308 8456 INFO productos odoo.addons.base.models.ir_http: Generating routing map for key 1 
+2025-05-12 12:06:06,231 13932 INFO ? odoo: Odoo version 18.0-20250330 
+2025-05-12 12:06:06,231 13932 INFO ? odoo: Using configuration file at C:\OdooPrograma\server\odoo.conf 
+2025-05-12 12:06:06,231 13932 INFO ? odoo: addons paths: ['C:\\OdooPrograma\\server\\odoo\\addons', 'c:\\odooprograma\\sessions\\addons\\18.0', 'c:\\odooprograma\\server\\odoo\\addons', 'c:\\odooprograma\\server\\useraddons'] 
+2025-05-12 12:06:06,231 13932 INFO ? odoo: database: openpg@localhost:5432 
+2025-05-12 12:06:06,360 13932 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\OdooPrograma\thirdparty\wkhtmltopdf.exe 
+2025-05-12 12:06:06,367 13932 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-05-12 12:06:06,552 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:06] "GET /mitienda/productos HTTP/1.1" 200 - 214 0.078 1.816
+2025-05-12 12:06:06,615 13932 INFO ? odoo.service.server: HTTP service (werkzeug) running on H01032.lan.itae.local:8069 
+2025-05-12 12:06:06,709 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:06] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.149
+2025-05-12 12:06:06,726 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:06] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.000 0.165
+2025-05-12 12:06:07,041 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:07] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.000
+2025-05-12 12:06:07,041 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:07] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.000
+2025-05-12 12:06:07,126 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:07] "GET /web/image/productos/11/imagen HTTP/1.1" 304 - 6 0.000 0.064
+2025-05-12 12:06:07,137 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:07] "GET /web/image/productos/12/imagen HTTP/1.1" 304 - 5 0.002 0.073
+2025-05-12 12:06:07,137 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:07] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.010 0.067
+2025-05-12 12:06:07,148 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:07] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.006 0.082
+2025-05-12 12:06:07,380 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:07] "GET /web/image/productos/13/imagen HTTP/1.1" 304 - 5 0.000 0.010
+2025-05-12 12:06:07,475 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:07] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 12:06:07,483 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:07] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.001 0.024
+2025-05-12 12:06:07,742 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:07] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.016 0.000
+2025-05-12 12:06:08,075 8456 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-05-12 12:06:09,976 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:09] "GET /mitienda/productos?categoria=1 HTTP/1.1" 200 - 18 0.003 0.029
+2025-05-12 12:06:09,995 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:09] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.002
+2025-05-12 12:06:10,226 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:10] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.001 0.017
+2025-05-12 12:06:10,313 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:10] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.005
+2025-05-12 12:06:10,543 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:10] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.000
+2025-05-12 12:06:10,561 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:10] "GET /web/image/productos/12/imagen HTTP/1.1" 304 - 5 0.002 0.010
+2025-05-12 12:06:10,562 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:10] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.001 0.012
+2025-05-12 12:06:10,563 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:10] "GET /web/image/productos/13/imagen HTTP/1.1" 304 - 5 0.006 0.008
+2025-05-12 12:06:10,570 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:10] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.000 0.021
+2025-05-12 12:06:10,891 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:10] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.000
+2025-05-12 12:06:10,943 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:10] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.000 0.051
+2025-05-12 12:06:12,755 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:12] "GET /mitienda/productos?categoria=2 HTTP/1.1" 200 - 18 0.013 0.024
+2025-05-12 12:06:13,067 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:13] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.003 0.038
+2025-05-12 12:06:13,070 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:13] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 12:06:13,383 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:13] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.005
+2025-05-12 12:06:13,385 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:13] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 12:06:13,395 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:13] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.000 0.002
+2025-05-12 12:06:13,395 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:13] "GET /web/image/productos/11/imagen HTTP/1.1" 304 - 5 0.000 0.000
+2025-05-12 12:06:13,411 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:13] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.001 0.016
+2025-05-12 12:06:13,661 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:13] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.009 0.018
+2025-05-12 12:06:13,724 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:13] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 12:06:17,328 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:17] "GET /mitienda/productos HTTP/1.1" 200 - 18 0.009 0.027
+2025-05-12 12:06:17,627 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:17] "GET /web/assets/1/debug/web.assets_frontend.css HTTP/1.1" 304 - 8 0.000 0.019
+2025-05-12 12:06:17,627 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:17] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - 0 0.000 0.000
+2025-05-12 12:06:17,947 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:17] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 304 - 0 0.000 0.003
+2025-05-12 12:06:17,950 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:17] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 12:06:17,962 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:17] "GET /web/image/productos/11/imagen HTTP/1.1" 304 - 5 0.000 0.000
+2025-05-12 12:06:17,962 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:17] "GET /web/image/productos/12/imagen HTTP/1.1" 304 - 5 0.000 0.000
+2025-05-12 12:06:17,975 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:17] "GET /web/assets/1/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 4 0.000 0.013
+2025-05-12 12:06:17,979 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:17] "GET /web/assets/1/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 4 0.000 0.017
+2025-05-12 12:06:18,259 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:18] "GET /web/image/productos/13/imagen HTTP/1.1" 304 - 5 0.003 0.003
+2025-05-12 12:06:18,310 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:06:18] "GET /website/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.001
+2025-05-12 12:06:18,321 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:06:18] "GET /web/assets/1/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 4 0.001 0.024
+2025-05-12 12:07:05,366 8456 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-05-12 12:07:05,416 8456 INFO productos odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed 
+2025-05-12 12:07:05,495 8456 INFO productos odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2025-05-12 12:07:05,500 8456 INFO productos odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-05-12 12:07:05,500 8456 INFO productos odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-05-12 12:07:05,500 8456 INFO productos odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-05-12 12:07:05,513 8456 INFO productos odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-05-12 12:07:05,527 8456 INFO productos odoo.models.unlink: User #1 deleted bus.bus records with IDs: [2645, 2646, 2647, 2648] 
+2025-05-12 12:07:05,627 8456 INFO productos odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-05-12 12:07:05,842 8456 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 0.475s 
+2025-05-12 12:07:05,842 8456 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-05-12 12:07:05,842 8456 INFO productos odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-05-12 12:09:48,214 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:09:48] "POST /web/dataset/call_kw/categorias/web_search_read HTTP/1.1" 200 - 4 0.000 0.000
+2025-05-12 12:10:07,468 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:07] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.000
+2025-05-12 12:10:07,796 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:07] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 117 0.064 0.249
+2025-05-12 12:10:09,297 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:09] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.000
+2025-05-12 12:10:09,330 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:09] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.000 0.016
+2025-05-12 12:10:09,380 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:10:09] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 0.017
+2025-05-12 12:10:09,402 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:09] "GET /web/assets/1/6a8cfc6/web.assets_frontend.min.css HTTP/1.1" 200 - 4 0.003 0.035
+2025-05-12 12:10:09,420 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:09] "GET /web/assets/1/02625f9/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 4 0.002 0.032
+2025-05-12 12:10:10,032 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:10:10] "GET /web/static/fonts/twitter_x_only.woff HTTP/1.1" 200 - 0 0.000 0.002
+2025-05-12 12:10:10,032 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:10:10] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.002
+2025-05-12 12:10:10,036 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:10:10] "GET /web/static/img/odoo_logo_tiny.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-05-12 12:10:10,039 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:10] "GET /web/image/website/1/logo/My%20Website?unique=048fc2d HTTP/1.1" 200 - 5 0.001 0.005
+2025-05-12 12:10:10,691 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:10] "GET /web/assets/1/4d910bc/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 4 0.001 0.366
+2025-05-12 12:10:10,867 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:10] "GET /website/translations/d1410459df4ce46e478a9973cb48c9fe1adb77a3?lang=es_ES HTTP/1.1" 200 - 1 0.000 0.021
+2025-05-12 12:10:12,281 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:10:12,281 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:12] "POST /web/login HTTP/1.1" 303 - 31 0.016 0.591
+2025-05-12 12:10:12,317 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (yJd1fjNOu8Y_nPXIy5nXDbRez9nqHIVMUE-599Un3K) 
+2025-05-12 12:10:14,463 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:14] "GET /web?db=productos HTTP/1.1" 200 - 96 0.037 2.129
+2025-05-12 12:10:14,556 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:14] "GET /web/webclient/translations/dda34790ecdffbeada217faa099e2a13270c77e8?lang=es_ES HTTP/1.1" 200 - 1 0.002 0.065
+2025-05-12 12:10:14,557 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:14] "GET /web/assets/45e5181/web.assets_web.min.css HTTP/1.1" 200 - 3 0.004 0.064
+2025-05-12 12:10:14,603 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:14] "GET /web/assets/5cf4917/web.assets_web_print.min.css HTTP/1.1" 200 - 3 0.000 0.021
+2025-05-12 12:10:14,638 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:14] "GET /web/webclient/load_menus/ea1abbc6d0a452f3f6189913a0918d13159ece69fb87adc8a06c47ad86dae76f HTTP/1.1" 200 - 131 0.030 0.119
+2025-05-12 12:10:14,944 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:14] "GET /web/assets/d7c07ba/web.assets_web.min.js HTTP/1.1" 200 - 3 0.002 0.453
+2025-05-12 12:10:15,507 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:15] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 200 - 4 0.000 0.025
+2025-05-12 12:10:15,648 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:15] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.000
+2025-05-12 12:10:15,679 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:15] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.004 0.011
+2025-05-12 12:10:17,054 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:10:17,059 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:17] "POST /web/login HTTP/1.1" 303 - 18 0.007 0.586
+2025-05-12 12:10:17,064 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (An1daKA20mQ1zO9ACWV-3YB0PPjSJ_B5NXSGo9XUkj) 
+2025-05-12 12:10:17,099 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:17] "GET /web?db=productos HTTP/1.1" 200 - 21 0.002 0.032
+2025-05-12 12:10:17,262 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:17] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.016 0.000
+2025-05-12 12:10:17,280 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:17] "GET /mitienda/productos HTTP/1.1" 200 - 18 0.000 0.049
+2025-05-12 12:10:17,323 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:17] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.008
+2025-05-12 12:10:17,467 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:17] "POST /mail/data HTTP/1.1" 200 - 43 0.055 0.116
+2025-05-12 12:10:17,483 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:17] "GET /web?db=productos HTTP/1.1" 303 - 4 0.016 0.000
+2025-05-12 12:10:17,498 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:17] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.000 0.016
+2025-05-12 12:10:18,997 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:10:18,997 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:18] "POST /web/login HTTP/1.1" 303 - 18 0.016 0.582
+2025-05-12 12:10:19,020 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (YSpvTTtmC1bH2vCTO-W3XoUKQRkFr-iD6QptiFJk-c) 
+2025-05-12 12:10:19,036 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:19] "GET /web?db=productos HTTP/1.1" 200 - 21 0.012 0.027
+2025-05-12 12:10:19,163 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:19] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.010 0.006
+2025-05-12 12:10:19,163 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:19] "GET /mitienda/productos HTTP/1.1" 200 - 18 0.003 0.026
+2025-05-12 12:10:19,237 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:19] "POST /web/action/load HTTP/1.1" 200 - 6 0.016 0.011
+2025-05-12 12:10:19,243 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:19] "POST /mail/data HTTP/1.1" 200 - 31 0.022 0.021
+2025-05-12 12:10:19,260 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:19] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.028 0.020
+2025-05-12 12:10:19,262 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:19] "GET /web/image/res.partner/3/avatar_128?unique=1747020469000 HTTP/1.1" 200 - 8 0.029 0.019
+2025-05-12 12:10:19,265 8456 INFO ? werkzeug: 127.0.0.1 - - [12/May/2025 12:10:19] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.000
+2025-05-12 12:10:19,265 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:19] "GET /web/image/productos/11/imagen HTTP/1.1" 200 - 5 0.000 0.000
+2025-05-12 12:10:19,294 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:19] "GET /web/image/productos/12/imagen HTTP/1.1" 200 - 5 0.002 0.008
+2025-05-12 12:10:19,300 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:19] "GET /web/image/productos/13/imagen HTTP/1.1" 200 - 5 0.002 0.005
+2025-05-12 12:10:19,333 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:19] "GET /website/translations/1a8c33fcfce9547d7a99577d989ecbe43b4f77b3?lang=es_ES HTTP/1.1" 200 - 1 0.001 0.020
+2025-05-12 12:10:19,516 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:19] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.000
+2025-05-12 12:10:19,539 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:19] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.002 0.020
+2025-05-12 12:10:20,880 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:10:20,897 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:20] "POST /web/login HTTP/1.1" 303 - 18 0.017 0.583
+2025-05-12 12:10:20,916 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (ALIccEt_mpIrrwBVu6m7g8YT-FK2j8XZEpRZDdZ66L) 
+2025-05-12 12:10:20,935 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:20] "GET /web?db=productos HTTP/1.1" 200 - 21 0.011 0.026
+2025-05-12 12:10:21,055 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:21] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.009 0.004
+2025-05-12 12:10:21,072 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:21] "GET /mitienda/productos HTTP/1.1" 200 - 18 0.010 0.036
+2025-05-12 12:10:21,131 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:21] "POST /web/action/load HTTP/1.1" 200 - 6 0.010 0.022
+2025-05-12 12:10:21,131 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:21] "GET /web/image/res.partner/3/avatar_128?unique=1747020469000 HTTP/1.1" 200 - 8 0.009 0.023
+2025-05-12 12:10:21,131 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:21] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.010 0.023
+2025-05-12 12:10:21,131 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:21] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.026
+2025-05-12 12:10:21,163 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:21] "POST /mail/data HTTP/1.1" 200 - 31 0.028 0.034
+2025-05-12 12:10:21,249 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:21] "GET /web/image/productos/13/imagen HTTP/1.1" 304 - 5 0.004 0.007
+2025-05-12 12:10:21,250 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:21] "GET /web/image/productos/11/imagen HTTP/1.1" 304 - 5 0.004 0.008
+2025-05-12 12:10:21,250 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:10:21] "GET /web/image/productos/12/imagen HTTP/1.1" 304 - 5 0.003 0.008
+2025-05-12 12:11:09,464 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:09] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.004 0.004
+2025-05-12 12:11:17,470 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:17] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.000
+2025-05-12 12:11:17,499 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:17] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.000 0.018
+2025-05-12 12:11:18,916 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:11:18,916 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:18] "POST /web/login HTTP/1.1" 303 - 18 0.001 0.577
+2025-05-12 12:11:18,949 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (qj2CzW0HY_Wy_0KIqvd7VqG_tlvvV_ChFakQwipIKC) 
+2025-05-12 12:11:18,969 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:18] "GET /web?db=productos HTTP/1.1" 200 - 21 0.005 0.031
+2025-05-12 12:11:19,251 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:19] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.002 0.012
+2025-05-12 12:11:19,381 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:19] "GET /web?db=productos HTTP/1.1" 303 - 4 0.003 0.001
+2025-05-12 12:11:19,398 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:19] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.001 0.016
+2025-05-12 12:11:20,731 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:11:20,747 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:20] "POST /web/login HTTP/1.1" 303 - 18 0.000 0.593
+2025-05-12 12:11:20,766 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (QBYbL7dz7tNOHO9NqTkeselPWQpjpkQDizQRzABpVH) 
+2025-05-12 12:11:20,786 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:20] "GET /web?db=productos HTTP/1.1" 200 - 21 0.004 0.033
+2025-05-12 12:11:20,917 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:20] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.005 0.006
+2025-05-12 12:11:20,924 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:20] "GET /mitienda/productos HTTP/1.1" 200 - 18 0.011 0.035
+2025-05-12 12:11:20,948 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:20] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.000 0.000
+2025-05-12 12:11:20,989 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:20] "POST /web/action/load HTTP/1.1" 200 - 6 0.003 0.008
+2025-05-12 12:11:21,134 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:21] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.000
+2025-05-12 12:11:21,163 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:21] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.000 0.016
+2025-05-12 12:11:22,565 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:11:22,565 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:22] "POST /web/login HTTP/1.1" 303 - 18 0.000 0.565
+2025-05-12 12:11:22,582 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (yf6uTK12k5udnGsfl7_A1Boq6_U590yJO_SSBn2rl2) 
+2025-05-12 12:11:22,617 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:22] "GET /web?db=productos HTTP/1.1" 200 - 21 0.002 0.032
+2025-05-12 12:11:22,731 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:22] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.016 0.001
+2025-05-12 12:11:22,747 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:22] "GET /mitienda/productos HTTP/1.1" 200 - 18 0.016 0.021
+2025-05-12 12:11:22,809 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:22] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.019
+2025-05-12 12:11:22,829 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:22] "POST /web/action/load HTTP/1.1" 200 - 6 0.016 0.018
+2025-05-12 12:11:22,834 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:22] "POST /mail/data HTTP/1.1" 200 - 31 0.030 0.033
+2025-05-12 12:11:22,835 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:22] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.014 0.023
+2025-05-12 12:11:22,878 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:22] "GET /web/image/productos/11/imagen HTTP/1.1" 200 - 5 0.004 0.039
+2025-05-12 12:11:22,878 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:22] "GET /web/image/productos/13/imagen HTTP/1.1" 200 - 5 0.003 0.040
+2025-05-12 12:11:22,880 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:22] "GET /web/image/productos/12/imagen HTTP/1.1" 200 - 5 0.004 0.028
+2025-05-12 12:11:23,081 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:23] "GET /web?db=productos HTTP/1.1" 303 - 4 0.001 0.016
+2025-05-12 12:11:23,210 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:23] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.004 0.126
+2025-05-12 12:11:24,532 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:11:24,532 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:24] "POST /web/login HTTP/1.1" 303 - 18 0.016 0.551
+2025-05-12 12:11:24,549 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (BxMPAL5BDPOdYrFW1ipoW28-jtv-l-SFxWec1A7d0c) 
+2025-05-12 12:11:24,571 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:24] "GET /web?db=productos HTTP/1.1" 200 - 21 0.005 0.017
+2025-05-12 12:11:24,682 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:24] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.000
+2025-05-12 12:11:24,698 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:24] "GET /mitienda/productos HTTP/1.1" 200 - 18 0.001 0.028
+2025-05-12 12:11:24,768 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:24] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.004 0.021
+2025-05-12 12:11:24,775 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:24] "POST /mail/data HTTP/1.1" 200 - 31 0.025 0.014
+2025-05-12 12:11:25,082 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:25] "GET /mitienda/productos?categoria=1 HTTP/1.1" 200 - 18 0.005 0.023
+2025-05-12 12:11:25,100 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:25] "GET /web/image/productos/11/imagen HTTP/1.1" 304 - 5 0.000 0.019
+2025-05-12 12:11:25,134 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:25] "GET /web/image/productos/13/imagen HTTP/1.1" 200 - 5 0.000 0.001
+2025-05-12 12:11:25,134 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:25] "GET /web/image/productos/12/imagen HTTP/1.1" 200 - 5 0.000 0.000
+2025-05-12 12:11:48,600 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:48] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.000
+2025-05-12 12:11:48,632 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:48] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.000 0.016
+2025-05-12 12:11:50,116 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:11:50,132 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:50] "POST /web/login HTTP/1.1" 303 - 18 0.011 0.633
+2025-05-12 12:11:50,159 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (0fOfQ1S4vY8Bsr8KfyVFGx-Gsvm8n9aVLbZFcYvc98) 
+2025-05-12 12:11:50,186 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:50] "GET /web?db=productos HTTP/1.1" 200 - 21 0.016 0.038
+2025-05-12 12:11:50,494 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:50] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.028
+2025-05-12 12:11:50,618 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:50] "GET /web?db=productos HTTP/1.1" 303 - 4 0.016 0.000
+2025-05-12 12:11:50,649 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:50] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.000 0.031
+2025-05-12 12:11:51,966 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:11:51,966 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:51] "POST /web/login HTTP/1.1" 303 - 18 0.000 0.581
+2025-05-12 12:11:51,983 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (5o4Ye4gM1flAfG9SlxoKa6vVzkNI9xAbrTSs-XDqTB) 
+2025-05-12 12:11:52,017 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:52] "GET /web?db=productos HTTP/1.1" 200 - 21 0.006 0.029
+2025-05-12 12:11:52,131 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:52] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.015
+2025-05-12 12:11:52,152 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:52] "GET /mitienda/productos HTTP/1.1" 200 - 18 0.016 0.028
+2025-05-12 12:11:52,194 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:52] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.000 0.008
+2025-05-12 12:11:52,233 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:52] "POST /mail/data HTTP/1.1" 200 - 31 0.020 0.046
+2025-05-12 12:11:52,315 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:52] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.000
+2025-05-12 12:11:52,349 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:52] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.000 0.018
+2025-05-12 12:11:53,825 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:11:53,831 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:53] "POST /web/login HTTP/1.1" 303 - 18 0.009 0.590
+2025-05-12 12:11:53,852 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (P65d_x4agqN716NGfCJRn_Ukrt7liK71HT11xNfQR5) 
+2025-05-12 12:11:53,869 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:53] "GET /web?db=productos HTTP/1.1" 200 - 21 0.007 0.030
+2025-05-12 12:11:53,992 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:53] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.027
+2025-05-12 12:11:54,004 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:54] "GET /mitienda/productos HTTP/1.1" 200 - 18 0.010 0.033
+2025-05-12 12:11:54,042 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:54] "POST /web/action/load HTTP/1.1" 200 - 6 0.006 0.011
+2025-05-12 12:11:54,053 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:54] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.010 0.019
+2025-05-12 12:11:54,076 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:54] "POST /mail/data HTTP/1.1" 200 - 31 0.007 0.030
+2025-05-12 12:11:54,084 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:54] "GET /web/image/productos/11/imagen HTTP/1.1" 200 - 5 0.000 0.000
+2025-05-12 12:11:54,084 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:54] "GET /web/image/productos/12/imagen HTTP/1.1" 200 - 5 0.000 0.000
+2025-05-12 12:11:54,100 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:54] "GET /web/image/productos/13/imagen HTTP/1.1" 200 - 5 0.000 0.000
+2025-05-12 12:11:54,299 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:54] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.000
+2025-05-12 12:11:54,315 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:54] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.016 0.000
+2025-05-12 12:11:55,656 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:11:55,661 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:55] "POST /web/login HTTP/1.1" 303 - 18 0.004 0.573
+2025-05-12 12:11:55,678 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (twW32KqB9YNqBdDqpKTozFbY9eswbqT4zcI6aY5831) 
+2025-05-12 12:11:55,699 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:55] "GET /web?db=productos HTTP/1.1" 200 - 21 0.015 0.014
+2025-05-12 12:11:55,814 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:55] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.016
+2025-05-12 12:11:55,832 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:55] "GET /mitienda/productos HTTP/1.1" 200 - 18 0.000 0.049
+2025-05-12 12:11:55,892 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:55] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.025
+2025-05-12 12:11:55,893 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:55] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.011 0.019
+2025-05-12 12:11:55,904 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:55] "POST /web/action/load HTTP/1.1" 200 - 6 0.009 0.020
+2025-05-12 12:11:55,910 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:55] "POST /mail/data HTTP/1.1" 200 - 31 0.034 0.022
+2025-05-12 12:11:56,216 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:56] "GET /mitienda/productos?categoria=1 HTTP/1.1" 200 - 18 0.001 0.049
+2025-05-12 12:11:56,232 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:56] "GET /web/image/productos/12/imagen HTTP/1.1" 304 - 5 0.001 0.016
+2025-05-12 12:11:56,232 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:56] "GET /web/image/productos/13/imagen HTTP/1.1" 304 - 5 0.016 0.001
+2025-05-12 12:11:56,232 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:56] "GET /web/image/productos/11/imagen HTTP/1.1" 304 - 5 0.001 0.016
+2025-05-12 12:11:56,296 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:56] "GET /web/image/productos/12/imagen HTTP/1.1" 200 - 5 0.000 0.013
+2025-05-12 12:11:56,309 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:11:56] "GET /web/image/productos/13/imagen HTTP/1.1" 200 - 5 0.001 0.005
+2025-05-12 12:13:14,999 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:14] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.016
+2025-05-12 12:13:15,021 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:15] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.000 0.020
+2025-05-12 12:13:16,501 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:13:16,520 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:16] "POST /web/login HTTP/1.1" 303 - 18 0.003 0.592
+2025-05-12 12:13:16,540 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (w3ngObK7Tg2FNSx_qTtK06JtW3NGInozVnaT4noYML) 
+2025-05-12 12:13:16,557 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:16] "GET /web?db=productos HTTP/1.1" 200 - 21 0.006 0.026
+2025-05-12 12:13:16,830 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:16] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.001 0.010
+2025-05-12 12:13:16,954 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:16] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.000
+2025-05-12 12:13:16,986 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:16] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.000 0.015
+2025-05-12 12:13:18,600 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:13:18,602 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:18] "POST /web/login HTTP/1.1" 303 - 18 0.014 0.571
+2025-05-12 12:13:18,624 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (oHCgz-W6nzF6f_A2LMXVRDCH68_XLbpS1JJ9WTsonN) 
+2025-05-12 12:13:18,639 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:18] "GET /web?db=productos HTTP/1.1" 200 - 21 0.001 0.035
+2025-05-12 12:13:18,764 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:18] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.009 0.005
+2025-05-12 12:13:18,780 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:18] "GET /mitienda/productos HTTP/1.1" 200 - 18 0.005 0.039
+2025-05-12 12:13:18,819 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:18] "POST /web/action/load HTTP/1.1" 200 - 6 0.013 0.002
+2025-05-12 12:13:18,822 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:18] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.002 0.016
+2025-05-12 12:13:18,860 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:18] "POST /mail/data HTTP/1.1" 200 - 31 0.012 0.016
+2025-05-12 12:13:18,929 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:18] "GET /web/image/productos/12/imagen HTTP/1.1" 304 - 5 0.002 0.005
+2025-05-12 12:13:18,929 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:18] "GET /web/image/productos/13/imagen HTTP/1.1" 304 - 5 0.001 0.005
+2025-05-12 12:13:18,946 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:18] "GET /web/image/productos/11/imagen HTTP/1.1" 200 - 5 0.003 0.005
+2025-05-12 12:13:19,018 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:19] "GET /web?db=productos HTTP/1.1" 303 - 4 0.000 0.016
+2025-05-12 12:13:19,038 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:19] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.004 0.012
+2025-05-12 12:13:20,535 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:13:20,567 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:20] "POST /web/login HTTP/1.1" 303 - 18 0.016 0.800
+2025-05-12 12:13:20,589 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (0h9IVVUiG_PGaBbyGlnnkeuly5mTsxJ0B2KPDBTEgV) 
+2025-05-12 12:13:20,616 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:20] "GET /web?db=productos HTTP/1.1" 200 - 21 0.001 0.029
+2025-05-12 12:13:20,716 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:20] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.000 0.000
+2025-05-12 12:13:20,732 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:20] "GET /mitienda/productos HTTP/1.1" 200 - 18 0.001 0.028
+2025-05-12 12:13:20,800 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:20] "POST /web/action/load HTTP/1.1" 200 - 6 0.003 0.016
+2025-05-12 12:13:20,809 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:20] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.018 0.011
+2025-05-12 12:13:20,810 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:20] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.003 0.023
+2025-05-12 12:13:20,822 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:20] "POST /mail/data HTTP/1.1" 200 - 31 0.032 0.019
+2025-05-12 12:13:20,857 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:20] "GET /web/image/productos/11/imagen HTTP/1.1" 304 - 5 0.002 0.017
+2025-05-12 12:13:20,858 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:20] "GET /web/image/productos/12/imagen HTTP/1.1" 304 - 5 0.002 0.018
+2025-05-12 12:13:20,872 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:20] "GET /web/image/productos/13/imagen HTTP/1.1" 304 - 5 0.002 0.005
+2025-05-12 12:13:21,109 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:21] "GET /web?db=productos HTTP/1.1" 303 - 4 0.004 0.008
+2025-05-12 12:13:21,151 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:21] "GET /web/login?redirect=%2Fweb%3Fdb%3Dproductos HTTP/1.1" 200 - 7 0.001 0.032
+2025-05-12 12:13:22,534 8456 INFO productos odoo.addons.base.models.res_users: Login successful for db:productos login:sopanasiuk@d2plus.com from 127.0.0.1 
+2025-05-12 12:13:22,534 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:22] "POST /web/login HTTP/1.1" 303 - 18 0.001 0.578
+2025-05-12 12:13:22,558 8456 INFO productos odoo.addons.base.models.res_device: User 2 inserts device log (GgOd5HdPqNWPLnqvWbk4lHkt3B_Ydh7UsPgKiePIfi) 
+2025-05-12 12:13:22,571 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:22] "GET /web?db=productos HTTP/1.1" 200 - 21 0.001 0.019
+2025-05-12 12:13:22,707 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:22] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.016 0.006
+2025-05-12 12:13:22,719 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:22] "GET /mitienda/productos HTTP/1.1" 200 - 18 0.006 0.039
+2025-05-12 12:13:22,755 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:22] "POST /web/action/load HTTP/1.1" 200 - 6 0.014 0.002
+2025-05-12 12:13:22,764 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:22] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.017 0.008
+2025-05-12 12:13:22,786 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:22] "POST /mail/data HTTP/1.1" 200 - 31 0.012 0.024
+2025-05-12 12:13:22,861 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:22] "GET /web/image/productos/12/imagen HTTP/1.1" 304 - 5 0.002 0.007
+2025-05-12 12:13:22,861 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:22] "GET /web/image/productos/11/imagen HTTP/1.1" 304 - 5 0.003 0.005
+2025-05-12 12:13:22,862 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:22] "GET /web/image/productos/13/imagen HTTP/1.1" 304 - 5 0.001 0.008
+2025-05-12 12:13:23,047 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:23] "GET /mitienda/productos?categoria=1 HTTP/1.1" 200 - 18 0.009 0.022
+2025-05-12 12:13:23,105 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:23] "GET /web/image/productos/12/imagen HTTP/1.1" 304 - 5 0.009 0.004
+2025-05-12 12:13:23,106 8456 INFO productos werkzeug: 127.0.0.1 - - [12/May/2025 12:13:23] "GET /web/image/productos/13/imagen HTTP/1.1" 304 - 5 0.003 0.011
